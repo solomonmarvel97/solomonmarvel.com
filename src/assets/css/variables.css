@@ -1,0 +1,17 @@
+:root {
+    --primary: #53ffd7;
+    --secondary: #53ffd7;
+    --primary-tint: #53ffd7;
+    --secondary-tint: #53ffd7;
+    --success: #aef78e;
+    --warning: #f0a202;
+    --error: #f55536;
+    --disabled: #313131;
+    --disabled: #e1efe6;
+    --black: #171717;
+    --gray: #e6e6e6;
+    --border-radius: 3px;
+    --input-border-radius: 8px;
+    /* --background: linear-gradient(145deg, #f0f1e3 2%, #ffc17d 98%) !important; */
+    --white: #fff;
+}

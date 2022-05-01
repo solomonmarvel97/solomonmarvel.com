@@ -1,0 +1,92 @@
+@import url("fonts.css");
+@import url("form.css");
+@import url("utility.css");
+@import url("variables.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans";
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Nunito Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk";
+}
+
+img {
+  width: 100%;
+  height: auto;
+  filter: contrast(110%);
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background: var(--background); /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* color of the scroll thumb */
+  border-radius: 0px; /* roundness of the scroll thumb */
+  border: 3px solid var(--primary); /* creates padding around scroll thumb */
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.theme-picker {
+  display: grid;
+  width: 100px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.theme-picker div {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.theme-picker .light {
+  background-color: white;
+}
+.theme-picker .dark {
+  background-color: black;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
