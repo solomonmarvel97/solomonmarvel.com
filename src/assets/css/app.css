@@ -76,13 +76,19 @@ section {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  position: absolute;
+  transition: all ease-in .5s;
+}
+
+.theme-picker div:hover {
+  transform: scale(1.3);
 }
 
 .theme-picker .light {
   background-color: white;
 }
 .theme-picker .dark {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
 }
 
 a {
