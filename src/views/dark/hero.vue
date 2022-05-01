@@ -1,11 +1,14 @@
 <template>
   <div class="mb-5">
     <div class="bringtofront">
-        <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"><b>Linkedin</b></a> | 
-        <a href="https://topafrica.org" target="_blank">Projects</a>
+      <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"
+        ><b>Linkedin</b></a
+      >
+      |
+      <a href="https://topafrica.org" target="_blank">Projects</a>
       <div class="theme-picker mt-3">
-        <router-link to="light"><div class="light"></div></router-link>
-        <router-link to="dark"><div class="dark"></div></router-link>
+        <router-link to="#"><div class="light"></div></router-link>
+        <router-link to="#"><div class="dark"></div></router-link>
       </div>
     </div>
   </div>
@@ -13,7 +16,12 @@
     <div class="path1"></div>
     <div class="path2"></div>
 
-    <img class="avatar" src="@/assets/images/style1/avatar.png" />
+    <div>
+      <div class="image-wrapper">
+        <img class="avatar" src="@/assets/images/style1/avatar.png" />
+      </div>
+    </div>
+
     <h1 class="mb-1">Marvelous Akporowho</h1>
     <h2 class="mb-1">Entrepreneur | Computer Programmer</h2>
     <p class="mb-2">
@@ -92,11 +100,18 @@
   text-align: center;
 }
 
-.container .avatar {
-  margin-bottom: 20px;
-  height: 150px;
-  width: 150px;
+.container .image-wrapper {
+  border: 0.5px solid rgba(255, 255, 255, 0.219);
   border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  padding: 5px;
+}
+.container .avatar {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
 }
 
 .container .button-grid {
@@ -164,7 +179,6 @@
   background-image: url("../../assets/images/style2/path2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* transform: rotate(180deg) */
   z-index: 90;
 }
 
@@ -174,6 +188,6 @@
 }
 
 .bringtofront {
-  color :white
+  color: white;
 }
 </style>

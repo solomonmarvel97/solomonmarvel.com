@@ -48,18 +48,18 @@ export default {
   border-width: 1px;
   border-image-source: linear-gradient(
     120deg,
-    rgba(40, 40, 40, 0.49) -6%,
+    rgba(40, 40, 40, 0.284) -6%,
     rgba(255, 255, 255, 0.05) 107%
   );
   border-image-slice: 1;
   background-image: linear-gradient(
       120deg,
       rgba(38, 38, 38, 0) -8%,
-      rgba(255, 255, 255, 0.06) 101%
+      rgba(255, 255, 255, 0) 101%
     ),
     linear-gradient(
       120deg,
-      rgba(26, 26, 26, 0.49) -6%,
+      rgba(26, 26, 26, 0.301) -6%,
       rgba(255, 255, 255, 0.05) 107%
     );
   background-origin: border-box;

@@ -4,6 +4,7 @@
       <Hero />
       <Stack />
       <Portfolio />
+      <Footer/>
     </section>
   </body>
 </template>
@@ -12,12 +13,14 @@
 import Hero from "./hero.vue";
 import Stack from "./stack.vue";
 import Portfolio from "./portfolio.vue";
+import Footer from "./footer.vue";
 
 export default {
   components: {
     Hero,
     Stack,
     Portfolio,
+    Footer
   },
 };
 </script>
