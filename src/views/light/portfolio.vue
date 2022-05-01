@@ -9,6 +9,7 @@
         <div>
           <p>{{ item.position }}</p>
           <h1>{{ item.platform }}</h1>
+          <a target="blank" :href="item.link">Learn more</a>
         </div>
       </div>
     </div>
@@ -42,7 +43,7 @@ export default {
   padding: 30px;
   opacity: 0.73;
   width: 100%;
-  height: 116px;
+  height: auto;
   border-radius: 18px;
   border: solid 1px #fff;
   background-image: linear-gradient(120deg, #fff -8%, #f7ca91 102%);
@@ -67,5 +68,11 @@ h1 {
   letter-spacing: normal;
   color: #000;
   font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(68, 68, 68);
 }
 </style>

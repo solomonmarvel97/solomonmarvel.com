@@ -1,13 +1,8 @@
 <template>
   <div class="mb-5">
     <div class="bringtofront">
-      <p>
-        <b
-          ><a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"
-            >Linkedin</a
-          ></b
-        >
-      </p>
+        <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"><b>Linkedin</b></a> | 
+        <a href="https://topafrica.org" target="_blank">Projects</a>
       <div class="theme-picker mt-3">
         <router-link to="light"><div class="light"></div></router-link>
         <router-link to="dark"><div class="dark"></div></router-link>
@@ -176,5 +171,9 @@
 .bringtofront {
   position: relative;
   z-index: 99;
+}
+
+.bringtofront {
+  color :white
 }
 </style>

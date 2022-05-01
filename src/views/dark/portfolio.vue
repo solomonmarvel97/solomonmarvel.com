@@ -9,6 +9,7 @@
         <div>
           <p>{{ item.position }}</p>
           <h1>{{ item.platform }}</h1>
+          <a target="blank" :href="item.link">Learn more</a>
         </div>
       </div>
     </div>
@@ -40,7 +41,7 @@ export default {
   display: grid;
   align-items: center;
   width: 100%;
-  height: 116px;
+  height: auto;
   opacity: 0.99;
   border-radius: 18px;
   border-style: solid;
@@ -84,5 +85,11 @@ h1 {
   letter-spacing: normal;
   color: white;
   font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(172, 172, 172);
 }
 </style>

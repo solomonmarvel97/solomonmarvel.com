@@ -2,13 +2,11 @@
   <img class="side-image" src="@/assets/images/style1/hero-image.png" />
   <div class="container">
     <div class="mb-10">
-      <p>
-        <b
-          ><a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"
-            >Linkedin</a
-          ></b
-        >
-      </p>
+      <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"
+        ><b>Linkedin</b></a
+      >
+      |
+      <a href="https://topafrica.org" target="_blank">Projects</a>
       <div class="theme-picker mt-3">
         <router-link to="light">
           <div>
