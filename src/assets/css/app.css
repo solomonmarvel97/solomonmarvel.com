@@ -49,9 +49,9 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--primary); /* color of the scroll thumb */
+  background-color: black; /* color of the scroll thumb */
   border-radius: 0px; /* roundness of the scroll thumb */
-  border: 3px solid var(--primary); /* creates padding around scroll thumb */
+  border: 3px solid black; /* creates padding around scroll thumb */
 }
 
 section {

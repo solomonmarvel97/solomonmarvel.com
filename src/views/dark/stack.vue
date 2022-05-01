@@ -4,7 +4,7 @@
       <div class="inner-grid">
         <div>
           <h3>EXPERIENCE:</h3>
-          <p>Computer Programme (11+)</p>
+          <p>Computer Programmer (11+)</p>
         </div>
         <div>
           <h3>STACK:</h3>

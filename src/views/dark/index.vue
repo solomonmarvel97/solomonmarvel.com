@@ -28,5 +28,7 @@ body {
   background: linear-gradient(145deg, #1a1a1a 2%, #000 98%) !important;
   padding-top: 3em;
   padding-bottom: 3em;
+  z-index: 0;
+  position: relative;
 }
 </style>
