@@ -3,7 +3,7 @@
   <div class="container">
     <div class="mb-10">
       <p>
-        Marvelous Akporowho | <b><a href="" target="_blank">Linkedin</a></b>
+        Marvelous Akporowho | <b><a href="https://linkedin.com/in/solomonmarvel97" target="_blank">Linkedin</a></b>
       </p>
       <div class="theme-picker mt-3">
         <router-link to="light">

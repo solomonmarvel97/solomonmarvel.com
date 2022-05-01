@@ -2,7 +2,7 @@
   <div class="mb-5">
     <div class="bringtofront">
       <p>
-        Marvelous Akporowho | <b><a href="" target="_blank">Linkedin</a></b>
+        Marvelous Akporowho | <b><a href="https://linkedin.com/in/solomonmarvel97" target="_blank">Linkedin</a></b>
       </p>
       <div class="theme-picker mt-3">
         <router-link to="light"><div class="light"></div></router-link>
