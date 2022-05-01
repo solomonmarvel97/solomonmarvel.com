@@ -8,15 +8,14 @@
         </div>
         <div>
           <h3>STACK:</h3>
-          <p>NodeJS, Python, Javascript, C++, Perl, Rust, VueJS, Flutter</p>
+          <p>AWS, NodeJS, Python, Javascript, C++, Perl, Rust, VueJS, Flutter</p>
         </div>
       </div>
     </div>
     <div>
       <h3>PROFICIENCY:</h3>
       <p>
-        aws, azure, gcp, cloudflare, api design, system design, system
-        architecture design, microservices
+        AWS, Azure, GCP, Cloudflare, API Design, System Architecture & Design, Microservices
       </p>
     </div>
   </div>

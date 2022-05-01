@@ -2,7 +2,11 @@
   <div class="mb-5">
     <div class="bringtofront">
       <p>
-        Marvelous Akporowho | <b><a href="https://linkedin.com/in/solomonmarvel97" target="_blank">Linkedin</a></b>
+        <b
+          ><a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"
+            >Linkedin</a
+          ></b
+        >
       </p>
       <div class="theme-picker mt-3">
         <router-link to="light"><div class="light"></div></router-link>
@@ -18,8 +22,8 @@
     <h1 class="mb-1">Marvelous Akporowho</h1>
     <h2 class="mb-1">Entrepreneur | Computer Programmer</h2>
     <p class="mb-2">
-      Computer architecture, web3, artificial intelligence, machine-learning &
-      NLP’s, programming languages.
+      Let's talk about computer architecture, web3, artificial intelligence,
+      machine-learning, microservices & programming languages.
     </p>
     <div class="button-grid">
       <a href="https://blog.topuniverse.org">
@@ -112,14 +116,14 @@
   border-radius: 18px;
   background-image: linear-gradient(117deg, #232222 8%, #323232 93%);
   color: white;
-  display:grid;
-  place-items:center;
+  display: grid;
+  place-items: center;
 }
 
 .container .cta_github {
   height: 65px;
-  display:grid;
-  place-items:center;
+  display: grid;
+  place-items: center;
   opacity: 0.73;
   border-radius: 18px;
   background-color: #f0f0f0;
