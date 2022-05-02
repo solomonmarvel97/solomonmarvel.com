@@ -25,12 +25,12 @@
 .inner-grid {
   display: grid;
   align-items: center;
-  width: 900px;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1028px) {
   .inner-grid {
     width: 100%;
   }

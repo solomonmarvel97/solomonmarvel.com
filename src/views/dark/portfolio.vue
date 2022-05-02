@@ -33,8 +33,8 @@ export default {
   display: grid;
   place-items: center;
   gap: 25px;
-  row-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .portfolio-item {

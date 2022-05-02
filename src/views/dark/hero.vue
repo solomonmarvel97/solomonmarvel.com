@@ -117,8 +117,8 @@
 .container .button-grid {
   display: grid;
   align-items: center;
-  width: 300px;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  width: 250px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 10px;
 }
 .container .cta_blog {
@@ -180,6 +180,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 90;
+}
+
+@media (max-width: 768px) {
+  .path1 {
+    width: 100% !important;
+  }
+
+  .path2 {
+    width: 100% !important;
+  }
 }
 
 .bringtofront {
