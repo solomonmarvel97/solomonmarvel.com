@@ -8,17 +8,21 @@
         </div>
         <div>
           <h3>STACK:</h3>
-          <p>AWS, NodeJS, Python, Javascript, C++, Perl, Rust, VueJS, Flutter</p>
+          <p>
+            AWS, NodeJS, Python, Javascript, C++, Perl, Rust, VueJS, Flutter
+          </p>
         </div>
       </div>
     </div>
     <div>
       <h3>PROFICIENCY:</h3>
       <p>
-        AWS, Azure, GCP, Cloudflare, API Design, System Architecture & Design, Microservices
+        AWS, Azure, GCP, Cloudflare, API Design, System Architecture & Design,
+        Microservices
       </p>
     </div>
   </div>
+
 </template>
 
 <style scoped>
@@ -27,7 +31,6 @@
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin: 0 auto;
-
 }
 
 @media (max-width: 1028px) {
