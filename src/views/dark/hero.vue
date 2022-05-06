@@ -28,6 +28,20 @@
       Let's talk about computer architecture, web3, artificial intelligence,
       machine-learning, microservices & programming languages.
     </p>
+    <div class="mb-2">
+      <p>
+        <i>
+          <strong>
+            <a
+              href="https://calendly.com/akporowho-marvelous/let-s-talk"
+              target="_blank"
+            >
+              #Book a meeting
+            </a>
+          </strong>
+        </i>
+      </p>
+    </div>
     <div class="button-grid">
       <a href="https://blog.topuniverse.org">
         <div class="cta_blog">
