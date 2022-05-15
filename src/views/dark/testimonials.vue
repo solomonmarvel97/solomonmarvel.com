@@ -1,15 +1,16 @@
 <template>
   <div class="mt-8 mb-5">
-    <div class="portfolio-grid">
+    <div class="testimonials-grid">
       <div
-        class="portfolio-item"
-        v-for="(item, index) in portfolio"
+        class="testimonials-item"
+        v-for="(item, index) in testimonials"
         :key="index"
       >
         <div>
-          <p>{{ item.position }}</p>
-          <h1>{{ item.platform }}</h1>
-          <a target="blank" :href="item.link">Learn more</a>
+          <img :src="item.image" />
+          <h1>{{ item.name }}</h1>
+          <p>{{ item.text }}</p>
+          <p class="company">{{ item.company }}</p>
         </div>
       </div>
     </div>
@@ -17,28 +18,26 @@
 </template>
 
 <script>
-import { portfolio } from "@/data/portfolio.js";
+import { testimonials } from "@/data/testimonials.js";
 
 export default {
   data() {
     return {
-      portfolio: portfolio,
+      testimonials: testimonials,
     };
   },
 };
 </script>
 
 <style scoped>
-.portfolio-grid {
+.testimonials-grid {
   display: grid;
-  place-items: center;
   gap: 25px;
   row-gap: 25px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.portfolio-item {
-  display: grid;
+.testimonials-item {
   align-items: center;
   width: 100%;
   height: auto;
@@ -47,19 +46,36 @@ export default {
   border-style: solid;
   border-width: 1px;
   padding: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.034);
-  background: rgba(24, 24, 24, 0.231);
+  background: white;
 }
 
-p {
-  font-size: 15px;
+.testimonials-item img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;  
+}
+
+.testimonials-item .company {
+  color: rgb(99, 99, 99);
+  font-size: 12px;
+}
+
+.testimonials-item h1 {
+  color: #222;
+}
+
+.testimonials-item p {
+  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: normal;
-  color: white;
+  color: #222;
+  margin-bottom: 1em;
 }
+
 
 h1 {
   font-size: 20px;

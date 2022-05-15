@@ -4,6 +4,7 @@
       <Hero />
       <Stack />
       <Portfolio />
+      <Testimonials />
       <Footer/>
     </section>
   </body>
@@ -13,6 +14,7 @@
 import Hero from "./hero.vue";
 import Stack from "./stack.vue";
 import Portfolio from "./portfolio.vue";
+import Testimonials from "./testimonials.vue";
 import Footer from "./footer.vue";
 
 export default {
@@ -20,6 +22,7 @@ export default {
     Hero,
     Stack,
     Portfolio,
+    Testimonials,
     Footer
   },
 };
