@@ -55,5 +55,10 @@ exports.testimonials = [
     text: `I have known marvelous for a while now, he is passionate about learning new things and teaching, so as a result he has been my number person for learning new things and getting updates in my IT journey ... He has also been a guide some decisions that I have made in my career as an IT personnel.`,
     company: `Foodsbarn`,
   },
- 
+  {
+    image: require("@/assets/images/testimonials/uche-azubuko.png"),
+    name: `Uche Azubuko`,
+    text: `Marvelous is a strong asset to any engineering team. He is highly enthusiastic and displays a thirst for knowledge. Wherever he is, he finds a way to contribute to his community and makes sure everyone benefits from his contributions.`,
+    company: `Goodtalent Corporation Ltd`,
+  },
 ];
