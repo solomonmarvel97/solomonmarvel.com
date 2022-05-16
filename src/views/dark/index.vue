@@ -3,7 +3,9 @@
     <section>
       <Hero />
       <Stack />
+      <Achievments/>
       <Portfolio />
+      
       <Testimonials />
       <Footer/>
     </section>
@@ -16,6 +18,7 @@ import Stack from "./stack.vue";
 import Portfolio from "./portfolio.vue";
 import Testimonials from "./testimonials.vue";
 import Footer from "./footer.vue";
+import Achievments from "./achievments.vue";
 
 export default {
   components: {
@@ -23,6 +26,7 @@ export default {
     Stack,
     Portfolio,
     Testimonials,
+    Achievments,
     Footer
   },
 };

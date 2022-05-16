@@ -1,5 +1,8 @@
 <template>
   <div class="mt-8 mb-5">
+    <div class="center">
+      <h1 class="mb-3">Testimonials/Commendations</h1>
+    </div>
     <div class="testimonials-grid">
       <div
         class="testimonials-item"
@@ -53,7 +56,7 @@ export default {
   height: 70px;
   width: 70px;
   object-fit: cover;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 
 .testimonials-item .company {
@@ -75,7 +78,6 @@ export default {
   color: #222;
   margin-bottom: 1em;
 }
-
 
 h1 {
   font-size: 20px;

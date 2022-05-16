@@ -6,10 +6,11 @@ exports.testimonials = [
     company: `Computer Warehouse Group`,
   },
   {
-    image: require("@/assets/images/testimonials/Okafor-Joseph-Ugochukwu.png"),
-    name: `Okafor Joseph Ugochukwu`,
-    text: `In simple term, Marvel is a very resourceful and energetic person. Working with Marvel was quite educating, because Marvel is not just a programmer but a sales person with knowledge in Everything Business and that's the exact Reason  why I brought him on the team. Working with Marvel was worth the time he spent with us.`,
-    company: `Made In Africa`,
+    image: require("@/assets/images/testimonials/jaanika-umalas.png"),
+    name: `Jaanika Umalas`,
+    text: `Marvelous has been a front-end and back-end developer for European-Nigerian startup UmbrellaTree CoLab, since December 2020 when I met Marvelous through EU-Africa the Journey hackathon where he showed excellent skills and in-depth knowledge and detail orientation which led us to be placed 10th overall from 315 teams and placed 1st in our category “Job Security”. 
+    Marvelous is very confident, comfortable and shows excellent skills leading other developers in our team when dealing with website development, app development and including design. He has knowledge and skills in machine learning and AI and is currently leading the development of our AI platform for UmbrellaTree CoLab.`,
+    company: `UmbrellaTree Colab`,
   },
   {
     image: require("@/assets/images/testimonials/nwamaka-nwosu.png"),
@@ -42,4 +43,17 @@ exports.testimonials = [
     text: `Am currently working as a full stack developer (C#/Angular) with Stanbic bank in Lagos. All thanks to the mentorship and encouragement I received from Mr. Marvelous (Super Dev as I often referred to him)  meeting him indeed gave my career the very boost I needed. Thanks a lot for always being there Mr Marvelous`,
     company: `Stanbic Bank`,
   },
+  {
+    image: require("@/assets/images/testimonials/Okafor-Joseph-Ugochukwu.png"),
+    name: `Okafor Joseph Ugochukwu`,
+    text: `In simple term, Marvel is a very resourceful and energetic person. Working with Marvel was quite educating, because Marvel is not just a programmer but a sales person with knowledge in Everything Business and that's the exact Reason  why I brought him on the team. Working with Marvel was worth the time he spent with us.`,
+    company: `Made In Africa`,
+  },
+  {
+    image: require("@/assets/images/testimonials/michael-esedo.png"),
+    name: `Michael Esedo`,
+    text: `I have known marvelous for a while now, he is passionate about learning new things and teaching, so as a result he has been my number person for learning new things and getting updates in my IT journey ... He has also been a guide some decisions that I have made in my career as an IT personnel.`,
+    company: `Foodsbarn`,
+  },
+ 
 ];

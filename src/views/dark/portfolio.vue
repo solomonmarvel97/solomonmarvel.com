@@ -1,5 +1,8 @@
 <template>
   <div class="mt-8 mb-5">
+    <div class="center">
+      <h1 class="mb-3">My Portfolio</h1>
+    </div>
     <div class="portfolio-grid">
       <div
         class="portfolio-item"

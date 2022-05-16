@@ -10,7 +10,7 @@ exports.portfolio = [
     link: `https://topuniverse.org/pythonmasterclass`
   },
   {
-    position: `Founder/Instructor`,
+    position: `Founder/CEO`,
     platform: `Topuniverse Cohort`,
     link: `https://topuniverse.org`
   },
@@ -20,22 +20,22 @@ exports.portfolio = [
     link: `https://adplist.org/mentors/marvelous-akporowho`
   },
   {
-    position: `Technical Partner`,
+    position: `Engineering Partner`,
     platform: `Hayche Network`,
     link: `https://hayche.net`
   },
   {
-    position: `Technical Consultant`,
+    position: `Engineering Consultant`,
     platform: `Top Africa`,
     link: `https://topafrica.org`
   },
   {
-    position: `Senior Software Engineer`,
-    platform: `UTColab`,
+    position: `Engineering Partner`,
+    platform: `UmbrellaTree Colab`,
     link: `https://utcolab.org`
   },
   {
-    position: `Founder/Consultant`,
+    position: `Founder/Business Consultant`,
     platform: `Boltcliq Company`,
     link: `https://boltcliq.com`
   },
