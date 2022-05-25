@@ -18,7 +18,7 @@
   width: 100%;
   height: 300px;
   background-color: rgb(24, 24, 24);
-  border-radius: 18px;
+  border-radius: 15px;
   padding: 40px;
 }
 
