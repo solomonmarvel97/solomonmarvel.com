@@ -95,3 +95,9 @@ a {
   all: unset;
   cursor: pointer;
 }
+
+body {
+  width: 100%;
+  background: linear-gradient(145deg, #1a1a1a 2%, #000 98%) !important;
+
+}

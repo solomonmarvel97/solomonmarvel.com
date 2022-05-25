@@ -46,7 +46,7 @@ export default {
   width: 100%;
   height: auto;
   opacity: 0.99;
-  border-radius: 18px;
+  border-radius: 15px;
   border-style: solid;
   border-width: 1px;
   padding: 30px;
@@ -65,7 +65,7 @@ p {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;

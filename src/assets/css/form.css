@@ -1,5 +1,4 @@
 form h1 {
-  font-size: 25px;
   font-weight: normal;
   color: black !important;
   margin-bottom: 0.4em;
@@ -111,7 +110,7 @@ input[type="password"], input[type="email"] {
   padding: 7px;
   width: 100%;
   height: 35px;
-  border-radius: 3px;
+  border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.41);
   color: black;
 }
@@ -136,7 +135,7 @@ form input[type="submit"] {
   width: 100%;
   height: 35px;
   background: #6431E2;
-  border-radius: 3px;
+  border-radius: 15px;
   color: white;
   cursor: pointer;
   border: none;
@@ -177,11 +176,11 @@ select {
   color: var(--white);
   width: 100%;
   height: 35px;
-  border-radius: 3px;
+  border-radius: 15px;
   padding: 0 12px;
   border: 1px solid rgba(0, 0, 0, 0.41);
   font-size: 13px;
-  border-radius: 3px;
+  border-radius: 15px;
   color: rgba(0, 0, 0, 0.716);
   -webkit-appearance: none;
   /* background: url('../icons/dropdown-icon.png') 95% / 10px no-repeat; */

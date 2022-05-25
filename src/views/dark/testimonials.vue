@@ -35,28 +35,25 @@ export default {
 <style scoped>
 .testimonials-grid {
   display: grid;
-  gap: 25px;
-  row-gap: 25px;
+  gap: 20px;
+  row-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .testimonials-item {
-  align-items: center;
-  width: 100%;
   height: auto;
-  opacity: 0.99;
-  border-radius: 18px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 15px;
   padding: 30px;
   background: white;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .testimonials-item img {
   height: 70px;
   width: 70px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 
 .testimonials-item .company {
