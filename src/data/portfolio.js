@@ -1,47 +1,38 @@
 exports.portfolio = [
   {
-    position: `Platform Instructor`,
-    platform: `NodeJS Masterclass`,
-    link: `https://topuniverse.org/nodemasterclass`
-  },
-  {
-    position: `Platform Instructor`,
-    platform: `Python Masterclass`,
-    link: `https://topuniverse.org/pythonmasterclass`
-  },
-  {
+    icon: '👨🏾‍💼',
     position: `Founder/CEO`,
-    platform: `Topuniverse Cohort`,
+    platform: `Top Universe`,
     link: `https://topuniverse.org`
   },
   {
+    icon: '🧘🏾‍♂️',
     position: `Platform Mentor`,
     platform: `ADPList`,
     link: `https://adplist.org/mentors/marvelous-akporowho`
   },
   {
+    icon: '👨🏾‍🏭',
     position: `Engineering Partner`,
     platform: `Hayche Network`,
     link: `https://hayche.net`
   },
   {
-    position: `Engineering Consultant`,
+    icon: '👨🏾‍💼',
+    position: `Technical Consultant`,
     platform: `Top Africa`,
     link: `https://topafrica.org`
   },
   {
+    icon: '🏋🏾‍♂️',
     position: `Engineering Partner`,
     platform: `UmbrellaTree Colab`,
     link: `https://utcolab.org`
   },
   {
-    position: `Founder/Business Consultant`,
+    icon: '👨🏾‍💻',
+    position: `Solutions Architect`,
     platform: `Boltcliq Company`,
     link: `https://boltcliq.com`
-  },
-  {
-    position: `Founder`,
-    platform: `Topskill`,
-    link: `https://topskill.org`
   },
 ];

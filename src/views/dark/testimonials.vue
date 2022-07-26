@@ -53,7 +53,7 @@ export default {
   height: 70px;
   width: 70px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 50%;
 }
 
 .testimonials-item .company {

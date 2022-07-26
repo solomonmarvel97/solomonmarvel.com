@@ -1,7 +1,7 @@
 <template>
   <div class="mt-8 mb-5">
     <div class="center">
-      <h1 class="mb-3">My Portfolio</h1>
+      <h1 class="mb-3">My Work</h1>
     </div>
     <div class="portfolio-grid">
       <div
@@ -10,6 +10,7 @@
         :key="index"
       >
         <div>
+          <h1 class="icon">{{item.icon}}</h1>
           <p>{{ item.position }}</p>
           <h1>{{ item.platform }}</h1>
           <a target="blank" :href="item.link">Learn more</a>
@@ -32,12 +33,17 @@ export default {
 </script>
 
 <style scoped>
+
+.icon {
+  font-size: 40px;
+}
+
 .portfolio-grid {
   display: grid;
   place-items: center;
   gap: 25px;
   row-gap: 25px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .portfolio-item {

@@ -4,19 +4,11 @@
       <video no-controls muted autoplay loop>
         <source src="@/assets/images/background.mp4" type="video/mp4" />
       </video>
-      <div class="mb-5">
-        <div class="bringtofront">
-          <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank"
-            ><b>Linkedin</b></a
-          >
-          | <a href="https://topafrica.org" target="_blank">Projects</a>
-        </div>
-      </div>
       <div class="container">
         <div>
           <div class="path1"></div>
           <div>
-              <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
+            <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
           </div>
 
           <h1 class="mb-1">Marvelous Akporowho</h1>
@@ -26,41 +18,12 @@
             intelligence, machine-learning, microservices & programming
             languages.
           </p>
-          <div class="mb-2">
-            <p>
-              <i>
-                <strong>
-                  <a
-                    href="https://calendly.com/akporowho-marvelous/let-s-talk"
-                    target="_blank"
-                  >
-                    #Book a meeting
-                  </a>
-                </strong>
-              </i>
-            </p>
-          </div>
-          <div class="button-grid">
-            <a href="https://blog.topuniverse.org">
-              <div class="cta_blog">
-                <div>
-                  <span>
-                    <img class="icons" src="@/assets/icons/blog.svg" />
-                  </span>
-                  Blog
-                </div>
-              </div>
-            </a>
-            <a href="https://github.com/solomonmarvel97" target="blank">
-              <div class="cta_github">
-                <div>
-                  <span>
-                    <img class="icons" src="@/assets/icons/github.svg" />
-                  </span>
-                  Github
-                </div>
-              </div>
-            </a>
+          <div class="mb-2 center">
+            <button class="button-primary">
+              <a href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
+                Book a session
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -214,7 +177,7 @@ h2 {
 }
 
 .container .avatar {
-  border-radius: 15px;
+  border-radius: 50%;
   height: 150px;
   width: 150px;
 }
@@ -227,6 +190,7 @@ h2 {
   gap: 10px;
   margin: 0 auto;
 }
+
 .container .cta_blog {
   height: 65px;
   border-radius: 15px;
@@ -245,7 +209,7 @@ h2 {
   background-color: #f0f0f0;
 }
 
-.container .button-grid > div {
+.container .button-grid>div {
   display: grid;
   place-items: center;
 }

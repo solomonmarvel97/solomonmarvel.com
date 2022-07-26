@@ -5,58 +5,53 @@
         <div>
           <div class="mb-2">
             <h3>EXPERIENCE:</h3>
-            <p>Computer Programmer (11+)</p>
+            <p>Computer Programmer (12+) Years</p>
           </div>
           <div class="mb-2">
-            <h3>STACK:</h3>
+            <h3>CORE STACK:</h3>
             <p>
-              AWS, NodeJS, Python, Javascript, C++, Perl, Rust, VueJS, Flutter
+              AWS, Azure, GCP, Python, Cloudflare, NodeJS, Rust, C++, Javascript, React, VueJS, Flutter
             </p>
           </div>
           <div class="mb-2">
             <h3>PROFICIENCY:</h3>
             <p>
-              AWS, Azure, GCP, Cloudflare, API Design, System Architecture &
-              Design, Microservices
+              AWS Cloud, Cloudflare, API Design, Systems Design, Software Architecture, Microservices Implementation
             </p>
-          </div>
-          <div class="">
-            <a href="https://www.buymeacoffee.com/superdeveloper">
-              <img
-                src="@/assets/images/buymeacoffee-button.gif"
-                style="width: 120px; border-radius: 15px"
-              />
-            </a>
           </div>
         </div>
       </div>
       <div class="container yellow">
-        <div>
+        <div class="grid">
           <h1>Achievements 🎉</h1>
-          <br />
-          <p>Founder/Director Of Learning @topuniverse</p>
-          <p>Founder @topskill</p>
-          <p>Co-founder @foodsbarn</p>
+          <p>Co-Founder/CEO @topuniverse</p>
+          <p>Co-Founder & CTO @foodsbarn</p>
           <p>Technical Consultant @topafrica</p>
-          <p>Technical Consultant @theboltcliqcompany</p>
-
-          <div class="projects">
-            <a href="https://topafrica.org" target="_blank">
-              <h2>See Projects 👨🏾‍💻</h2>
-            </a>
-          </div>
+          <p>Solutions Architect @boltcliq</p>
         </div>
+        <div class="mb-2">
+            <h3>INTERESTS:</h3>
+            <p>
+              API's, Cloud, Machine Learning, Blockchain, Computer Science, Products
+            </p>
+          </div>
       </div>
     </div>
   </footer>
 </template>
 
 <style scoped>
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
 .container-grid {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
 .container {
   display: grid;
   align-items: center;
@@ -72,7 +67,7 @@
   background-color: rgb(2, 0, 8) !important;
 }
 
-.yellow > div * {
+.yellow>div * {
   color: white;
 }
 
@@ -102,6 +97,7 @@
   bottom: 30px;
   background-color: rgba(255, 255, 255, 0.051);
 }
+
 .projects:hover {
   background-color: rgba(255, 255, 255, 0.082);
 }

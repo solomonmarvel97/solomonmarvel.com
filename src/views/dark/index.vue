@@ -1,7 +1,7 @@
 <template>
   <body>
+    <Navigation />
     <Hero2 />
-    <!-- <Hero /> -->
     <section>
       <Achievments />
       <Portfolio />
@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import Navigation from "./Navigation.vue";
 import Hero2 from "./Hero2.vue";
 import Portfolio from "./portfolio.vue";
 import Testimonials from "./testimonials.vue";
@@ -20,6 +21,7 @@ import Achievments from "./achievments.vue";
 
 export default {
   components: {
+    Navigation,
     Hero2,
     Portfolio,
     Testimonials,
@@ -29,4 +31,5 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
