@@ -35,21 +35,20 @@ export default {
 <style scoped>
 
 .icon {
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .portfolio-grid {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 25px;
-  row-gap: 25px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .portfolio-item {
   display: grid;
   align-items: center;
-  width: 100%;
+  flex-basis: 300px;
   height: auto;
   opacity: 0.99;
   border-radius: 15px;
@@ -57,12 +56,12 @@ export default {
   border-width: 1px;
   padding: 30px;
   border: 1px solid rgba(255, 255, 255, 0.034);
-  background: rgba(24, 24, 24, 0.231);
+  background: rgba(114, 114, 114, 0.231);
 }
 
 p {
   font-size: 15px;
-  font-weight: normal;
+  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 2;
@@ -71,18 +70,17 @@ p {
 }
 
 h1 {
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 20px;
   font-stretch: normal;
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
   color: white;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 a {
-  font-weight: bold;
+  font-weight: 300;
   font-size: 14px;
   color: rgb(172, 172, 172);
 }

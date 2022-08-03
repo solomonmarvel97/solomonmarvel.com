@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="hero">
-      <video no-controls muted autoplay loop>
+      <!-- <video no-controls muted autoplay loop>
         <source src="@/assets/images/background.mp4" type="video/mp4" />
-      </video>
+      </video> -->
       <div class="container">
         <div>
           <div class="path1"></div>
@@ -12,9 +12,9 @@
           </div>
 
           <h1 class="mb-1">Marvelous Akporowho</h1>
-          <h2 class="mb-1">Entrepreneur | Computer Programmer</h2>
+          <h3 class="mb-1">Solutions Architect | Sofware Engineer</h3>
           <p class="mb-2">
-            Let's talk about computer architecture, web3, artificial
+            Let's talk about software architecture, systems design, web3, artificial
             intelligence, machine-learning, microservices & programming
             languages.
           </p>
@@ -65,7 +65,6 @@ h1 {
   color: #ffffff;
   font-size: 50px;
   margin-top: 25px;
-  margin-bottom: 25px;
   font-weight: 600;
 }
 
@@ -148,15 +147,16 @@ h1 span {
 }
 
 h1 {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 300;
   font-style: normal;
   text-align: center
 }
 
-h2 {
-  font-size: 25px;
+h3 {
+  font-size: 20px;
   color: white;
+  font-weight: 300;
   text-align: center;
 }
 

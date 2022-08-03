@@ -42,15 +42,15 @@ main {
 
 body::-webkit-scrollbar {
   width: 5px;
-  background: var(--background); /* width of the entire scrollbar */
+  background: black; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--background); /* color of the tracking area */
+  background: black; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: black; /* color of the scroll thumb */
+  background: black; /* width of the entire scrollbar */
   border-radius: 0px; /* roundness of the scroll thumb */
   border: 3px solid black; /* creates padding around scroll thumb */
 }
@@ -86,10 +86,10 @@ section {
 }
 
 .theme-picker .light {
-  background-color: white;
+  background: black; /* width of the entire scrollbar */
 }
 .theme-picker .dark {
-  background-color: rgb(15, 15, 15);
+  background: black; /* width of the entire scrollbar */
 }
 
 a {
@@ -99,6 +99,6 @@ a {
 
 body {
   width: 100%;
-  background: linear-gradient(145deg, #1a1a1a 2%, #000 98%) !important;
+  background: black; /* width of the entire scrollbar */
   margin-bottom: 50px;
 }

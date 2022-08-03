@@ -5,12 +5,12 @@
         <div>
           <div class="mb-2">
             <h3>EXPERIENCE:</h3>
-            <p>Computer Programmer (12+) Years</p>
+            <p>Software Programmer (12+) Years</p>
           </div>
           <div class="mb-2">
             <h3>CORE STACK:</h3>
             <p>
-              AWS, Azure, GCP, Python, Cloudflare, NodeJS, Rust, C++, Javascript, React, VueJS, Flutter
+              AWS, Azure, Python, Cloudflare, NodeJS, Rust, C++, Javascript, React, VueJS, Flutter
             </p>
           </div>
           <div class="mb-2">
@@ -25,14 +25,13 @@
         <div class="grid">
           <h1>Achievements 🎉</h1>
           <p>Co-Founder/CEO @topuniverse</p>
-          <p>Co-Founder & CTO @foodsbarn</p>
           <p>Technical Consultant @topafrica</p>
           <p>Solutions Architect @boltcliq</p>
         </div>
         <div class="mb-2">
             <h3>INTERESTS:</h3>
             <p>
-              API's, Cloud, Machine Learning, Blockchain, Computer Science, Products
+              AWS Cloud, Azure Cloud, Serverless, Edge Computing, Software Architecture, API's, Cloud, Machine Learning, Blockchain, Computer Science
             </p>
           </div>
       </div>
@@ -60,11 +59,13 @@
   background-color: rgb(24, 24, 24);
   border-radius: 15px;
   padding: 35px;
+  border: 2px solid rgba(64, 255, 252, 0.594)
 }
 
 .yellow {
   position: relative;
-  background-color: rgb(2, 0, 8) !important;
+  background-color: linear-gradient(110.56deg, #D9D9D9 -3.37%, rgba(255, 255, 255, 0) 100%) !important;
+  border: 2px solid rgba(255, 255, 255, 0.322)
 }
 
 .yellow>div * {

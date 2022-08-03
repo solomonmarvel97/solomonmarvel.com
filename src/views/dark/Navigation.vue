@@ -11,8 +11,8 @@
             <div class="menu">
               <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
               <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
-              <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
-              <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Open Source</a>
+              <a class="item" target="_blank" ohref="https://boltcliq.com"> Boltcliq Agency</a>
+              <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Git Hub</a>
               <a class="item" target="_blank" href="https://blog.topuniverse.org">Blog</a>
             </div>
           </div>
@@ -36,7 +36,7 @@
           <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
           <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
           <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
-          <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Open Source</a>
+          <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Git Hub</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org">Blog</a>
         </div>
       </div>
@@ -77,6 +77,7 @@ export default {
   width: 100%;
   top: 0;
   z-index: 9999;
+  font-size: 14px;
 }
 
 div.sticky {
