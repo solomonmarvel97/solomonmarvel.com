@@ -10,9 +10,9 @@
         :key="index"
       >
         <div>
-          <img :src="item.image" />
-          <h1>{{ item.name }}</h1>
-          <p>{{ item.text }}</p>
+          <img class="mb-1" :src="item.image" />
+          <h1 class="mb-1">{{ item.name }}</h1>
+          <p class="mb-1">{{ item.text }}</p>
           <p class="company">{{ item.company }}</p>
         </div>
       </div>

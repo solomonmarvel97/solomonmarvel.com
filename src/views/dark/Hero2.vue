@@ -11,19 +11,21 @@
             <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
           </div>
 
-          <h1 class="mb-1">Marvelous Akporowho</h1>
-          <h3 class="mb-1">Solutions Architect | Sofware Engineer</h3>
-          <p class="mb-2">
-            Let's talk about software architecture, systems design, web3, artificial
-            intelligence, machine-learning, microservices & programming
-            languages.
-          </p>
-          <div class="mb-2 center">
-            <button class="button-primary">
-              <a href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
-                Book a session
-              </a>
-            </button>
+
+          <div class="wrapper">
+            <h1 class="mb-1">Marvelous Akporowho</h1>
+            <h3 class="mb-1">Solutions Architect | Sofware Engineer</h3>
+              <p class="mb-2"> Let's talk about software architecture, systems design, web3, artificial intelligence,
+                machine-learning, microservices & programming languages.
+              </p>
+            <div class="mb-2 mt-4">
+              <div class="center">
+                <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
+                  Book a session
+                </a>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
@@ -34,12 +36,17 @@
 <style scoped>
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background: black;
   mix-blend-mode: normal;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 video {
@@ -74,36 +81,18 @@ h1 span {
 }
 
 .hero p {
-  width: 700px;
   font-size: 20px;
-  line-height: 32px;
   color: #ffffff;
   text-align: center;
 }
 
-.hero .player_button {
-  display: grid;
-  min-width: 152px;
-  width: 152px;
-  align-items: center;
-  grid-template-columns: 30% 70%;
-  margin-top: 32px;
-}
-
-.hero .player_button p {
-  font-size: 16px;
-}
 
 @media (max-width: 768px) {
   .hero {
-    height: 90vh;
+    height: 70vh;
     padding-top: 3em;
   }
 
-  .hero button {
-    margin: 0;
-    margin-left: 2.6em;
-  }
 
   h1 {
     width: 100%;
@@ -182,14 +171,6 @@ h3 {
   width: 150px;
 }
 
-.container .button-grid {
-  display: grid;
-  align-items: center;
-  width: 250px;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px;
-  margin: 0 auto;
-}
 
 .container .cta_blog {
   height: 65px;
@@ -209,10 +190,6 @@ h3 {
   background-color: #f0f0f0;
 }
 
-.container .button-grid>div {
-  display: grid;
-  place-items: center;
-}
 
 @media (max-width: 768px) {
   .side-image {

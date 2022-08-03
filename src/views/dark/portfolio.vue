@@ -10,9 +10,9 @@
         :key="index"
       >
         <div>
-          <h1 class="icon">{{item.icon}}</h1>
-          <p>{{ item.position }}</p>
-          <h1>{{ item.platform }}</h1>
+          <h1 class="icon mb-1">{{item.icon}}</h1>
+          <p class="mb-1">{{ item.position }}</p>
+          <h1 class="mb-1">{{ item.platform }}</h1>
           <a target="blank" :href="item.link">Learn more</a>
         </div>
       </div>
@@ -42,11 +42,10 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 10px;
 }
 
 .portfolio-item {
-  display: grid;
   align-items: center;
   flex-basis: 300px;
   height: auto;
@@ -59,21 +58,25 @@ export default {
   background: rgba(114, 114, 114, 0.231);
 }
 
+@media (max-width: 768px) {
+  .portfolio-item {
+    flex-basis: 150px;
+  }
+}
+
 p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2;
   letter-spacing: normal;
   color: white;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2;
   letter-spacing: normal;
   color: white;
   font-weight: 300;
@@ -81,7 +84,7 @@ h1 {
 
 a {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(172, 172, 172);
 }
 </style>

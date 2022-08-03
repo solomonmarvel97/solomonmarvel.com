@@ -25,12 +25,6 @@ exports.portfolio = [
   },
   {
     icon: '📌',
-    position: `Engineering Partner`,
-    platform: `UmbrellaTree Colab`,
-    link: `https://utcolab.org`
-  },
-  {
-    icon: '📌',
     position: `Solutions Architect`,
     platform: `Boltcliq Company`,
     link: `https://boltcliq.com`
