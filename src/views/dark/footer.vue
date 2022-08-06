@@ -1,7 +1,11 @@
 <template>
   <footer>
     <div class="copyright mt-5">
-      Copyright @ {{ new Date().getFullYear() }} All rights reserved
+      Made with ❤️ by <a href="https://solomonmarvel.com" target="_blanl">superdeveloper</a>
+    </div>
+
+    <div class="copyright mt-2">
+      copyright @ {{ new Date().getFullYear() }} All rights reserved
     </div>
   </footer>
 </template>
