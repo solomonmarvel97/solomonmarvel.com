@@ -47,7 +47,7 @@ export default {
 
 .portfolio-item {
   align-items: center;
-  flex-basis: 300px;
+  flex-basis: 350px;
   height: auto;
   opacity: 0.99;
   border-radius: 15px;
@@ -60,7 +60,7 @@ export default {
 
 @media (max-width: 768px) {
   .portfolio-item {
-    flex-basis: 150px;
+    flex-basis: 180px;
   }
 }
 

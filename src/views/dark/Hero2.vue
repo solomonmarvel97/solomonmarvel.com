@@ -7,7 +7,7 @@
       <div class="path1"></div>
       <div class="container">
         <div>
-          <div >
+          <div>
             <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
           </div>
           <div class="wrapper mb-5">
@@ -53,9 +53,9 @@
 
 @media (max-width: 768px) {
   .wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 video {
@@ -131,9 +131,7 @@ h1 span {
   background-image: ("../../assets/images/style1/hero-image.png");
 }
 
-.hero .container {
-  
-}
+.hero .container {}
 
 h1 {
   font-size: 40px;
