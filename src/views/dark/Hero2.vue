@@ -4,31 +4,33 @@
       <!-- <video no-controls muted autoplay loop>
         <source src="@/assets/images/background.mp4" type="video/mp4" />
       </video> -->
+      <div class="path1"></div>
       <div class="container">
         <div>
-          <div class="path1"></div>
-          <div>
+          <div >
             <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
           </div>
-
-
-          <div class="wrapper">
+          <div class="wrapper mb-5">
             <h1 class="mb-1">Marvelous Akporowho</h1>
-            <h3 class="mb-1">Solutions Architect | Sofware Engineer</h3>
-              <p class="mb-2"> Let's talk about software architecture, systems design, web3, artificial intelligence,
-                machine-learning, microservices & programming languages.
-              </p>
-            <div class="mb-2 mt-4">
-              <div class="center">
-                <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
-                  Book a session
-                </a>
+            <h3 class="mb-1">Solutions Architect | Software Engineer</h3>
+            <p class="mb-2"> Let's talk about software architecture, systems design, web3, artificial intelligence,
+              machine-learning, microservices & programming languages.
+            </p>
+            <div class="center">
+              <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
+                Book a session
+              </a>
+            </div>
+            <div>
+              <div class="mt-5 mb-5" id="calendar">
+                <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif"
+                  style="height: 50px; width: 50px;" />
               </div>
-
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -36,7 +38,7 @@
 <style scoped>
 .hero {
   width: 100%;
-  height: 75vh;
+  height: 100%;
   background: black;
   mix-blend-mode: normal;
   background-repeat: no-repeat;
@@ -45,8 +47,15 @@
 }
 
 .wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
   width: 90%;
   margin: 0 auto;
+}
 }
 
 video {
@@ -57,7 +66,7 @@ video {
   object-position: center center;
 }
 
-.hero:before {
+/* .hero:before {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.639);
@@ -65,7 +74,7 @@ video {
   right: 0;
   bottom: 0;
   left: 0;
-}
+} */
 
 h1 {
   line-height: 60px;
@@ -89,7 +98,6 @@ h1 span {
 
 @media (max-width: 768px) {
   .hero {
-    height: 70vh;
     padding-top: 3em;
   }
 
@@ -107,8 +115,6 @@ h1 span {
 
   .hero .container {
     width: 100%;
-    padding-top: 3em;
-    height: 100%;
   }
 }
 
@@ -125,14 +131,8 @@ h1 span {
   background-image: ("../../assets/images/style1/hero-image.png");
 }
 
-.container {
-  display: grid;
-  place-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.hero .container {
+  
 }
 
 h1 {
@@ -241,8 +241,15 @@ h3 {
 </style>
 
 <script>
+
 export default {
   name: "Hero_Component",
   components: {},
+  mounted() {
+    GitHubCalendar("#calendar", "solomonmarvel97", {
+      responsive: true,
+      tooltips: true
+    });
+  }
 };
 </script>
