@@ -4,13 +4,9 @@
       <h1 class="mb-3">My Work</h1>
     </div>
     <div class="portfolio-grid">
-      <div
-        class="portfolio-item"
-        v-for="(item, index) in portfolio"
-        :key="index"
-      >
+      <div class="portfolio-item" v-for="(item, index) in portfolio" :key="index">
         <div>
-          <h1 class="icon mb-1">{{item.icon}}</h1>
+          <h1 class="icon mb-1">{{ item.icon }}</h1>
           <p class="mb-1">{{ item.position }}</p>
           <h1 class="mb-1">{{ item.platform }}</h1>
           <a target="blank" :href="item.link">Learn more</a>
@@ -33,7 +29,6 @@ export default {
 </script>
 
 <style scoped>
-
 .icon {
   font-size: 25px;
 }
