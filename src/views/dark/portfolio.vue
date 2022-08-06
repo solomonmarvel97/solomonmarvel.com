@@ -55,7 +55,7 @@ export default {
 
 @media (max-width: 768px) {
   .portfolio-item {
-    flex-basis: 180px;
+    flex-basis: 150px;
   }
 }
 
