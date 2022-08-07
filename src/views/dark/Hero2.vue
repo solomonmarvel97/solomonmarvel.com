@@ -12,7 +12,7 @@
           </div>
           <div class="wrapper mb-5">
             <h1 class="mb-1">Marvelous Akporowho</h1>
-            <h3 class="mb-1">Solutions Architect | Software Products Engineer</h3>
+            <h3 class="mb-1">Technical Leader | Solutions Architect | Educator</h3>
             <p class="mb-2"> Let's talk about software architecture, systems design, web3, artificial intelligence,
               machine-learning, microservices & programming languages.
             </p>
