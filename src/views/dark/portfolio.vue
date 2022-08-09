@@ -46,10 +46,10 @@ export default {
   height: auto;
   opacity: 0.99;
   border-radius: 15px;
-  border-style: solid;
   border-width: 1px;
   padding: 30px;
   background: #53535329;
+  border: none
 }
 
 @media (max-width: 768px) {
