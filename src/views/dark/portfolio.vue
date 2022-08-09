@@ -50,7 +50,6 @@ export default {
   border-width: 1px;
   padding: 30px;
   background: #53535329;
-  border: 1px solid rgba(22, 22, 22, 0.456)
 }
 
 @media (max-width: 768px) {
