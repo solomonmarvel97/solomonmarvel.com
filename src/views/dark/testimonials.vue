@@ -67,7 +67,6 @@ export default {
 
 .testimonials-item p {
   font-size: 14px;
-  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
@@ -78,17 +77,14 @@ export default {
 
 h1 {
   font-size: 20px;
-  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
   color: white;
-  font-weight: bold;
 }
 
 a {
-  font-weight: bold;
   font-size: 14px;
   color: rgb(172, 172, 172);
 }

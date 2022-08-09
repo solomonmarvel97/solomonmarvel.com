@@ -13,7 +13,6 @@
 
 .header h1 {
   font-style: normal;
-  font-weight: bold;
   font-size: 30px;
   text-align: center;
   width: 100%;

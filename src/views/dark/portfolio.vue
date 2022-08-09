@@ -49,8 +49,8 @@ export default {
   border-style: solid;
   border-width: 1px;
   padding: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.034);
-  background: rgba(114, 114, 114, 0.231);
+  background: #53535329;
+  border: 1px solid rgba(22, 22, 22, 0.456)
 }
 
 @media (max-width: 768px) {
@@ -61,7 +61,6 @@ export default {
 
 p {
   font-size: 14px;
-  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -69,16 +68,13 @@ p {
 }
 
 h1 {
-  font-size: 18px;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
   color: white;
-  font-weight: 300;
 }
 
 a {
-  font-weight: 300;
   font-size: 12px;
   color: rgb(172, 172, 172);
 }

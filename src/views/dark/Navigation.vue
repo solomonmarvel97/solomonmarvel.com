@@ -145,8 +145,7 @@ div.sticky {
 .menu {
   display: flex;
   width: 100%;
-  column-gap: 45px;
-  font-weight: 100;
+  column-gap: 30px;
   justify-content: center;
 }
 
@@ -279,7 +278,6 @@ div.sticky {
   span,
   label {
     font-size: 25px !important;
-    font-weight: bold;
     font-family: "Space Grotesk", sans-serif !important;
   }
 

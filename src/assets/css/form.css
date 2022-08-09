@@ -1,19 +1,16 @@
 form h1 {
-  font-weight: normal;
   color: black !important;
   margin-bottom: 0.4em;
 }
 
 form h2 {
   font-size: 20px;
-  font-weight: normal;
   color: black !important;
   margin-bottom: 0.4em;
 }
 
 form p {
   font-size: 15px;
-  font-weight: bold;
   color: black;
   margin-top: 8px;
   margin-bottom: 10px;
@@ -163,7 +160,6 @@ textarea {
   resize: none;
   padding: 10px;
   padding-top: 20px;
-  font-weight: 300;
 }
 
 textarea:focus {
@@ -183,8 +179,6 @@ select {
   border-radius: 15px;
   color: rgba(0, 0, 0, 0.716);
   -webkit-appearance: none;
-  /* background: url('../icons/dropdown-icon.png') 95% / 10px no-repeat; */
-  font-weight: 300;
 }
 
 select::placeholder {
@@ -259,7 +253,6 @@ form h1 {
 }
 
 form p {
-  font-weight: 300;
   font-size: 17px;
   line-height: 21px;
   color: #ffffff;
