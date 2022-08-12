@@ -42,7 +42,7 @@ export default {
 
 .testimonials-item {
   height: auto;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 30px;
   background: white;
   width: 100%;
@@ -50,10 +50,10 @@ export default {
 }
 
 .testimonials-item img {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
   object-fit: cover;
-  border-radius: 50%;
 }
 
 .testimonials-item .company {
@@ -82,10 +82,5 @@ h1 {
   line-height: 2;
   letter-spacing: normal;
   color: white;
-}
-
-a {
-  font-size: 14px;
-  color: rgb(172, 172, 172);
 }
 </style>

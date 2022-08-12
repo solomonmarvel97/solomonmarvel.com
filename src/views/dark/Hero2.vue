@@ -1,18 +1,19 @@
 <template>
   <div>
+    <div class="path1"></div>
     <div class="hero">
       <!-- <video no-controls muted autoplay loop>
         <source src="@/assets/images/background.mp4" type="video/mp4" />
       </video> -->
-      <div class="path1"></div>
+
       <div class="container">
-        <div>
+        <div class="mt-5">
           <div>
             <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
           </div>
           <div class="wrapper mb-5">
             <h1 class="mb-1">Marvelous Akporowho</h1>
-            <h3 class="mb-1">Technical Leader | Solutions Architect | Educator</h3>
+            <h3 class="mb-1">Technical Leader | Solutions Architect | Software Engineer (12+ years)</h3>
             <p class="mb-2"> Let's talk about software architecture, systems design, artificial intelligence,
               microservices & products.
             </p>
@@ -23,8 +24,10 @@
             </div>
             <div>
               <div class="mt-5 mb-5" id="calendar">
-                <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif"
-                  style="height: 50px; width: 50px;" />
+                <div class="center">
+                  <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif"
+                    style="height: 50px; width: 50px;" />
+                </div>
               </div>
             </div>
           </div>
@@ -175,7 +178,7 @@ h3 {
 
 .container .cta_blog {
   height: 65px;
-  border-radius: 15px;
+  border-radius: 20px;
   background-image: linear-gradient(117deg, #232222 8%, #323232 93%);
   color: white;
   display: grid;
@@ -187,7 +190,7 @@ h3 {
   display: grid;
   place-items: center;
   opacity: 0.73;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #f0f0f0;
 }
 
@@ -207,12 +210,14 @@ h3 {
   position: absolute;
   width: 500px;
   height: 100vh;
-  top: 1px;
-  right: 1px;
+  top: 0px;
+  right: 0px;
   background-image: url("../../assets/images/style2/path1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 99;
 }
+
 
 
 @media (max-width: 768px) {
@@ -238,7 +243,6 @@ h3 {
 </style>
 
 <script>
-
 export default {
   name: "Hero_Component",
   components: {},

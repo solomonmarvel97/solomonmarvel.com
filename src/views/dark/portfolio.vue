@@ -37,17 +37,18 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
+  width: 100%;
 }
 
 .portfolio-item {
   align-items: center;
-  flex-basis: 350px;
+  flex-basis: 300px;
   height: auto;
   opacity: 0.99;
-  border-radius: 15px;
+  border-radius: 20px;
   border-width: 1px;
-  padding: 30px;
+  padding: 20px;
   background: #53535329;
   border: none
 }

@@ -53,8 +53,7 @@
   display: grid;
   align-items: center;
   width: 100%;
-  height: 350px;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 35px;
   background: #53535329;
   border: 1px solid rgba(22, 22, 22, 0.456)}
@@ -88,7 +87,7 @@
 
 .projects {
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
   position: absolute;
   right: 30px;
   bottom: 30px;

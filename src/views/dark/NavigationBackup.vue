@@ -3,50 +3,38 @@
     <div class="sticky">
       <section>
         <div class="menu-wrapper">
-          <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
-            <svg width="35" height="35" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M9.9999 0.399994C4.6979 0.399994 0.399902 4.69799 0.399902 9.99999C0.399902 15.302 4.6979 19.6 9.9999 19.6C15.3019 19.6 19.5999 15.302 19.5999 9.99999C19.5999 4.69799 15.3019 0.399994 9.9999 0.399994ZM7.6499 13.979H5.7059V7.72299H7.6499V13.979ZM6.6659 6.95499C6.0519 6.95499 5.6549 6.51999 5.6549 5.98199C5.6549 5.43299 6.0639 5.01099 6.6909 5.01099C7.3179 5.01099 7.7019 5.43299 7.7139 5.98199C7.7139 6.51999 7.3179 6.95499 6.6659 6.95499ZM14.7499 13.979H12.8059V10.512C12.8059 9.70499 12.5239 9.15699 11.8209 9.15699C11.2839 9.15699 10.9649 9.52799 10.8239 9.88499C10.7719 10.012 10.7589 10.192 10.7589 10.371V13.978H8.8139V9.71799C8.8139 8.93699 8.7889 8.28399 8.7629 7.72199H10.4519L10.5409 8.59099H10.5799C10.8359 8.18299 11.4629 7.58099 12.5119 7.58099C13.7909 7.58099 14.7499 8.43799 14.7499 10.28V13.979V13.979Z"
-                fill="white" />
-            </svg>
-          </a>
+          <div>
+            <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
+              <svg width="35" height="35" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.9999 0.399994C4.6979 0.399994 0.399902 4.69799 0.399902 9.99999C0.399902 15.302 4.6979 19.6 9.9999 19.6C15.3019 19.6 19.5999 15.302 19.5999 9.99999C19.5999 4.69799 15.3019 0.399994 9.9999 0.399994ZM7.6499 13.979H5.7059V7.72299H7.6499V13.979ZM6.6659 6.95499C6.0519 6.95499 5.6549 6.51999 5.6549 5.98199C5.6549 5.43299 6.0639 5.01099 6.6909 5.01099C7.3179 5.01099 7.7019 5.43299 7.7139 5.98199C7.7139 6.51999 7.3179 6.95499 6.6659 6.95499ZM14.7499 13.979H12.8059V10.512C12.8059 9.70499 12.5239 9.15699 11.8209 9.15699C11.2839 9.15699 10.9649 9.52799 10.8239 9.88499C10.7719 10.012 10.7589 10.192 10.7589 10.371V13.978H8.8139V9.71799C8.8139 8.93699 8.7889 8.28399 8.7629 7.72199H10.4519L10.5409 8.59099H10.5799C10.8359 8.18299 11.4629 7.58099 12.5119 7.58099C13.7909 7.58099 14.7499 8.43799 14.7499 10.28V13.979V13.979Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
           <div>
             <div class="menu">
-              <ul>
-                <li>
-                  <a href="#">Companies</a>
-                  <ul>
-                    <a href="https://boltcliq.com" target="_blank" class="collect">
-                      <h2>🏢</h2>
-                      Boltcliq
-                    </a>
-                    <a href="https://topafrica.org" target="_blank" class="collect">
-                      <h2>🏢</h2>
-                      Top Africa
-                    </a>
-                    <a href="https://topuniverse.org" target="_blank" class="collect">
-                      <h2>🏢</h2>
-                      Top Universe
-                    </a>
-                  </ul>
-                </li>
-              </ul>
-              <ul>
-                <li class="item">
-                  <a target="_blank" href="https://github.com/solomonmarvel97">👨🏾‍💻 Open Source</a>
-                </li>
-              </ul>
+              <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
+              <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
+              <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
+              <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Open Source</a>
+              <a class="item" target="_blank" href="https://blog.topuniverse.org">Blog</a>
             </div>
           </div>
         </div>
+
+
         <div class="mobile-header">
-          <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
-            <svg width="35" height="35" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M9.9999 0.399994C4.6979 0.399994 0.399902 4.69799 0.399902 9.99999C0.399902 15.302 4.6979 19.6 9.9999 19.6C15.3019 19.6 19.5999 15.302 19.5999 9.99999C19.5999 4.69799 15.3019 0.399994 9.9999 0.399994ZM7.6499 13.979H5.7059V7.72299H7.6499V13.979ZM6.6659 6.95499C6.0519 6.95499 5.6549 6.51999 5.6549 5.98199C5.6549 5.43299 6.0639 5.01099 6.6909 5.01099C7.3179 5.01099 7.7019 5.43299 7.7139 5.98199C7.7139 6.51999 7.3179 6.95499 6.6659 6.95499ZM14.7499 13.979H12.8059V10.512C12.8059 9.70499 12.5239 9.15699 11.8209 9.15699C11.2839 9.15699 10.9649 9.52799 10.8239 9.88499C10.7719 10.012 10.7589 10.192 10.7589 10.371V13.978H8.8139V9.71799C8.8139 8.93699 8.7889 8.28399 8.7629 7.72199H10.4519L10.5409 8.59099H10.5799C10.8359 8.18299 11.4629 7.58099 12.5119 7.58099C13.7909 7.58099 14.7499 8.43799 14.7499 10.28V13.979V13.979Z"
-                fill="white" />
-            </svg>
-          </a>
+          <div>
+            <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
+              <svg width="35" height="35" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.9999 0.399994C4.6979 0.399994 0.399902 4.69799 0.399902 9.99999C0.399902 15.302 4.6979 19.6 9.9999 19.6C15.3019 19.6 19.5999 15.302 19.5999 9.99999C19.5999 4.69799 15.3019 0.399994 9.9999 0.399994ZM7.6499 13.979H5.7059V7.72299H7.6499V13.979ZM6.6659 6.95499C6.0519 6.95499 5.6549 6.51999 5.6549 5.98199C5.6549 5.43299 6.0639 5.01099 6.6909 5.01099C7.3179 5.01099 7.7019 5.43299 7.7139 5.98199C7.7139 6.51999 7.3179 6.95499 6.6659 6.95499ZM14.7499 13.979H12.8059V10.512C12.8059 9.70499 12.5239 9.15699 11.8209 9.15699C11.2839 9.15699 10.9649 9.52799 10.8239 9.88499C10.7719 10.012 10.7589 10.192 10.7589 10.371V13.978H8.8139V9.71799C8.8139 8.93699 8.7889 8.28399 8.7629 7.72199H10.4519L10.5409 8.59099H10.5799C10.8359 8.18299 11.4629 7.58099 12.5119 7.58099C13.7909 7.58099 14.7499 8.43799 14.7499 10.28V13.979V13.979Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+
           <button class="open_toggle" @click="toggle"></button>
         </div>
       </section>
@@ -57,7 +45,7 @@
           <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
           <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
           <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
-          <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Open Source</a>
+          <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Git Hub</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org">Blog</a>
         </div>
       </div>
@@ -98,84 +86,11 @@ export default {
   width: 100%;
   top: 0;
   z-index: 9999;
+  font-size: 14px;
 }
-
-.menu ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.menu ul li {
-  display: inline-block;
-}
-
-.menu a {
-  display: block;
-  color: #FFF;
-  text-decoration: none;
-}
-
-/* Hide Dropdowns by Default */
-.menu ul ul {
-  display: none;
-  position: absolute;
-  padding: 20px 20px;
-  background: #05020C;
-  border-radius: 15px;
-  width: 220px;
-}
-
-.menu ul ul>.collect {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.menu ul ul>.collect>img {
-  height: 30px;
-  width: 30px;
-}
-
-/* Display Dropdowns on Hover */
-.menu ul li:hover>ul {
-  display: inherit;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-/* Fisrt Tier Dropdown */
-.menu ul ul li {
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
-.menu ul ul>* {
-  width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.038) !important;
-  border: .1px solid rgba(255, 255, 255, 0);
-
-}
-
-.menu ul ul>*:hover {
-  border: .1px solid rgba(255, 255, 255, 0.14);
-}
-
-
-
-
-
 
 div.sticky {
-  background: #05020C;
+  background-color: #000;
   width: 100%;
 }
 
@@ -230,18 +145,16 @@ div.sticky {
 .menu {
   display: flex;
   width: 100%;
-  column-gap: 25px;
+  column-gap: 30px;
   justify-content: center;
 }
 
 .menu .item {
-  flex-basis: 120px;
   height: 35px;
   display: flex;
   justify-content: center;
   place-items: center;
   border-radius: var(--border-radius);
-  font-size: 14px;
 }
 
 .new::after {
@@ -310,7 +223,7 @@ div.sticky {
     flex-direction: column;
     z-index: 999;
     height: 100vh;
-    background: #010101;
+    background: #151515;
     width: 100%;
     gap: 20px;
   }

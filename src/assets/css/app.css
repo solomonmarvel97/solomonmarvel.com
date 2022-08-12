@@ -95,7 +95,7 @@ section {
 }
 
 a {
-  all: unset;
+  font-size: 14px !important;
   cursor: pointer;
 }
 
