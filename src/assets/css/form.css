@@ -29,15 +29,15 @@ form p {
 .button-primary {
   align-items: center;
   width: auto;
-  min-width: 180px;
-  height: 45px;
+  min-width: 150px;
+  height: 55px;
   border-radius: var(--border-radius);
   color: white;
   border: 1px solid white;
   cursor: pointer;
   font-size: 16px;
-  line-height: 24px;
-  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .button-primary:hover {

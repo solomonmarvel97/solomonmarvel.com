@@ -7,7 +7,7 @@
       </video> -->
 
       <div class="container">
-        <div class="mt-5">
+        <div class="mt-3">
           <div>
             <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
           </div>
@@ -26,7 +26,7 @@
               </a>
             </div>
             <div>
-              <div class="mt-5 mb-5" id="calendar">
+              <div class="mt-5 mb-5 glass" id="calendar">
                 <div class="center">
                   <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif"
                     style="height: 50px; width: 50px;" />

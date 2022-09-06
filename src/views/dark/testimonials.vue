@@ -50,9 +50,11 @@ export default {
 }
 
 .testimonials-item img {
-  height: 60px;
-  width: 60px;
-  border-radius: 20px;
+  height: 80px;
+  width: 80px;
+  padding: 4px;
+  border: 2px dotted rgba(0, 0, 0, 0.176);
+  border-radius: 50%;
   object-fit: cover;
 }
 

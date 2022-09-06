@@ -38,7 +38,7 @@
               </ul>
               <ul>
                 <li class="item">
-                  <a target="_blank" href="https://topuniverse.org/coaching/cohort">🚀 Get Into Tech</a>
+                  <a target="_blank" href="https://topuniverse.org/coaching/cohort">🚀 Learn Tech</a>
                 </li>
               </ul>
             </div>
@@ -62,7 +62,8 @@
           <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
           <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
           <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
-          <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Open Source</a>
+          <a class="item" target="_blank" href="https://github.com/solomonmarvel97">🐙 Github</a>
+          <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">🚀 Learn Tech</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org">Blog</a>
         </div>
       </div>

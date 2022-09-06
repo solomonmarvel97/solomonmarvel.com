@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 section {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -103,4 +103,103 @@ body {
   width: 100%;
   background: black; /* width of the entire scrollbar */
   margin-bottom: 50px;
+}
+
+
+.glow:hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 50%;
+  z-index: -1;
+  filter: blur(100px);
+  width: calc(70% + 4px);
+  height: calc(50% + 4px);
+  animation: glowing 0s linear infinite;
+  opacity: 1;
+  border-radius: var(--border-radius);
+}
+
+.glow:active {
+  background: linear-gradient(
+    118.51deg,
+    rgba(0, 0, 0, 0.05) 3.99%,
+    rgba(255, 255, 255, 0) 111.18%
+  ) !important;
+}
+
+.glow:active:after {
+  background: transparent;
+}
+
+.glow:before {
+  opacity: 1;
+}
+
+.glow:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: var(--border-radius);
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.glass {
+  background: linear-gradient(
+    118.51deg,
+    rgba(99, 99, 99, 0.151) 3.99%,
+    rgba(107, 107, 107, 0.144) 111.18%
+  ) !important;
+  /* border: .5px solid rgba(255, 255, 255, 0.03) !important; */
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: var(--border-radius) !important;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(80, 80, 80, 0),
+    rgba(124, 124, 124, 0.75),
+    rgba(80, 80, 80, 0)
+  );
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
