@@ -49,8 +49,8 @@ export default {
   border-radius: 20px;
   border-width: 1px;
   padding: 20px;
-  background: #53535329;
-  border: none
+  background: #68686829;
+  border: .1px solid rgba(255, 255, 255, 0.054)
 }
 
 @media (max-width: 768px) {

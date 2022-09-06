@@ -1,7 +1,13 @@
 exports.portfolio = [
   {
+    icon: '🥂',
+    position: `Founding Partner | Engineering Lead`,
+    platform: `Swiftgo`,
+    link: `https://swiftgo.com`
+  },
+  {
     icon: '🤩',
-    position: `Founder/CEO`,
+    position: `Co-founder | CEO`,
     platform: `Top Universe`,
     link: `https://topuniverse.org`
   },
@@ -25,7 +31,7 @@ exports.portfolio = [
   },
   {
     icon: '🎉',
-    position: `Solutions Architect`,
+    position: `Co-founder | Solutions Architect`,
     platform: `Boltcliq Company`,
     link: `https://boltcliq.com`
   },

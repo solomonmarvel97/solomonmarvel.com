@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container-grid mt-5">
-      <div class="container">
+      <div class="container yellow">
         <div>
           <div class="grid">
             <h1>Experience</h1>
@@ -28,8 +28,9 @@
           <p>Technical Consultant @topafrica</p>
         </div>
         <div class="grid">
-            <h1>Interest</h1>
-            <p>Software Architecture, Systems Design, Cloud Computing, Serverless, Edge Computing, Microservices & Artificial intelligence</p>
+          <h1>Interest</h1>
+          <p>Software Architecture, Systems Design, Cloud Computing, Serverless, Edge Computing, Microservices &
+            Artificial intelligence</p>
         </div>
       </div>
     </div>
@@ -56,7 +57,8 @@
   border-radius: 20px;
   padding: 35px;
   background: #53535329;
-  border: 1px solid rgba(22, 22, 22, 0.456)}
+  border: 1px solid rgba(22, 22, 22, 0.456)
+}
 
 .container:hover {
   box-sizing: border-box;
@@ -103,5 +105,21 @@ footer .copyright {
   place-items: center;
   color: white;
   font-size: 12px;
+}
+
+.yellow {
+  background-color: rgb(255, 255, 115) !important;
+  border: none
+}
+
+.yellow:hover {
+  border: none;
+}
+
+.yellow > div > div > h1 {
+  color: black !important
+}
+.yellow > div > div > p {
+  color: black !important
 }
 </style>

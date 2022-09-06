@@ -17,7 +17,7 @@
               <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
               <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
               <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
-              <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Open Source</a>
+              <a class="item" target="_blank" href="https://github.com/solomonmarvel97">🐙 Github</a>
               <a class="item" target="_blank" href="https://blog.topuniverse.org">Blog</a>
             </div>
           </div>

@@ -21,6 +21,9 @@
               <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
                 Book a session
               </a>
+              <a class="button-primary" href="https://topuniverse.org/coaching/masterclass/preview/?slug=nodejs-masterclass" target="_blank">
+                My Masterclass
+              </a>
             </div>
             <div>
               <div class="mt-5 mb-5" id="calendar">
@@ -85,8 +88,9 @@ video {
 h1 {
   line-height: 60px;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 60px;
   margin-top: 25px;
+  text-align: center;
   font-weight: 900 !important;
 }
 
@@ -115,7 +119,7 @@ h1 span {
     width: 100%;
     line-height: 47px;
     font-size: 37px;
-    text-align: left;
+    text-align: center;
   }
 
   .hero p {
@@ -140,12 +144,6 @@ h1 span {
   background-image: ("../../assets/images/style1/hero-image.png");
 }
 
-
-h1 {
-  font-size: 40px;
-  font-style: normal;
-  text-align: center
-}
 
 h3 {
   font-size: 20px;

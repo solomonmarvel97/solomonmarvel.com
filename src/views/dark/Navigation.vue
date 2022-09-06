@@ -33,7 +33,12 @@
               </ul>
               <ul>
                 <li class="item">
-                  <a target="_blank" href="https://github.com/solomonmarvel97">👨🏾‍💻 Open Source</a>
+                  <a target="_blank" href="https://github.com/solomonmarvel97">🐙 Github</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="item">
+                  <a target="_blank" href="https://topuniverse.org/coaching/cohort">🚀 Get Into Tech</a>
                 </li>
               </ul>
             </div>
