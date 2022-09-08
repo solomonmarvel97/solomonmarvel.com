@@ -2,10 +2,6 @@
   <div>
     <div class="path1"></div>
     <div class="hero">
-      <!-- <video no-controls muted autoplay loop>
-        <source src="@/assets/images/background.mp4" type="video/mp4" />
-      </video> -->
-
       <div class="container">
         <div class="mt-3">
           <div>
@@ -45,11 +41,12 @@
 .hero {
   width: 100%;
   height: 100%;
-  background: black;
+  background: none;
   mix-blend-mode: normal;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  z-index: 100;
 }
 
 #calendar {
@@ -213,7 +210,7 @@ h3 {
   background-image: url("../../assets/images/style2/path1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 99;
+  z-index: 3;
 }
 
 
