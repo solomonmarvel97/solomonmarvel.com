@@ -7,3 +7,9 @@
   font-family: 'Maglony'; /*a name to be used later*/
   src: url('../font/maglony-woff2/Maglony-Bold.woff2')
 }
+
+
+@font-face {
+  font-family: 'Arsenica'; /*a name to be used later*/
+  src: url('../font/arsenica/ArsenicaTrial-Demibold.ttf')
+}
