@@ -14,11 +14,11 @@
           </div>
           <div>
             <div class="menu">
+              <a class="item" target="_blank" href="https://superdev.substack.com">Blog</a>
               <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
               <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
               <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
               <a class="item" target="_blank" href="https://github.com/solomonmarvel97">🐙 Github</a>
-              <a class="item" target="_blank" href="https://superdev.substack.com">Blog</a>
             </div>
           </div>
         </div>
@@ -42,11 +42,11 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
+          <a class="item" target="_blank" href="https://superdev.substack.com">Blog</a>
           <a class="item" target="_blank" href="https://topuniverse.org"> Top Universe</a>
           <a class="item" target="_blank" href="https://topafrica.org"> Top Africa </a>
           <a class="item" target="_blank" href="https://boltcliq.com"> Boltcliq Agency</a>
           <a class="item" target="_blank" href="https://github.com/solomonmarvel97">Git Hub</a>
-          <a class="item" target="_blank" href="https://superdev.substack.com">Blog</a>
         </div>
       </div>
     </div>
