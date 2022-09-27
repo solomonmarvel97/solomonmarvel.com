@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 section {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -202,4 +202,12 @@ hr {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }

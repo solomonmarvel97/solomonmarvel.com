@@ -10,29 +10,36 @@
           <div class="wrapper mb-5">
             <h1 class="mb-1">Marvelous Akporowho</h1>
             <h3 class="mb-1">Technical Leader | Solutions Architect | Software Engineer</h3>
-            <p class="mb-2"> More than 12+ years of software engineering. Let's talk about software architecture, systems design, artificial intelligence,
+            <p class="mb-2"> More than 12+ years of software engineering. Let's talk about software architecture,
+              systems design, artificial intelligence,
               microservices & products.
             </p>
             <div class="center">
               <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
                 Book a session
               </a>
-              <a class="button-primary" href="https://topuniverse.org/coaching/masterclass/preview/?slug=nodejs-masterclass" target="_blank">
+              <a class="button-primary"
+                href="https://topuniverse.org/coaching/masterclass/preview/?slug=nodejs-masterclass" target="_blank">
                 My Masterclass
               </a>
-            </div>
-            <div>
-              <div class="mt-5 mb-5 glass" id="calendar">
-                <div class="center">
-                  <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif"
-                    style="height: 50px; width: 50px;" />
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-
+      <section>
+        <div class="flex-wrap">
+          <div class="mt-5 mb-5 glass" id="calendar">
+            <div class="center">
+              <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif"
+                style="height: 50px; width: 50px;" />
+            </div>
+          </div>
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="dark"
+            data-type="HORIZONTAL" data-vanity="superdeveloper" data-version="v1"><a
+              class="badge-base__link LI-simple-link"
+              href="https://ca.linkedin.com/in/superdeveloper?trk=profile-badge"></a></div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
