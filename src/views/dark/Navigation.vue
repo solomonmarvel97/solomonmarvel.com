@@ -253,6 +253,7 @@ div.sticky {
   place-items: center;
   border-radius: var(--border-radius);
   font-size: 14px;
+
 }
 
 .new::after {
@@ -376,7 +377,7 @@ div.sticky {
   span,
   label {
     font-size: 25px !important;
-    font-family: "Space Grotesk", sans-serif !important;
+    font-family: "Maglony", sans-serif !important;
   }
 
   .active {

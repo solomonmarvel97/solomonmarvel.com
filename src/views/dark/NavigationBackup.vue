@@ -278,7 +278,7 @@ div.sticky {
   span,
   label {
     font-size: 25px !important;
-    font-family: "Space Grotesk", sans-serif !important;
+    font-family: "Maglony", sans-serif !important;
   }
 
   .active {
