@@ -136,7 +136,7 @@ export default {
   position: absolute;
   padding: 20px 20px;
   background: #05020C;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
   width: 220px;
 }
 
@@ -170,7 +170,7 @@ export default {
 .menu ul ul>* {
   width: 100%;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   background-color: rgba(255, 255, 255, 0.038) !important;
   border: .1px solid rgba(255, 255, 255, 0);
 

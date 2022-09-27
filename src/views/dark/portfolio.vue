@@ -10,7 +10,7 @@
             <img :src="item.image" />
             <div class="flex">
               <div>
-                <h1 class="mb-1">{{ item.platform }}</h1>
+                <h3 class="mb-1">{{ item.platform }}</h3>
                 <p class="">{{ item.position }}</p>
               </div>
               <h1 class="icons">{{item.icon}}</h1>
@@ -40,9 +40,8 @@ export default {
 }
 
 .portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
   gap: 15px;
   width: 100%;
 }
@@ -53,15 +52,15 @@ export default {
   flex-basis: 300px;
   height: auto;
   opacity: 0.99;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   border-width: 1px;
-  padding: 15px;
+  padding: 10px;
   background: #6868681e;
   border: .5px solid rgba(255, 255, 255, 0.085)
 }
 
 .portfolio-item img {
-  border-radius: 10px;
+  border-radius: 4px;
   margin-bottom: 1em;
   object-fit: cover;
   height: 150px;
@@ -71,7 +70,7 @@ export default {
   .portfolio-item {
     padding: 10px;
     flex-basis: 150px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
   }
 }
 

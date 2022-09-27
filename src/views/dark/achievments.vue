@@ -54,7 +54,7 @@
   display: grid;
   align-items: center;
   width: 100%;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   padding: 35px;
   background: #53535329;
   border: 1px solid rgba(22, 22, 22, 0.456)
@@ -89,7 +89,7 @@
 
 .projects {
   padding: 10px;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   position: absolute;
   right: 30px;
   bottom: 30px;

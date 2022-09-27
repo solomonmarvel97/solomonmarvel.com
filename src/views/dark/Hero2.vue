@@ -34,7 +34,7 @@
                 style="height: 50px; width: 50px;" />
             </div>
           </div>
-          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="dark"
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark"
             data-type="HORIZONTAL" data-vanity="superdeveloper" data-version="v1"><a
               class="badge-base__link LI-simple-link"
               href="https://ca.linkedin.com/in/superdeveloper?trk=profile-badge"></a></div>
@@ -58,7 +58,7 @@
 
 #calendar {
   padding: 25px;
-  border-radius: 25px;
+  border-radius: var(--border-radius);
   background: #53535329;
   border: 1px solid rgba(22, 22, 22, 0.456)
 }
@@ -180,7 +180,7 @@ h3 {
 
 .container .cta_blog {
   height: 65px;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   background-image: linear-gradient(117deg, #232222 8%, #323232 93%);
   color: white;
   display: grid;
@@ -192,7 +192,7 @@ h3 {
   display: grid;
   place-items: center;
   opacity: 0.73;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   background-color: #f0f0f0;
 }
 

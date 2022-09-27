@@ -45,7 +45,7 @@ exports.testimonials = [
   },
   {
     image: require("@/assets/images/testimonials/Okafor-Joseph-Ugochukwu.png"),
-    name: `Okafor Joseph Ugochukwu`,
+    name: `Okafor Ugochukwu`,
     text: `In simple term, Marvel is a very resourceful and energetic person. Working with Marvel was quite educating, because Marvel is not just a programmer but a sales person with knowledge in Everything Business and that's the exact Reason  why I brought him on the team. Working with Marvel was worth the time he spent with us.`,
     company: `Made In Africa`,
   },

@@ -41,4 +41,11 @@ exports.portfolio = [
     link: `https://boltcliq.com`,
     image: `https://images.unsplash.com/photo-1565728744382-61accd4aa148?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbnN1bHRhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=10`
   },
+  {
+    icon: '🎉',
+    position: `Software Engineer`,
+    platform: `Capital City Development`,
+    link: `https://ccdlweb.pages.dev/`,
+    image: `https://images.unsplash.com/photo-1565402170291-8491f14678db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1634&q=10`
+  },
 ];

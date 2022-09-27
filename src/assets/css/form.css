@@ -108,7 +108,7 @@ input[type="password"], input[type="email"] {
   padding: 7px;
   width: 100%;
   height: 35px;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
   border: 1px solid rgba(0, 0, 0, 0.41);
   color: black;
 }
@@ -133,7 +133,7 @@ form input[type="submit"] {
   width: 100%;
   height: 35px;
   background: #6431E2;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   color: white;
   cursor: pointer;
   border: none;
@@ -173,11 +173,10 @@ select {
   color: var(--white);
   width: 100%;
   height: 35px;
-  border-radius: 20px;
   padding: 0 12px;
   border: 1px solid rgba(0, 0, 0, 0.41);
   font-size: 13px;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   color: rgba(0, 0, 0, 0.716);
   -webkit-appearance: none;
 }
@@ -219,7 +218,7 @@ form {
   grid-row-gap: 22px;
   width: 100%;
   background-color: white;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
 }
 
 .form-column {

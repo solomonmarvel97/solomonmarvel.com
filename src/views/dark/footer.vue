@@ -5,7 +5,7 @@
     </div>
 
     <div class="copyright mt-2">
-      copyright @ {{ new Date().getFullYear() }} All rights reserved
+      Copyright @ {{ new Date().getFullYear() }}
     </div>
   </footer>
 </template>
@@ -22,7 +22,7 @@
   width: 100%;
   height: 300px;
   background-color: rgb(24, 24, 24);
-  border-radius: 15px;
+  border-radius: var(--border-radius);
   padding: 40px;
 }
 

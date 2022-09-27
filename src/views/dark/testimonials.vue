@@ -1,20 +1,14 @@
 <template>
   <div class="mt-8 mb-5">
     <div class="center">
-      <h1 class="mb-3">Testimonials/Commendations</h1>
+      <h1 class="mb-3">Testimonials & Commendations</h1>
     </div>
     <div class="testimonials-grid">
-      <div
-        class="testimonials-item"
-        v-for="(item, index) in testimonials"
-        :key="index"
-      >
-        <div>
-          <img class="mb-1" :src="item.image" />
-          <h1 class="mb-1">{{ item.name }}</h1>
-          <p class="mb-1">{{ item.text }}</p>
-          <p class="company">{{ item.company }}</p>
-        </div>
+      <div class="testimonials-item glow" v-for="(item, index) in testimonials" :key="index">
+        <img class="mb-1" :src="item.image" />
+        <h3 class="mb-1">{{ item.name }}</h3>
+        <p class="mb-1">{{ item.text }}</p>
+        <p class="company">{{ item.company }}</p>
       </div>
     </div>
   </div>
@@ -32,7 +26,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .testimonials-grid {
   display: grid;
   gap: 20px;
@@ -42,9 +36,9 @@ export default {
 
 .testimonials-item {
   height: auto;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   padding: 30px;
-  background: white;
+  background: #151515;
   width: 100%;
   margin: 0 auto;
 }
@@ -53,18 +47,18 @@ export default {
   height: 80px;
   width: 80px;
   padding: 4px;
-  border: 2px dotted rgba(0, 0, 0, 0.176);
+  border: .5px solid rgba(255, 255, 255, 0.246);
   border-radius: 50%;
   object-fit: cover;
 }
 
 .testimonials-item .company {
-  color: rgb(99, 99, 99);
+  color: white;
   font-size: 12px;
 }
 
 .testimonials-item h1 {
-  color: #222;
+  color: white;
 }
 
 .testimonials-item p {
@@ -73,16 +67,7 @@ export default {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  color: #222;
-  margin-bottom: 1em;
-}
-
-h1 {
-  font-size: 20px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
   color: white;
+  margin-bottom: 1em;
 }
 </style>
