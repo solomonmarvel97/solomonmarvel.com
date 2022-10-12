@@ -56,6 +56,7 @@
   z-index: 100;
 }
 
+
 #calendar {
   padding: 25px;
   border-radius: var(--border-radius);
@@ -242,6 +243,7 @@ h3 {
 .bringtofront {
   color: white;
 }
+
 </style>
 
 <script>
