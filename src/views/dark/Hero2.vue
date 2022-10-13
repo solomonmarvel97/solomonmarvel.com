@@ -10,9 +10,8 @@
           <div class="wrapper mb-5">
             <h1 class="mb-1">Marvelous Akporowho</h1>
             <h3 class="mb-1">Technical Leader | Solutions Architect | Software Engineer</h3>
-            <p class="mb-2"> More than 12+ years of software engineering. Let's talk about software architecture,
-              systems design, artificial intelligence,
-              microservices & products.
+            <p class="mb-2"> More than 12+ years of software engineering. MSc in Advanced AI & The future of automation (in view). Let's talk about software architecture,
+              systems design, artificial intelligence, microservices & products.
             </p>
             <div class="center">
               <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
