@@ -5,7 +5,7 @@
       <div class="container">
         <div class="mt-3">
           <div>
-            <img class="image-wrapper avatar" src="@/assets/images/style1/avatar.png" />
+            <img class="image-wrapper avatar" src="@/assets/images/style1/2.png" />
           </div>
           <div class="wrapper mb-5">
             <h1 class="mb-1">Marvelous Akporowho</h1>
