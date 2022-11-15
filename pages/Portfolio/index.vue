@@ -11,7 +11,7 @@
           <a target="blank" :href="item.link">
             <div class="">
               <img :src="item.image" />
-              <div class="flex">
+              <div class="">
                 <div class="details">
                   <h3 class="mb-1">{{ item.platform }}</h3>
                   <p class="">{{ item.position }}</p>
@@ -53,13 +53,8 @@
   .portfolio-item {
     position: relative;
     align-items: center;
-    flex-basis: 300px;
     height: 300;
-    opacity: 0.99;
     border-radius: var(--input-border-radius) !important;
-    border-width: 1px;
-    background: #6868681e;
-    border: .5px solid rgba(255, 255, 255, 0.085)
   }
 
   .portfolio-item .details {
@@ -74,12 +69,10 @@
   
   @media (max-width: 768px) {
     .portfolio-item {
-      padding: 10px;
       flex-basis: 150px;
       border-radius: var(--border-radius);
     }
   }
-  
   
   a {
     font-size: 12px;
