@@ -4,16 +4,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Swiftgo",
+    title: "Marvelous Akporowho",
     meta: [
       {charset: "utf-8"},
       {name: "viewport", content: "width=device-width, initial-scale=1"},
       { hid: "description", name: "description", content: "Retail and Service SaaS platform for SMBs in emerging Markets", },
       { name: "format-detection", content: "telephone=no" },
-      { hid: "og:image", property: "og:image", content: `https://swiftgo.com/ogimage.png`, },
+      { hid: "og:image", property: "og:image", content: `https://solomnmarvel.com/ogimage.png`, },
     ],
     link: [
-      // { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {rel: "stylesheet", href: "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"}
     ],
     script: [
@@ -63,13 +63,13 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: "https://api.swiftgo.com",
+    baseURL: "https://api.solomonmarvel.com",
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Swiftgo',
+      name: 'Marvelous Akporowho',
       lang: 'en',
       useWebmanifestExtension: false
     },

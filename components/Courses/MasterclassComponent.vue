@@ -9,7 +9,7 @@
             {{description}}
         </p>
         <div>
-            <a href="#" class="button-primary">Join Masterclass</a>
+            <a :href="link" target="_blank" class="button-primary">Join Masterclass</a>
         </div>
     </div>
     </div>
@@ -22,6 +22,7 @@ export default {
         dateTime: String,
         title: String,
         description: String,
+        link: String,
     }
 }
 </script>
