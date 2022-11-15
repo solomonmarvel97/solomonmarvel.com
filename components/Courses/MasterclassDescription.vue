@@ -1,5 +1,5 @@
 <template>
-    <div class="service glow glass">
+    <div class="service glass">
         <p class="title mb-1">{{title}}</p>
         <p class="description mb-1">
             {{description}}
@@ -22,7 +22,7 @@ export default {
     gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.222);
     padding: 20px;
-    max-width: 300px;
+    max-width: 100%;
     border-radius: var(--input-border-radius) !important;
     position: relative;
 }
@@ -67,7 +67,7 @@ export default {
     gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.222);
     padding: 15px;
-    max-width: 160px;
+    max-width: 150px;
     border-radius: var(--input-border-radius) !important;
     position: relative;
 }

@@ -8,7 +8,7 @@ export default {
     meta: [
       {charset: "utf-8"},
       {name: "viewport", content: "width=device-width, initial-scale=1"},
-      { hid: "description", name: "description", content: "Retail and Service SaaS platform for SMBs in emerging Markets", },
+      { hid: "description", name: "description", content: "Technical Leader | Solutions Architect | Software Engineer", },
       { name: "format-detection", content: "telephone=no" },
       { hid: "og:image", property: "og:image", content: `https://solomnmarvel.com/ogimage.png`, },
     ],

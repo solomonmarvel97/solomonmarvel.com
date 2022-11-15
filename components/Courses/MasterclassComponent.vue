@@ -1,6 +1,6 @@
 <template>
     <div class="masterclass  glass">
-        <img class="mb-1" :src="image"/>
+        <img :src="image"/>
         <div class="details">
         <p class="tag mb-1">Date & Duration</p>
         <p class="dateTime mb-2">{{dateTime}}</p>
@@ -64,8 +64,8 @@ export default {
 }
 
 .masterclass .dateTime {
-    font-size: 12px;
-    color: rgb(255, 255, 255);
+    font-size: 14px;
+    color: rgb(122, 255, 226);
 }
 
 .masterclass .title {

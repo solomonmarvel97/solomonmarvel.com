@@ -45,12 +45,13 @@
 }
 
 .container-grid {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .container {
+  flex: 1;
   display: grid;
   align-items: center;
   width: 100%;

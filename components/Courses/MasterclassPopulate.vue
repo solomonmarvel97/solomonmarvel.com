@@ -51,9 +51,16 @@ export default {
 <style scoped>
 .service-grid {
     gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+}
+
+@media (max-width: 1000px) {
+    .service-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    place-items: center;
+}
 }
 </style>

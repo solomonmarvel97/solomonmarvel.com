@@ -1,23 +1,19 @@
 <template>
     <div class="mt-5">
-    <section>
-        <div class="center">
-            <h1 class="mb-3">Masterclass</h1>
-        </div>
-        <div class="service-grid">
-            <MasterclassComponent v-for="(i, index) in masterclass" 
-                    :key="index" 
-                    :image="i.image" 
-                    :dateTime="i.dateTime" 
-                    :title="i.title" 
-                    :description="i.description"
-                    :link="i.link"/>
-            <div>
-                <MasterclassPopulate/>
+        <section>
+            <div class="center">
+                <h1 class="mb-5">Premium Masterclass</h1>
             </div>
-        </div>
-    </section>
-</div>
+
+            <div class="service-grid">
+                <MasterclassComponent v-for="(i, index) in masterclass" :key="index" :image="i.image"
+                    :dateTime="i.dateTime" :title="i.title" :description="i.description" :link="i.link" />
+                <div>
+                    <MasterclassPopulate />
+                </div>
+            </div>
+        </section>
+    </div>
 </template>
 
 <script>
@@ -50,14 +46,19 @@ export default {
     gap: 30px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    place-items: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.034);
+    padding: 30px;
+    border-radius: var(--input-border-radius);
 }
 
 @media (max-width: 1000px) {
     .service-grid {
         display: flex;
         flex-wrap: wrap;
+        background-color: transparent;
+        padding: 0;
+        border-radius: none;
     }
 }
 </style>

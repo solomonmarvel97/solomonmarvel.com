@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Services from '../../components/Courses/Services.vue';
+import Services from '../../components/Services.vue';
 
 const services = [
     {
