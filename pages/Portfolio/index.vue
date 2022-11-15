@@ -12,7 +12,7 @@
             <div class="">
               <img :src="item.image" />
               <div class="flex">
-                <div>
+                <div class="details">
                   <h3 class="mb-1">{{ item.platform }}</h3>
                   <p class="">{{ item.position }}</p>
                 </div>
@@ -56,16 +56,18 @@
     flex-basis: 300px;
     height: 300;
     opacity: 0.99;
-    border-radius: var(--border-radius);
+    border-radius: var(--input-border-radius) !important;
     border-width: 1px;
-    padding: 10px;
     background: #6868681e;
     border: .5px solid rgba(255, 255, 255, 0.085)
   }
+
+  .portfolio-item .details {
+    padding: 30px;
+  }
   
   .portfolio-item img {
-    border-radius: 4px;
-    margin-bottom: 1em;
+    border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
     object-fit: cover;
     height: 200px;
   }

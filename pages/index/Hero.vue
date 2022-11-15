@@ -2,8 +2,8 @@
   <div class="mb-5">
   <div class="path1"></div>
     <section class="mt-2 hero">
-          <div>
-            <img class="avatar" src="@/assets/images/avatar/1.png" />
+          <div class="avatar-wrapper glow">
+            <img class="avatar-border avatar" src="@/assets/images/avatar/avatar.png" />
           </div>
           <div>
             <h1 class="mb-1">Marvelous Akporowho</h1>
@@ -124,12 +124,21 @@ h3 {
 
 
 .hero .avatar {
-  border-radius: var(--input-border-radius) !important;
+  border-radius: 50%;
   height: 80%;
   width: 80%;
   display: grid;
   margin: 0 auto;
-  object-fit: cover
+  object-fit: cover;
+}
+
+.hero .avatar-wrapper {
+  position: relative;
+}
+
+.hero .avatar-border {
+  border: 1px solid rgba(255, 255, 255, 0.172);
+  padding: 10px;
 }
 
 

@@ -28,24 +28,25 @@ export default {
 
 <style>
 .testimonials-grid {
-  display: grid;
-  gap: 30px;
-  row-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .testimonials-item {
+  flex: 1;
+  flex-basis: 350px;
   border-radius: var(--border-radius);
   padding: 20px;
   width: 100%;
-  margin: 0 auto;
   position: relative;
   background-color: rgba(255, 255, 255, 0.034);
 }
 
 .testimonials-item img {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   padding: 4px;
   border: .5px solid rgba(255, 255, 255, 0.165);
   border-radius: 50%;
