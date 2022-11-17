@@ -24,7 +24,7 @@ export default {
     gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.222);
     padding: 20px;
-    max-width: 250px;
+    
     min-height: 300px;
     border-radius: var(--input-border-radius) !important;
     position: relative;

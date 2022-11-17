@@ -12,9 +12,9 @@
               systems design, artificial intelligence, microservices & products.
             </p>
             <div class="button-flex">
-              <a class="button-primary" href="https://calendly.com/akporowho-marvelous/let-s-talk" target="_blank">
+              <nuxt-link class="button-primary" to="/consulting">
                 Consulting
-              </a>
+              </nuxt-link>
               <nuxt-link class="button-primary" to="courses">
                 Courses
               </nuxt-link>

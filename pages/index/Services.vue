@@ -51,4 +51,8 @@ export default {
     justify-content: center;
     padding-bottom: 5em;
 }
+
+.service-grid > div {
+    flex: 1;
+}
 </style>
