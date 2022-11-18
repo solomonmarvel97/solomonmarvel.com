@@ -15,7 +15,7 @@
                             <p>{{i.item}}</p>
                         </div>
 
-                        <a class="button-primary" target="_blank" href="https://buy.stripe.com/8wM03C0aC91t2Sk28b">Book Session</a>
+                        <a class="mt-4 button-primary" target="_blank" href="https://buy.stripe.com/8wM03C0aC91t2Sk28b">Book Session</a>
                     </div>
             </div>
             <div class="glass">
@@ -27,7 +27,7 @@
                             <img loading="lazy" src="@/assets/icons/check.svg"/>
                             <p>{{i.item}}</p>
                         </div>
-                    <a class="button-primary" target="_blank" href="https://buy.stripe.com/28o9Ec3mOdhJ78AcMQ">Book Session</a>
+                    <a class="mt-4 button-primary" target="_blank" href="https://buy.stripe.com/28o9Ec3mOdhJ78AcMQ">Book Session</a>
                 </div>
             </div>
         </div>
@@ -97,11 +97,10 @@ export default {
     place-items: center;
     width: 100%;
     border-radius: var(--input-border-radius) !important;
-    text-align: center;
 }
 
 .consulting .consulting-grid .details {
-    padding: 30px;
+    padding: 40px;
 }
 
 .consulting .consulting-grid img {
@@ -113,8 +112,8 @@ export default {
 .details .item {
     display: flex;
     gap: 5px;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .details .item img {
