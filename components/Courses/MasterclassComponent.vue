@@ -1,6 +1,6 @@
 <template>
     <div class="masterclass  glass">
-        <img :src="image"/>
+        <img loading="lazy" :src="image"/>
         <div class="details">
         <p class="tag mb-1">Date & Duration</p>
         <p class="dateTime mb-2">{{dateTime}}</p>

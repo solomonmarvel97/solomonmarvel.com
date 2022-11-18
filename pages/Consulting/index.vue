@@ -2,16 +2,16 @@
     <div class="consulting">
         <section class="mt-6">
             <h1 class="mb-2">Consulting Service</h1>
-            <p>Hello 👋🏾, let create a solution to that problem</p>
+            <p>Hello 👋🏾, let's create a solution to that problem</p>
             <div class="consulting-grid mt-5">
                 <div class="glass">
-                    <img class="mb-2" src="@/assets/images/consulting1.png"/>
+                    <img loading="lazy" class="mb-2" src="@/assets/images/consulting1.png"/>
                     <div class="details">
                         <h2 class="mb-1">30 minutes session</h2>
                         <h1 class="mb-1">$50</h1>
                         
                         <div class="item mb-2" v-for="(i, index) in plan1" :key="index">
-                            <img src="@/assets/icons/check.svg"/>
+                            <img loading="lazy" src="@/assets/icons/check.svg"/>
                             <p>{{i.item}}</p>
                         </div>
 
@@ -19,12 +19,12 @@
                     </div>
             </div>
             <div class="glass">
-                <img class="mb-2" src="@/assets/images/consulting2.png"/>
+                <img loading="lazy" class="mb-2" src="@/assets/images/consulting2.png"/>
                 <div class="details">
                     <h2 class="mb-1">1 hour session</h2>
                     <h1 class="mb-1">$100</h1>
                     <div class="item mb-2" v-for="(i, index) in plan2" :key="index">
-                            <img src="@/assets/icons/check.svg"/>
+                            <img loading="lazy" src="@/assets/icons/check.svg"/>
                             <p>{{i.item}}</p>
                         </div>
                     <a class="button-primary" target="_blank" href="https://buy.stripe.com/28o9Ec3mOdhJ78AcMQ">Book Session</a>

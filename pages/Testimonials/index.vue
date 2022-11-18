@@ -5,7 +5,7 @@
     </div>
     <div class="testimonials-grid">
       <div class="testimonials-item glow" v-for="(item, index) in testimonials" :key="index">
-        <img class="mb-1" :src="item.image" />
+        <img loading="lazy" class="mb-1" :src="item.image" />
         <h3 class="mb-1">{{ item.name }}</h3>
         <p class="mb-1">{{ item.text }}</p>
         <p class="company">{{ item.company }}</p>

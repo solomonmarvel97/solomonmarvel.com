@@ -4,7 +4,7 @@
       <section>
         <div class="menu-wrapper">
           <NuxtLink class="logo" to="/">
-            <img src="@/assets/images/avatar/4.png"/>
+            <img loading="lazy" src="@/assets/images/avatar/4.png"/>
           </NuxtLink>
           <div>
             <div class="menu">
@@ -31,7 +31,7 @@
         </div>
         <div class="mobile-header">
           <NuxtLink class="logo" to="/">
-            <img src="@/assets/images/avatar/4.png"/>
+            <img loading="lazy" src="@/assets/images/avatar/4.png"/>
           </NuxtLink>
           <button class="open_toggle" @click="toggle"></button>
         </div>

@@ -10,7 +10,7 @@
         <div class="portfolio-item glass" v-for="(item, index) in portfolio" :key="index">
           <a target="blank" :href="item.link">
             <div class="">
-              <img :src="item.image" />
+              <img loading="lazy" :src="item.image" />
               <div class="">
                 <div class="details">
                   <h3 class="mb-1">{{ item.platform }}</h3>

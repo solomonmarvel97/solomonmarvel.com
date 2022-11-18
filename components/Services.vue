@@ -1,6 +1,6 @@
 <template>
     <div class="service glow glass">
-        <img class="mb-1" :src="image"/>
+        <img loading="lazy" class="mb-1" :src="image"/>
         <p class="title mb-1">{{title}}</p>
         <p class="description mb-1">
             {{description}}
