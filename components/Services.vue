@@ -2,9 +2,6 @@
     <div class="service glow glass">
         <img loading="lazy" class="mb-1" :src="image"/>
         <p class="title mb-1">{{title}}</p>
-        <p class="description mb-1">
-            {{description}}
-        </p>
     </div>
 </template>
 
@@ -24,8 +21,7 @@ export default {
     gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.222);
     padding: 20px;
-    
-    min-height: 300px;
+    min-height: 180px;
     border-radius: var(--input-border-radius) !important;
     position: relative;
 }
@@ -50,12 +46,6 @@ export default {
     font-size: 20px;
     line-height: 1.4
 }
-.service .description {
-    color:#ffffffb0;
-    font-size: 14px;
-    line-height: 1.5
-}
-
 .service .button {
     background-color: rgba(255, 255, 255, 0.049);
     padding: 10px 20px;

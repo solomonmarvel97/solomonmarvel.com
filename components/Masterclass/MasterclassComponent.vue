@@ -1,16 +1,14 @@
 <template>
-    <div class="masterclass  glass">
-        <img loading="lazy" :src="image"/>
+    <div class="masterclass glow glass">
+        <img class="mb-1" loading="lazy" :src="image"/>
         <div class="details">
-        <p class="tag mb-1">Date & Duration</p>
-        <p class="dateTime mb-2">{{dateTime}}</p>
+        <p class="tag mb-2">Duration</p>
+        <p class="dateTime mb-1">{{dateTime}}</p>
         <p class="title mb-1">{{title}}</p>
         <p class="description mb-3">
             {{description}}
         </p>
-        <div>
-            <a :href="link" target="_blank" class="button-primary">Join Masterclass</a>
-        </div>
+        <a :href="link" target="_blank" class="button-primary">Join Masterclass</a>
     </div>
     </div>
 </template>
@@ -30,10 +28,8 @@ export default {
 <style scoped>
 .masterclass {
     display: grid;
-    gap: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.222);
+    gap: 10px;
     min-width: 300px;
-    min-height: 300px;
     border-radius: var(--input-border-radius) !important;
     position: relative;
 }
@@ -47,7 +43,7 @@ export default {
     border-radius: 50px;
 }
 .masterclass img {
-    height: 220px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     border: none;
@@ -55,7 +51,7 @@ export default {
 }
 
 .masterclass .details {
-    padding: 20px
+    padding: 0 25px 25px 25px
 }
 
 .masterclass span {
@@ -78,14 +74,6 @@ export default {
     color:#ffffffb0;
     font-size: 16px;
     line-height: 1.5
-}
-
-.masterclass .button {
-    background-color: rgba(255, 255, 255, 0.049);
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: var(--border-radius);
-    place-items: center;
 }
 
 </style>

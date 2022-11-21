@@ -4,7 +4,7 @@
             <h1 class="mb-3">Services</h1>
         </div>
         <div class="service-grid">
-            <Services v-for="(i, index) in services" :key="index"  :image="i.image" :title="i.title" :description="i.description"/>
+            <Services v-for="(i, index) in services" :key="index"  :image="i.image" :title="i.title"/>
         </div>
     </section>
 </template>
@@ -16,22 +16,18 @@ const services = [
     {
         image: require(`@/assets/icons/services/agile.svg`),
         title: 'Agile Development Consulting',
-        description: 'Get a single, complete platform for the entire software development pipeline and team collaboration.'
     },
     {
         image: require(`@/assets/icons/services/software.svg`),
         title: 'Software Architecture',
-        description: 'Get a single, complete platform for the entire software development pipeline and team collaboration.'
     },
     {
         image: require(`@/assets/icons/services/cloud.svg`),
         title: 'Cloud Engineering & Management',
-        description: 'Get a single, complete platform for the entire software development pipeline and team collaboration.'
     },
     {
         image: require(`@/assets/icons/services/workflow.svg`),
         title: 'Workflow Development',
-        description: 'Get a single, complete platform for the entire software development pipeline and team collaboration.'
     },
 
 ]

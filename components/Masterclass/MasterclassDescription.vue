@@ -1,8 +1,8 @@
 <template>
     <div class="service glass">
-        <p class="title mb-1">{{title}}</p>
+        <p class="title">{{Title}}</p>
         <p class="description mb-1">
-            {{description}}
+            {{Description}}
         </p>
     </div>
 </template>
@@ -10,8 +10,8 @@
 <script>
 export default {
     props: {
-        title: String,
-        description: String
+        Title: String,
+        Description: String
     }
 }
 </script>

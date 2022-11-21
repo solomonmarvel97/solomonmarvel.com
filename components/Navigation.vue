@@ -5,21 +5,22 @@
         <div class="menu-wrapper">
           <NuxtLink class="logo" to="/">
             <img loading="lazy" src="@/assets/images/avatar/4.png"/>
+            <p>Marv's Garage</p>
           </NuxtLink>
           <div>
             <div class="menu">
               <ul>
                 <li>
-                  <nuxt-link to="courses">Courses</nuxt-link>
+                  <nuxt-link to="/masterclass">Masterclass</nuxt-link>
                 </li>
                 <li class="item">
-                  <nuxt-link to="testimonials">Testimonials</nuxt-link>
+                  <nuxt-link to="/testimonials">Testimonials</nuxt-link>
                 </li>
                 <li class="item ">
-                  <nuxt-link to="portfolio">Portfolio</nuxt-link>
+                  <nuxt-link to="/portfolio">Portfolio</nuxt-link>
                 </li>
                 <li class="item ">
-                  <nuxt-link to="services">Services</nuxt-link>
+                  <nuxt-link to="/consulting">Consulting</nuxt-link>
                 </li>
                 <li class="item">
                   <a target="_blank" href="https://superdev.substack.com">Blog</a>
@@ -40,10 +41,10 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
-          <a class="item" target="_blank" href="courses">Courses</a>
-          <a class="item" target="_blank" href="testimonials">Testimonials</a>
-          <a class="item" target="_blank" href="portfolio">Portfolio</a>
-          <a class="item" target="_blank" href="services">Services</a>
+          <a class="item" target="_blank" href="/masterclass">Masterclass</a>
+          <a class="item" target="_blank" href="/testimonials">Testimonials</a>
+          <a class="item" target="_blank" href="/portfolio">Portfolio</a>
+          <a class="item" target="_blank" href="/consulting">Consulting</a>
           <a class="item" target="_blank" href="https://superdev.substack.com"> Blog</a>
           <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Free Bootcamp</a>
         </div>
@@ -127,7 +128,7 @@ export default {
 }
 
 .menu ul > li {
-  width: 100px;
+  width: 110px;
   padding: 10px 0px;
   border-radius: var(--border-radius);
 }
@@ -152,8 +153,7 @@ export default {
 }
 
 .logo p {
-  font-size: 11px !important;
-  letter-spacing: 1px;
+  font-size: 14px !important;
   left: 35px;
 }
 

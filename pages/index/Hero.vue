@@ -15,8 +15,8 @@
               <nuxt-link class="button-primary" to="/consulting">
                 Consulting
               </nuxt-link>
-              <nuxt-link class="button-primary" to="courses">
-                Courses
+              <nuxt-link class="button-secondary" to="/masterclass">
+                Masterclass
               </nuxt-link>
             </div>
           </div>
