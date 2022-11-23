@@ -1,29 +1,30 @@
 <template>
-    <div>
-      <Hero />
-      <Services/>
-      <Achievments />
-      <Badge />
-    </div>
-  </template>
+  <div>
+    <Hero />
+    <Services />
+    <Achievments />
+    <Badge />
+  </div>
+</template>
   
-  <script>
-  import Hero from "./Hero.vue";
-  import Services from './Services.vue'
-  import Achievments from "./Achievments.vue";
+<script>
+import Hero from "./Hero.vue";
+import Services from './Services.vue'
+import Achievments from "./Achievments.vue";
 import Badge from "~/components/Badge.vue";
-  
-  export default {
-    layout: 'web',
-    components: {
+
+export default {
+  layout: 'web',
+  components: {
     Hero,
     Services,
     Achievments,
     Badge
-},
-  };
-  </script>
+  },
+};
+</script>
   
-  <style scoped>
-  </style>
+<style scoped>
+
+</style>
   

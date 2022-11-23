@@ -33,6 +33,7 @@
         <div class="mobile-header">
           <NuxtLink class="logo" to="/">
             <img loading="lazy" src="@/assets/images/avatar/4.png"/>
+            <p>Marv's Garage</p>
           </NuxtLink>
           <button class="open_toggle" @click="toggle"></button>
         </div>
@@ -41,10 +42,10 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
-          <a class="item" target="_blank" href="/masterclass">Masterclass</a>
-          <a class="item" target="_blank" href="/testimonials">Testimonials</a>
-          <a class="item" target="_blank" href="/portfolio">Portfolio</a>
-          <a class="item" target="_blank" href="/consulting">Consulting</a>
+          <a class="item" href="/masterclass">Masterclass</a>
+          <a class="item" href="/testimonials">Testimonials</a>
+          <a class="item" href="/portfolio">Portfolio</a>
+          <a class="item" href="/consulting">Consulting</a>
           <a class="item" target="_blank" href="https://superdev.substack.com"> Blog</a>
           <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Free Bootcamp</a>
         </div>

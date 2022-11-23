@@ -1,25 +1,38 @@
 <template>
   <div class="mb-5">
-  <div class="path1"></div>
+    <div class="path1"></div>
     <section class="mt-2 hero">
-          <div class="avatar-wrapper glow">
-            <img loading="lazy" class="avatar-border avatar" src="@/assets/images/avatar/avatar.png" />
-          </div>
-          <div>
-            <h1 class="mb-1">Marvelous Akporowho</h1>
-            <h3 class="mb-1">Technical Leader | Solutions Architect | Software Engineer</h3>
-            <p class="mb-2"> More than 12+ years of software engineering. MSc in Advanced AI & The future of automation (in view). Let's talk about software architecture,
-              systems design, artificial intelligence, microservices & products.
-            </p>
-            <div class="button-flex">
-              <nuxt-link class="button-primary" to="/consulting">
-                Consulting
-              </nuxt-link>
-              <nuxt-link class="button-secondary" to="/masterclass">
-                Masterclass
-              </nuxt-link>
-            </div>
-          </div>
+      <div class="avatar-wrapper glow">
+        <img loading="lazy" class="avatar-border avatar" src="@/assets/images/avatar/avatar.png" />
+      </div>
+      <div>
+        <h1 class="mb-1">Marvelous Akporowho</h1>
+        <h3 class="mb-1">Independent Consultant | Technical Leader | Solutions Architect</h3>
+        <p class="mb-1"> 12+ software engineering experience. MBA in Advanced AI & The future of automation (in view).
+          Let's talk about software architecture,
+          systems design, artificial intelligence, microservices & products.
+        </p>
+        <div class="button-flex mb-3">
+          <nuxt-link class="button-primary" to="/consulting">
+            Consulting
+          </nuxt-link>
+          <nuxt-link class="button-secondary" to="/masterclass">
+            Masterclass
+          </nuxt-link>
+        </div>
+        <div class="socials">
+          <p>Connect with me</p>
+          <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
+            <img src="@/assets/icons/linkedin.svg"/>
+          </a>
+          <a href="https://www.youtube.com/@superdeveloper" target="_blank">
+            <img src="@/assets/icons/youtube.svg"/>
+          </a>
+          <a href="https://www.twitter.com/solomonmarvel97" target="_blank">
+            <img src="@/assets/icons/twitter.svg"/>
+          </a>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -39,7 +52,7 @@
   height: 80vh;
 }
 
-.hero > div {
+.hero>div {
   flex: 1;
 }
 
@@ -59,7 +72,7 @@ h1 {
   -webkit-text-fill-color: transparent; */
   color: white;
   line-height: 1.1;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 900 !important;
 }
 
@@ -110,7 +123,7 @@ h3 {
     line-height: 1.2;
     font-size: 40px;
   }
-  
+
   h3 {
     width: 100%;
     line-height: 1.2;
@@ -163,6 +176,7 @@ h3 {
   .hero {
     height: auto;
   }
+
   .side-image {
     width: 300px;
     z-index: -1;
@@ -175,7 +189,7 @@ h3 {
   .hero .avatar {
     height: 100%;
     width: 100%;
-}
+  }
 }
 
 .path1 {
@@ -213,4 +227,19 @@ h3 {
   color: white;
 }
 
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  row-gap: 5px;
+  place-items: center;
+  align-items: flex-start;
+}
+
+.socials img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  /* color: rgb(88, 88, 252) */
+}
 </style>
