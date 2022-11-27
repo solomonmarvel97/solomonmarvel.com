@@ -31,6 +31,9 @@
           <a href="https://www.twitter.com/solomonmarvel97" target="_blank">
             <img src="@/assets/icons/twitter.svg"/>
           </a>
+          <a href="https://www.instagram.com/solomonmarvel97" target="_blank">
+            <img src="@/assets/icons/instagram.svg"/>
+          </a>
         </div>
       </div>
     </section>
