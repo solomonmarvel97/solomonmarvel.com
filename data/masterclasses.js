@@ -1,8 +1,42 @@
 exports.masterclasses = [
     {
+        id: '851d64af-8393-49c3-a258-6935a0fcf556',
+        image: 'https://secutec.eu/wp-content/uploads/2021/09/cloudflare2.jpg',
+        dateTime: `Three (3) Days Live Session, 2hrs/Day`,
+        title: 'Premium Cloudflare Masterclass',
+        description: 'Become a cloudlare power user in three days. Learn to use cloudflare servers to improve the security, performance, and reliability of anything connected to the Internet.',
+        link: "https://buy.stripe.com/bIYg2A8H81z1dwYeUZ",
+        details: [
+            {
+                title: 'Website Security',
+                description: 'Protect your websites from malicious activities and other nefarious intrusions.'
+            },
+            {
+                title: 'Website Performance',
+                description: 'Learn how to boost site speed, and get started by performing a website speed test.'
+            },
+            {
+                title: 'Website Reliability',
+                description: 'Imporve website load time, uses 60% less bandwidth and decrease website downtime'
+            },
+            {
+                title: 'DNS Management',
+                description: 'Cloudflare DNS provides the fastest, most resilient, and simplest managed DNS platform'
+            },
+            {
+                title: 'Website Deployment',
+                description: 'Learn to use cloudflare pages is a JAMstack platform for developers to collaborate and deploy websites'
+            },
+            {
+                title: 'Cloudflare Workers',
+                description: 'Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale'
+            },
+        ]
+    },
+    {
         id: '81b8b211-e609-4b39-b0c6-549775e79109',
         image: 'https://laravelmagazine.com/assets/api-design.png',
-        dateTime: `Two (2) Days Live Session, 2hrs/Day`,
+        dateTime: `Three (3) Days Live Session, 2hrs/Day`,
         title: 'Premium API Design Masterclass',
         description: 'Learn how to design complex APIs that are easy to use. We will build a referral system using nodejs, postman, stoplight & other aws services',
         link: "https://bit.ly/premiumAPI",
@@ -72,40 +106,6 @@ exports.masterclasses = [
     //     image: 'https://cdn-cashy-static-assets.lucidchart.com/marketing/blog/2020Q4/software-design-documents/software-design-documents.png',
     //     dateTime: `Two (2) Days Live Session, 2hrs/Day`,
     //     title: 'Software Design Masterclass',
-    //     description: 'Learn how to design complex APIs that are easy to use. We will build a referral system using nodejs, postman, stoplight & other aws services',
-    //     link: "https://bit.ly/premiumAPI",
-    //     details: [
-    //         {
-    //             title: 'API Design',
-    //             description: 'Understand the planning processes and architectural decisions you make when building an API'
-    //         },
-    //         {
-    //             title: 'API Collaboration',
-    //             description: 'Learn how testers, architects, and other stakeholders work together to build and consume APIs'
-    //         },
-    //         {
-    //             title: 'API Management',
-    //             description: 'Learn best practices in building and managing APIs that can scale across teams and organisations.'
-    //         },
-    //         {
-    //             title: 'API Documentation',
-    //             description: 'Learn technical writing, giving instructions on how to effectively use and integrate with an API'
-    //         },
-    //         {
-    //             title: 'API Deployment',
-    //             description: 'Understand modern patterns & best practices when deploying internal or external APIs in the cloud'
-    //         },
-    //         {
-    //             title: 'API Governance',
-    //             description: 'Learn how to apply common rules and guardrails relating to API standards and security policies to your APIs'
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: '851d64af-8393-49c3-a258-6935a0fcf556',
-    //     image: 'https://secutec.eu/wp-content/uploads/2021/09/cloudflare2.jpg',
-    //     dateTime: `Two (2) Days Live Session, 2hrs/Day`,
-    //     title: 'Cloudflare Masterclass',
     //     description: 'Learn how to design complex APIs that are easy to use. We will build a referral system using nodejs, postman, stoplight & other aws services',
     //     link: "https://bit.ly/premiumAPI",
     //     details: [
