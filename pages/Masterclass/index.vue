@@ -1,8 +1,8 @@
 <template>
     <div class="mt-5">
         <section>
-            <div class="masterclass-heading mb-5">
-                    <h1>Premium Masterclass</h1>
+            <div class="mb-5">
+                    <h1 class="center">Premium Masterclass</h1>
             </div>
 
             <div>
@@ -70,18 +70,5 @@ export default {
         justify-content: center;
         align-items: flex-start;
     }
-}
-
-.masterclass-heading {
-    height: 350px;
-    width: 100%;
-    border-radius: var(--input-border-radius);
-    background-color: rgba(255, 255, 255, 0.059);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(159.94deg, rgba(0, 0, 0, 0.7) 5.35%, rgba(0, 0, 0, 0.7) 86.63%), url('https://media.datacenterdynamics.com/media/images/Digital_Ocean.original.jpg');
-    background-position: center;
-    background-size: cover;
 }
 </style>
