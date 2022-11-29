@@ -4,20 +4,20 @@ exports.masterclasses = [
         image: 'https://secutec.eu/wp-content/uploads/2021/09/cloudflare2.jpg',
         dateTime: `Three (3) Days Live Session, 2hrs/Day`,
         title: 'Premium Cloudflare Masterclass',
-        description: 'Become a cloudlare power user in three days. Learn to use cloudflare servers to improve the security, performance, and reliability of anything connected to the Internet.',
+        description: 'Become a cloudflare power user in three days. Learn to use cloudflare servers to improve the security, performance, and reliability of anything connected to the Internet.',
         link: "https://buy.stripe.com/bIYg2A8H81z1dwYeUZ",
         details: [
             {
                 title: 'Website Security',
-                description: 'Protect your websites from malicious activities and other nefarious intrusions.'
+                description: 'Protect your website and services from malicious activities and other nefarious intrusions.'
             },
             {
                 title: 'Website Performance',
-                description: 'Learn how to boost site speed, and get started by performing a website speed test.'
+                description: 'Learn how to boost site speed, optimise and minify html, css and js assets across your websites.'
             },
             {
                 title: 'Website Reliability',
-                description: 'Imporve website load time, uses 60% less bandwidth and decrease website downtime'
+                description: 'Improve website load time, uses 60% less bandwidth and decrease website downtime'
             },
             {
                 title: 'DNS Management',
@@ -25,7 +25,7 @@ exports.masterclasses = [
             },
             {
                 title: 'Website Deployment',
-                description: 'Learn to use cloudflare pages is a JAMstack platform for developers to collaborate and deploy websites'
+                description: 'Learn to use cloudflare pages as a JAMstack platform for collaboration and website deployments'
             },
             {
                 title: 'Cloudflare Workers',
