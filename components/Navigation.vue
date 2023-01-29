@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="mobile-header">
-            <img loading="lazy" src="@/assets/images/avatar/me.png"/>
+          <NuxtLink class="logo" to="/">
             <p>Super Developer</p>
           </NuxtLink>
           <button class="open_toggle" @click="toggle"></button>
