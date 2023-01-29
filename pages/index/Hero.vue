@@ -3,7 +3,7 @@
     <div class="path1"></div>
     <section class="mt-2 hero">
       <div class="avatar-wrapper glow">
-        <img loading="lazy" class="avatar-border avatar" src="@/assets/images/avatar/avatar.png" />
+        <img loading="lazy" class="avatar-border avatar" src="@/assets/images/avatar/me.png" />
       </div>
       <div>
         <h1 class="mb-1">Marvelous Akporowho</h1>
