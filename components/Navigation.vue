@@ -24,7 +24,7 @@
                 <li class="item">
                   <a target="_blank" href="https://superdev.substack.com">Blog</a>
                 </li>
-                  <a class="item button-primary" target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Free Bootcamp</a>
+                  <a class="item button-primary" target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Learn for free</a>
               </ul>
             </div>
           </div>
@@ -45,7 +45,7 @@
           <a class="item" href="/portfolio">Portfolio</a>
           <a class="item" href="/consulting">Consulting</a>
           <a class="item" target="_blank" href="https://superdev.substack.com"> Blog</a>
-          <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Free Bootcamp</a>
+          <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Learn for free</a>
         </div>
       </div>
     </div>

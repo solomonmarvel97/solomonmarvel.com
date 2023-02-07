@@ -7,10 +7,9 @@
       </div>
       <div>
         <h1 class="mb-1">Marvelous Akporowho</h1>
-        <h3 class="mb-1">Independent Consultant | Technical Leader | Solutions Architect</h3>
+        <h3 class="mb-1">Technical Consultant | Solutions Architect | Mentor | Computer Programmer</h3>
         <p class="mb-1"> 12+ software engineering experience. MBA in Advanced AI & The future of automation (in view).
-          Let's talk about software architecture,
-          systems design, artificial intelligence, microservices & products.
+          Let's talk about software architecture, systems design, AI & Machine Learning, Distributed systems and API Design.
         </p>
         <div class="button-flex mb-3">
           <nuxt-link class="button-primary" to="/consulting">
@@ -21,7 +20,7 @@
           </nuxt-link>
         </div>
         <div class="socials">
-          <p>Connect with me</p>
+          <p>Let's connect</p>
           <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
             <img src="@/assets/icons/linkedin.svg"/>
           </a>
@@ -76,7 +75,7 @@ h1 {
   color: white;
   line-height: 1.1;
   font-size: 55px;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
 }
 
 h1 span {
