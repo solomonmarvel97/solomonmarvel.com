@@ -79,9 +79,9 @@
 
 .avatar-wrapper {
   position: absolute;
-    -webkit-animation:spin 15s linear infinite;
-    -moz-animation:spin 15s linear infinite;
-    animation:spin 15s linear infinite;
+    -webkit-animation:spin 30s linear infinite;
+    -moz-animation:spin 30s linear infinite;
+    animation:spin 30s linear infinite;
     object-fit: cover;
 }
 
