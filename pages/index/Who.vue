@@ -1,8 +1,8 @@
 <template>
   <div class="who">
     <section>
-      <p class="mb-3 text-black">who am i?</p>
-      <h1 class="text-black">I am an Experienced software engineer with 12+ years of industry experience. Currently pursuing MBA in Advanced AI & The Future of Automation @Nexford University, London.</h1>
+      <p class="mb-3 text-black">so.. who am i really?</p>
+      <h1 class="text-black">Experienced software engineer with 12+ years of industry experience. Currently pursuing MBA in Advanced AI & The Future of Automation @Nexford University, London.</h1>
   </section>
   </div>
 </template>

@@ -8,7 +8,7 @@
       </div>
       
       <div>
-        <h1 class="mb-1">Marvelous <br> Solomon<span>.</span></h1>
+        <h1 class="mb-2">Marvelous <br> Solomon<span>.</span></h1>
         <p class="mb-5">Technical Consultant | Solutions Architect | Computer Programmer -</p>
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
@@ -105,7 +105,8 @@ h1 {
 }
 
 p {
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 1.3;
 }
 
 .icons {
@@ -115,7 +116,7 @@ p {
 
 @media (max-width: 1000px) {
   .hero {
-    padding-top: 3em;
+    padding-top: 2em;
     display: grid;
     position: relative;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -123,12 +124,15 @@ p {
   }
   .hero .spin {
     position: relative;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 2em;
   }
 
   h1 {
     width: 100%;
     line-height: 1.2;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   h3 {

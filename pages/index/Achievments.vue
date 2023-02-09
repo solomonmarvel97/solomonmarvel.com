@@ -23,7 +23,7 @@
       <div class="container white text-black">
           <div class="grid">
             <p>Achievements</p>
-            <h1>Co-founder/CEO @topuniverse, Founder & Solutions Architect @boltcliq, Technical Consultant @topafrica</h1>
+            <h1>Co-founder/CEO @topuniverse, Founder & Solutions Architect @boltcliq, Building @swiftgo</h1>
           </div>
       </div>
 
