@@ -101,7 +101,7 @@
 h1 {
   color: white;
   line-height: .9;
-  font-size: calc(9rem);
+  font-size: calc(8rem);
 }
 
 p {
