@@ -20,7 +20,7 @@ export default {
     border: 1px solid rgba(255, 255, 255, 0.222);
     border-radius: var(--input-border-radius) !important;
     position: relative;
-    padding: 20px 30px;
+    padding: 15px 10px
 }
 
 .service .title {

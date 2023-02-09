@@ -113,12 +113,16 @@ p {
   height: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero {
     padding-top: 3em;
     display: grid;
     position: relative;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 100vh;
+  }
+  .hero .spin {
+    position: relative;
   }
 
   h1 {

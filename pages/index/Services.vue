@@ -14,9 +14,6 @@ import Services from '../../components/Services.vue';
 
 const services = [
     {
-        title: 'Software Engineering',
-    },    
-    {
         title: 'Systems Design',
     },    
     {
@@ -29,19 +26,19 @@ const services = [
         title: 'Cloud Engineering',
     },
     {
-        title: 'AWS, Azure, GCP',
+        title: 'AWS',
     },    
     {
         title: 'API Design',
     },
     {
-        title: 'Legacy Code Migration',
+        title: 'Code Migration',
     },
     {
-        title: 'Serveless Consulting',
+        title: 'Cloud Consulting',
     },
     {
-        title: 'Workflow Development',
+        title: 'Workflow Design',
     },
 
 ]

@@ -99,10 +99,22 @@
   text-align: center;
   color: black 
 }
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 20px;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+}
+
 .container p {
   text-align: center;
   color: black 
 }
+
+
 
 .white {
   background: white;
