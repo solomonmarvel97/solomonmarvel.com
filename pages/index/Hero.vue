@@ -74,7 +74,7 @@
   border-radius: 50%;
   object-position: center;
   position: absolute;
-  scale: 0.8;
+  scale: 0.78;
 }
 
 .avatar-wrapper {
@@ -124,9 +124,11 @@ p {
   }
   .hero .spin {
     position: relative;
-    width: 280px;
-    height: 280px;
+    width: 290px;
+    height: 290px;
     margin-bottom: 2em;
+    display: flex;
+    align-self: center;
   }
 
   h1 {
