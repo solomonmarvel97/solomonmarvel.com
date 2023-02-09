@@ -1,21 +1,7 @@
 /* inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-/* tomato grotesk */
-@font-face {
-    font-family: "Tomato Grotesk";
-    src: url('../font/TomatoGrotesk/TomatoGrotesk-Black.otf');
-    font-weight: 900;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300&display=swap');
 
 @font-face {
-    font-family: "Tomato Grotesk";
-    src: url('../font/TomatoGrotesk/TomatoGrotesk-Medium.otf');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Tomato Grotesk";
-    src: url('../font/TomatoGrotesk/TomatoGrotesk-Light.otf');
-    font-weight: normal;
+    font-family: "TWK Everett";
+    src: url('../font/TWKEverett-Medium-web.woff2');
 }

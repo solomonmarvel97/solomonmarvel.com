@@ -1,7 +1,6 @@
 <template>
-    <div class="service glow glass">
-        <img loading="lazy" class="mb-1" :src="image"/>
-        <p class="title mb-1">{{title}}</p>
+    <div class="service glass">
+        <p class="title">{{title}}</p>
     </div>
 </template>
 
@@ -18,33 +17,15 @@ export default {
 <style scoped>
 .service {
     display: grid;
-    gap: 10px;
     border: 1px solid rgba(255, 255, 255, 0.222);
-    padding: 20px;
-    min-height: 180px;
     border-radius: var(--input-border-radius) !important;
     position: relative;
-}
-.service .tag {
-    background-color: white;
-    display: inline-block;
-    color: black;
-    font-size: 10px;
-    padding: 5px 10px;
-    border-radius: 50px;
-}
-.service img {
-    height: 50px;
-    width: 50px;
-    object-fit: contain;
-    border: none;
-    filter: invert();
+    padding: 20px 30px;
 }
 
 .service .title {
     color:#ffffffda;
-    font-size: 20px;
-    line-height: 1.4
+    font-size: 18px;
 }
 .service .button {
     background-color: rgba(255, 255, 255, 0.049);

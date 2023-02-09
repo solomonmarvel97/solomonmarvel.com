@@ -1,11 +1,11 @@
 <template>
     <div class="consulting">
         <section class="mt-6">
-            <h1 class="mb-2">Consulting Service</h1>
+            <h1 class="mb-2">Consulting Plans</h1>
             <p>Hello 👋🏾, let's create a solution to that problem</p>
             <div class="consulting-grid mt-5">
                 <div class="glass">
-                    <img loading="lazy" class="mb-2" src="@/assets/images/consulting1.png"/>
+                    <img loading="lazy" class="mb-2" src="https://images.unsplash.com/photo-1612831661941-254341b885e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80"/>
                     <div class="details">
                         <h2 class="mb-1">30 minutes session</h2>
                         <h1 class="mb-1">$50</h1>
@@ -19,7 +19,7 @@
                     </div>
             </div>
             <div class="glass">
-                <img loading="lazy" class="mb-2" src="@/assets/images/consulting2.png"/>
+                <img loading="lazy" class="mb-2" src="https://images.unsplash.com/photo-1621570072081-b780ce69bff0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"/>
                 <div class="details">
                     <h2 class="mb-1">1 hour session</h2>
                     <h1 class="mb-1">$100</h1>
@@ -87,15 +87,14 @@ export default {
 .consulting .consulting-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
 }
 
 .consulting .consulting-grid div {
-    flex: 1;
+    flex-basis: 500px;
     place-items: center;
-    width: 100%;
     border-radius: var(--input-border-radius) !important;
 }
 
@@ -104,7 +103,7 @@ export default {
 }
 
 .consulting .consulting-grid img {
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
 }

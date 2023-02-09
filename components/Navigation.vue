@@ -4,7 +4,7 @@
       <section>
         <div class="menu-wrapper">
           <NuxtLink class="logo" to="/">
-            <p>Super Developer</p>
+            <p>s.developer</p>
           </NuxtLink>
           <div>
             <div class="menu">
@@ -31,7 +31,7 @@
         </div>
         <div class="mobile-header">
           <NuxtLink class="logo" to="/">
-            <p>Super Developer</p>
+            <p>s.developer</p>
           </NuxtLink>
           <button class="open_toggle" @click="toggle"></button>
         </div>
@@ -133,7 +133,7 @@ export default {
 }
 
 .scroll {
-  background-color: rgb(11, 11, 11);
+  background-color: rgba(0, 0, 0, 0.698);
   transition: all 1s ease-in-out;
 }
 
@@ -144,16 +144,10 @@ export default {
   position: relative;
 }
 
-.logo img {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
 .logo p {
-  font-size: 14px !important;
-  left: 35px;
+  font-size: 25px !important;
+  font-family: "TWK Everett", "Inter", sans-serif;
+  color: var(--primary)
 }
 
 .profile-wrapper {
@@ -324,7 +318,7 @@ export default {
   span,
   label {
     font-size: 25px !important;
-    font-family: "Maglony", sans-serif !important;
+    font-family: 'Raleway', sans-serif;
   }
 
   .active {
