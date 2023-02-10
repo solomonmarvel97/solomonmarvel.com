@@ -103,7 +103,7 @@
 @media (max-width: 1000px) {
   .container {
     padding: 20px;
-    height: 80vh;
+    height: 60vh;
   }
   .container h1 {
     font-size: 30px;
