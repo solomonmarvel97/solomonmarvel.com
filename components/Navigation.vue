@@ -22,7 +22,7 @@
                   <nuxt-link to="/consulting">Consulting</nuxt-link>
                 </li>
                 <li class="item">
-                  <a target="_blank" href="https://superdev.substack.com">Blog</a>
+                  <a target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Blog</a>
                 </li>
                   <a class="item button-primary" target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Learn for free</a>
               </ul>
@@ -44,7 +44,7 @@
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/portfolio">Portfolio</a>
           <a class="item" href="/consulting">Consulting</a>
-          <a class="item" target="_blank" href="https://superdev.substack.com"> Blog</a>
+          <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/"> Blog</a>
           <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Learn for free</a>
         </div>
       </div>
