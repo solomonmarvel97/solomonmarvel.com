@@ -56,8 +56,8 @@
 }
 
 .cta img {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
 }
 
 .spin {
