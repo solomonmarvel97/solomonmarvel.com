@@ -236,12 +236,12 @@ export default {
   height: 20px;
   z-index: 9999;
   background: none;
-  color: white;
+  color: black;
   border: none;
 }
 
 /* mobile menu  */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .mobile-header {
     display: none;
     width: 100%;
@@ -263,7 +263,7 @@ export default {
     flex-direction: column;
     z-index: 999;
     height: 100vh;
-    background: #010101;
+    background: var(--primary);
     width: 100%;
     gap: 20px;
   }
@@ -291,9 +291,9 @@ export default {
     margin-top: 4em;
     display: grid;
     grid-template-rows: 1fr;
-    gap: 10px;
+    gap: 25px;
     padding: 20px;
-    justify-content: start;
+    justify-content: center;
   }
 
   .profile-wrapper-mobile {
@@ -303,22 +303,16 @@ export default {
   }
 
   .menu .item {
-    flex-basis: 120px;
+    flex-basis: 300px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     height: 50px;
-    padding: 0 30px;
     gap: 10px;
     border-radius: var(--border-radius);
-  }
-
-  p,
-  a,
-  li,
-  span,
-  label {
-    font-size: 25px !important;
-    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 300 !important;
+    font-family: "TWK Everett", "Inter", sans-serif;
+    font-size: 35px !important;
   }
 
   .active {

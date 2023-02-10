@@ -8,8 +8,9 @@ export default {
     meta: [
       {charset: "utf-8"},
       {name: "viewport", content: "width=device-width, initial-scale=1"},
-      { hid: "description", name: "description", content: "Technical Leader | Solutions Architect | Software Engineer", },
+      { hid: "description", name: "description", content: "Experienced Software Engineer / Solutions Architect @ Boltcliq & Company.", },
       { name: "format-detection", content: "telephone=no" },
+      { name: "theme-color", content: "#53ff70" },
       { hid: "og:image", property: "og:image", content: `https://solomonmarvel.com/ogimage.png`, },
     ],
     link: [
