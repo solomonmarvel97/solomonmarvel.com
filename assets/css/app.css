@@ -269,3 +269,20 @@ hr {
 .text-white {
   color: white !important;
 }
+
+.icon-set {
+  margin: 2em;
+
+}
+
+.icon {
+  height: 15px;
+  width: 15px;
+  object-fit: cover;
+}
+
+.icon-big {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+}
