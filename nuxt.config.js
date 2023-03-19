@@ -6,23 +6,50 @@ export default {
   head: {
     title: "Marvelous Akporowho",
     meta: [
-      {charset: "utf-8"},
-      {name: "viewport", content: "width=device-width, initial-scale=1"},
-      { hid: "description", name: "description", content: "Experienced Software Engineer / Solutions Architect @ Boltcliq & Company.", },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Experienced Software Engineer / Solutions Architect @ Boltcliq & Company.",
+      },
       { name: "format-detection", content: "telephone=no" },
       { name: "theme-color", content: "#53ff70" },
-      { hid: "og:image", property: "og:image", content: `https://solomonmarvel.com/ogimage.png`, },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: `https://solomonmarvel.com/ogimage.png`,
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {rel: "stylesheet", href: "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"}
+      {
+        rel: "stylesheet",
+        href: "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css",
+      },
     ],
     script: [
-      {hid: "ajax", src: "https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"},
-      {hid: "ajax", src: "https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"},
-      {hid: "linkedin badge", src: "https://platform.linkedin.com/badges/js/profile.js"},
-      {hid: "github calendar", src: "https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"},
-      {hid: "github calendar", src: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"}
+      {
+        hid: "ajax",
+        src: "https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js",
+      },
+      {
+        hid: "ajax",
+        src: "https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js",
+      },
+      {
+        hid: "linkedin badge",
+        src: "https://platform.linkedin.com/badges/js/profile.js",
+      },
+      {
+        hid: "github calendar",
+        src: "https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js",
+      },
+      {
+        hid: "github calendar",
+        src: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js",
+      },
     ],
   },
 
@@ -47,18 +74,19 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    ['nuxt-apache-config',
+    [
+      "nuxt-apache-config",
       {
         https: true,
         redirection: true,
-        redirectUrl: '404.html',
+        redirectUrl: "404.html",
         indexes: true,
         onlyGET: true,
-      }
-    ] ,
+      },
+    ],
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
-    '@nuxtjs/toast',
+    "@nuxtjs/toast",
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -70,13 +98,12 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Marvelous Akporowho',
-      lang: 'en',
-      useWebmanifestExtension: false
+      name: "Marvelous Akporowho",
+      lang: "en",
+      useWebmanifestExtension: false,
     },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
 };
