@@ -3,6 +3,7 @@
     <Hero />
     <Who />
     <Services />
+    <Portfolio/>
     <Product />
     <Achievments />
     <Badge />
@@ -13,6 +14,7 @@
 import Hero from "./Hero.vue";
 import Who from "./Who.vue";
 import Services from './Services.vue'
+import Portfolio from './Portfolio.vue'
 import Product from "./Product.vue"
 import Achievments from "./Achievments.vue";
 import Badge from "~/components/Badge.vue";
@@ -23,6 +25,7 @@ export default {
     Hero,
     Who,
     Services,
+    Portfolio,
     Product,
     Achievments,
     Badge

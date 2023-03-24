@@ -16,9 +16,6 @@
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
                 </li>
                 <li class="item ">
-                  <nuxt-link to="/portfolio">Portfolio</nuxt-link>
-                </li>
-                <li class="item ">
                   <nuxt-link to="/consulting">Consulting</nuxt-link>
                 </li>
                 <li class="item">
@@ -42,7 +39,6 @@
         <div class="menu">
           <a class="item" href="/masterclass">Masterclass</a>
           <a class="item" href="/testimonials">Testimonials</a>
-          <a class="item" href="/portfolio">Portfolio</a>
           <a class="item" href="/consulting">Consulting</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/"> Blog</a>
           <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Learn for free</a>

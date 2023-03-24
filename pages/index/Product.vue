@@ -1,7 +1,7 @@
 <template>
     <div class="products" id="products">
         <div class="mt-5">
-            <h1 class="center">Free <span>Gifts</span></h1>
+            <h1 class="center">Free Gifts</h1>
         </div>
         <div class="icon-set">
             <img class="icon" src="@/assets/icons/arrow-left.svg" />

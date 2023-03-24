@@ -1,7 +1,7 @@
 <template>
     <div class="services mt-5">
         <section>
-            <h1 class="mb-4">Wanna know <span>what i do?</span></h1>
+            <h1 class="mb-4">Wanna know what i do?</h1>
             <div class="service-grid">
                 <Services v-for="(i, index) in services" :key="index" :title="i.title"/>
             </div>
@@ -26,7 +26,7 @@ const services = [
         title: 'Cloud Engineering',
     },
     {
-        title: 'AWS',
+        title: 'AWS Services',
     },    
     {
         title: 'API Design',

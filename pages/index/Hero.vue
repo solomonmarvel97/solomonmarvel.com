@@ -8,8 +8,8 @@
       </div>
       
       <div>
-        <h1 class="mb-2">Marvelous <br> Solomon<span>.</span></h1>
-        <p class="mb-5">Technical Consultant | Solutions Architect | Computer Programmer -</p>
+        <h1 class="mb-4">Marvelous <br> Solomon<span>.</span></h1>
+        <p class="mb-5">Consultant | Senior Solutions Architect | Computer Programmer</p>
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
             Consult With Me
@@ -105,7 +105,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.3;
 }
 

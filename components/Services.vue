@@ -16,11 +16,11 @@ export default {
 
 <style scoped>
 .service {
-    display: grid;
+    display: flex;
     border: 1px solid rgba(255, 255, 255, 0.222);
     border-radius: var(--input-border-radius) !important;
     position: relative;
-    padding: 15px 10px
+    padding: 30px 30px
 }
 
 .service .title {
@@ -33,6 +33,12 @@ export default {
     display: inline-block;
     border-radius: var(--border-radius);
     place-items: center;
+}
+
+@media (max-width: 1000px) {
+    .service {
+        padding: 25px 10px
+    }
 }
 
 </style>

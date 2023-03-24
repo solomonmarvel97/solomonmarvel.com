@@ -1,9 +1,9 @@
 <template>
+    <div class="portfolio">
     <section>
-    <div class="mt-8 mb-5">
-      
+    <div class="mt-8 mb-8">
       <div class="center">
-        <h1 class="mb-3">My Portfolio</h1>
+        <h1 class="mb-5">Portfolio & Investments</h1>
       </div>
       
       <div class="portfolio-grid">
@@ -23,6 +23,7 @@
       </div>
     </div>
   </section>
+  </div>
   </template>
   
   <script>
@@ -39,6 +40,10 @@
   </script>
   
   <style scoped>
+  .portfolio {
+    border-bottom: .5px solid var(--primary);
+    padding-bottom: 2em;
+  }
   .icon {
     font-size: 25px;
   }
