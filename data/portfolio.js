@@ -30,6 +30,12 @@ exports.portfolio = [
     image: `https://kidsclub.codes/ogimage.png`
   },
   {
+    position: `Founder & Cloud Trainer`,
+    platform: `Techies Garage`,
+    link: `https://techiesgarage.org`,
+    image: `https://techiesgarage.org/ogimage.png`
+  },
+  {
     position: `Founding Partner`,
     platform: `Swiftgo`,
     link: `https://swiftgo.co`,
