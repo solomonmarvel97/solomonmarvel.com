@@ -21,7 +21,7 @@ exports.portfolio = [
     position: `Founder & Chief Solutions Architect`,
     platform: `The Boltcliq Company`,
     link: `https://boltcliq.com`,
-    image: `https://boltcliq.com/ogimage.png`
+    image: `https://images.unsplash.com/photo-1655721533500-c73a495dbcb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80`
   },
   {
     position: `Founder & CTO`,

@@ -8,8 +8,14 @@
       </div>
       
       <div>
-        <h1 class="mb-4">Marvelous <br> Solomon<span>.</span></h1>
-        <p class="mb-5">Consultant | Senior Solutions Architect | Computer Programmer</p>
+        <div class="mb-3 socials">
+          <a target="_blank" href="https://linkedin.com/in/superdeveloper">- Linkedin,</a>
+          <a target="_blank" href="https://twitter.com/solomonmarvel97">- Twitter</a>
+          <a target="_blank" href="https://github.com/solomonmarvel97">- Github</a>
+        </div>
+        <h1 class="mb-3">Marvelous <br> Solomon<span>.</span></h1>
+        <p class="mb-6">Technical Consultant | Senior Solutions Architect | Programmer</p>
+        
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
             Consult With Me
@@ -101,11 +107,22 @@
 h1 {
   color: white;
   line-height: .9;
-  font-size: calc(8rem);
+  font-size: calc(7rem);
 }
 
 p {
   font-size: 25px;
+  line-height: 1.3;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.socials a {
+  font-size: 20px;
   line-height: 1.3;
 }
 

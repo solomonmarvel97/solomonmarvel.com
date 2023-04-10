@@ -40,7 +40,7 @@ export default {
     color: black;
     font-size: 10px;
     padding: 3px 10px;
-    border-radius: 50px;
+    border-radius: var(--border-radius);
 }
 .masterclass img {
     height: 250px;

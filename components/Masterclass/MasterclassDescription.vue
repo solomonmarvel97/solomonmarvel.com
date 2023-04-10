@@ -32,7 +32,7 @@ export default {
     color: black;
     font-size: 10px;
     padding: 5px 10px;
-    border-radius: 50px;
+    border-radius: var(--border-radius);
 }
 .service img {
     height: 50px;

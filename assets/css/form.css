@@ -41,7 +41,7 @@ form p {
 }
 
 .button-primary:hover {
-  background-color: #6577ff;
+  background-color: var(--primary-tint);
   border: none;
 }
 
