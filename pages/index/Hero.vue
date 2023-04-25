@@ -2,9 +2,9 @@
   <div>
     <!-- <div class="path1"></div> -->
     <section class="mt-2 hero">
-      <div class="spin glow">
-      <img class="avatar-wrapper" src="@/assets/images/rotate.svg"/>
-      <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
+      <div class="spin">
+      	<img class="avatar-wrapper" src="@/assets/images/rotate.svg"/>
+      	<img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
       </div>
       
       <div>
@@ -14,7 +14,7 @@
           <a target="_blank" href="https://github.com/solomonmarvel97">- Github</a>
         </div>
         <h1 class="mb-3">Marvelous <br> Solomon<span>.</span></h1>
-        <p class="mb-6">Technical Consultant | Senior Solutions Architect | Programmer</p>
+        <p class="mb-6">Technical Consultant | Senior Solutions Architect | NLP Engineer</p>
         
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
@@ -67,28 +67,28 @@
 }
 
 .spin {
-  height:calc(20rem);
-  width: calc(20rem);
+  height:calc(18rem);
+  width: calc(18rem);
   position: absolute;
-  display: grid;
-  place-items: center;
   top: 10px;
   right: 10px;
+
 }
 
 .avatar {
   border-radius: 50%;
   object-position: center;
-  position: absolute;
-  scale: 0.78;
+  padding: 30px;
+	border: 1px solid rgba(217, 217, 217, 0.4);
 }
 
 .avatar-wrapper {
-  position: absolute;
-    -webkit-animation:spin 30s linear infinite;
-    -moz-animation:spin 30s linear infinite;
-    animation:spin 30s linear infinite;
+  	position: absolute;
+    -webkit-animation:spin 25s	 linear infinite;
+    -moz-animation:spin 25s linear infinite;
+    animation:spin 25s linear infinite;
     object-fit: cover;
+		padding: 10px;
 }
 
 @-moz-keyframes spin { 
@@ -139,14 +139,17 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     height: 100vh;
   }
+  
   .hero .spin {
     position: relative;
-    width: 290px;
-    height: 290px;
-    margin-bottom: 2em;
-    display: flex;
-    align-self: center;
+	width: 300px;
+	height: 300px;
+    margin: 0 auto;
+    text-align: center;
+	margin-bottom: 3em
   }
+  
+
 
   h1 {
     width: 100%;
