@@ -14,7 +14,7 @@
           <a target="_blank" href="https://github.com/solomonmarvel97">- Github</a>
         </div>
         <h1 class="mb-3">Marvelous <br> Solomon<span>.</span></h1>
-        <p class="mb-6">Technical Consultant | Senior Solutions Architect | NLP Engineer</p>
+        <p class="mb-6">Technical Consultant | Senior Solutions Architect | AI/NLP Engineer</p>
         
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
