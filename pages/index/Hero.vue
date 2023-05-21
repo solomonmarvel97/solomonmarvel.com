@@ -3,10 +3,10 @@
     <!-- <div class="path1"></div> -->
     <section class="mt-2 hero">
       <div class="spin">
-      	<img class="avatar-wrapper" src="@/assets/images/rotate.svg"/>
-      	<img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
+        <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
+        <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
       </div>
-      
+
       <div>
         <div class="mb-3 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">- Linkedin,</a>
@@ -15,12 +15,12 @@
         </div>
         <h1 class="mb-3">Marvelous <br> Solomon<span>.</span></h1>
         <p class="mb-6">Technical Consultant | Senior Solutions Architect | AI/NLP Engineer</p>
-        
+
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
-            Consult With Me
+            Book a session
+            <img src="@/assets/icons/link.svg" alt="" />
           </a>
-          <img src="@/assets/icons/link.svg" alt=""/>
         </div>
       </div>
 
@@ -58,7 +58,10 @@
 
 .cta a {
   font-size: 20px;
-  color: var(--primary)
+  color: var(--primary);
+  display: flex;
+  gap: 10px;
+  place-items: center
 }
 
 .cta img {
@@ -67,7 +70,7 @@
 }
 
 .spin {
-  height:calc(18rem);
+  height: calc(18rem);
   width: calc(18rem);
   position: absolute;
   top: 10px;
@@ -79,29 +82,37 @@
   border-radius: 50%;
   object-position: center;
   padding: 30px;
-	border: 1px solid rgba(217, 217, 217, 0.4);
+  border: .1px solid rgba(217, 217, 217, 0.4);
+  height: 100%;
+  width: 100%;
 }
 
 .avatar-wrapper {
-  	position: absolute;
-    -webkit-animation:spin 25s	 linear infinite;
-    -moz-animation:spin 25s linear infinite;
-    animation:spin 25s linear infinite;
-    object-fit: cover;
-		padding: 10px;
+  position: absolute;
+  -webkit-animation: spin 25s linear infinite;
+  -moz-animation: spin 25s linear infinite;
+  animation: spin 25s linear infinite;
+  object-fit: cover;
+  padding: 10px;
 }
 
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
 }
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 h1 {
@@ -139,16 +150,16 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     height: 100vh;
   }
-  
+
   .hero .spin {
     position: relative;
-	width: 300px;
-	height: 300px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
-	margin-bottom: 3em
+    margin-bottom: 3em
   }
-  
+
 
 
   h1 {
@@ -220,18 +231,16 @@ p {
 
 .glow:before {
   content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
   position: absolute;
   top: 20%;
   left: 20%;
@@ -243,5 +252,4 @@ p {
   animation: glowing 0s linear infinite;
   opacity: 1;
   border-radius: var(--border-radius);
-}
-</style>
+}</style>
