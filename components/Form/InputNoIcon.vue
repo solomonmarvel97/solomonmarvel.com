@@ -48,7 +48,6 @@ export default {
 .form-input {
   padding: 10px;
   height: 42px;
-  background: #202020;
   gap: 10px;
   align-items: center;
   border-radius: var(--border-radius);

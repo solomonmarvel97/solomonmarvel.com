@@ -9,11 +9,20 @@
 
       <div>
         <div class="mb-3 socials">
-          <a target="_blank" href="https://linkedin.com/in/superdeveloper">- Linkedin,</a>
-          <a target="_blank" href="https://twitter.com/solomonmarvel97">- Twitter</a>
-          <a target="_blank" href="https://github.com/solomonmarvel97">- Github</a>
+          <a target="_blank" href="https://linkedin.com/in/superdeveloper">
+            <img src="@/assets/icons/social/linkedin.svg"/>
+            Linkedin
+          </a>
+          <a target="_blank" href="https://twitter.com/solomonmarvel97">
+            <img src="@/assets/icons/social/twitter.svg"/>
+            Twitter
+          </a>
+          <a target="_blank" href="https://github.com/solomonmarvel97">
+            <img src="@/assets/icons/social/github.svg"/>
+            Github
+          </a>
         </div>
-        <h1 class="mb-3">Marvelous <br> Solomon<span>.</span></h1>
+        <h1 class="mb-3">Marvelous <br> Solomon.</h1>
         <p class="mb-6">Technical Consultant | Senior Solutions Architect | AI/NLP Engineer</p>
 
         <div class="button-flex mb-3 cta">
@@ -23,10 +32,6 @@
           </a>
         </div>
       </div>
-
-      <!-- <div class="books">
-        
-      </div> -->
 
     </section>
   </div>
@@ -49,7 +54,6 @@
 .hero .books {
   height: 250px;
   width: 500px;
-  background-color: var(--primary);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -122,19 +126,33 @@ h1 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.3;
 }
 
 .socials {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
+}
+
+.socials img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
 }
 
 .socials a {
-  font-size: 20px;
-  line-height: 1.3;
+  font-size: 16px;
+  display: flex;
+  gap: 8px;
+  place-items: center;
+  padding: 8px 10px;
+  border-radius: var(--border-radius);
+}
+
+.socials a:hover {
+  background-color: rgba(255, 255, 255, 0.109);
 }
 
 .icons {

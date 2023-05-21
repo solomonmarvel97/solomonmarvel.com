@@ -30,7 +30,7 @@ form p {
   align-items: center;
   width: auto;
   min-width: 150px;
-  height: 42px;
+  padding: 14px;
   border-radius: var(--border-radius);
   color: black;
   background-color: var(--primary);

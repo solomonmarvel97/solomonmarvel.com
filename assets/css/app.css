@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -57,7 +58,7 @@ main {
 
 body::-webkit-scrollbar {
   width: 5px;
-  background: rgb(20, 20, 20); /* width of the entire scrollbar */
+  background: rgb(20, 20, 20);
 }
 
 body::-webkit-scrollbar-track {
@@ -71,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 section {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -104,6 +105,7 @@ a {
 body {
   width: 100%;
   background: black;
+  background-image: linear-gradient(to right, #121212 0%, black 100%);
   margin-bottom: 50px;
 }
 

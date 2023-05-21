@@ -4,7 +4,7 @@
       <section>
         <div class="menu-wrapper">
           <NuxtLink class="logo" to="/">
-            <p>s.developer</p>
+            <p>solomonmarvel97</p>
           </NuxtLink>
           <div>
             <div class="menu">
@@ -21,14 +21,14 @@
                 <li class="item">
                   <a target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Blog</a>
                 </li>
-                  <a class="item button-primary" target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Learn for free</a>
+                  <a class="item button-primary" target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Start Learning</a>
               </ul>
             </div>
           </div>
         </div>
         <div class="mobile-header">
           <NuxtLink class="logo" to="/">
-            <p>s.developer</p>
+            <p>solomonmarvel97</p>
           </NuxtLink>
           <button class="open_toggle" @click="toggle"></button>
         </div>
@@ -141,9 +141,8 @@ export default {
 }
 
 .logo p {
-  font-size: 25px !important;
+  font-size: 18px !important;
   font-family: "TWK Everett", "Inter", sans-serif;
-  color: var(--primary)
 }
 
 .profile-wrapper {
@@ -160,14 +159,12 @@ export default {
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
   border-radius: var(--border-radius);
 }
 
 /* menu bar */
 .menu-wrapper {
-  height: 70px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -185,7 +182,6 @@ export default {
 
 .menu .item {
   flex-basis: 120px;
-  height: 35px;
   display: flex;
   justify-content: center;
   place-items: center;
@@ -259,7 +255,6 @@ export default {
     flex-direction: column;
     z-index: 999;
     height: 100vh;
-    background: var(--primary);
     width: 100%;
     gap: 20px;
   }

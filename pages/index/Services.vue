@@ -59,7 +59,6 @@ export default {
     place-items: center;
     height: 100vh;
     border-bottom: .5px solid var(--primary);
-    background-color: black;
 }
 .service-grid {
     gap: 20px;

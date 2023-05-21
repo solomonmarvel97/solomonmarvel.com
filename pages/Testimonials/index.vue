@@ -41,7 +41,6 @@ export default {
   padding: 20px;
   width: 100%;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.034);
 }
 
 .testimonials-item img {
