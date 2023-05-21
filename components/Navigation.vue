@@ -201,6 +201,7 @@ export default {
 
 .menu-wrapper-mobile {
   display: none;
+  background-color: white;
 }
 
 .mobile-header {
