@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="copyright mt-2">
-      <p>Copyright @ {{ new Date().getFullYear() }}, All Rights Reserved</p>
+      <p> © {{ new Date().getFullYear() }}, <i>Marvelous Solomon</i>. All Rights Reserved</p>
     </div>
   </footer>
 </template>

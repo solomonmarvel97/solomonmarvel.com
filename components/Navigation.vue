@@ -10,7 +10,7 @@
             <div class="menu">
               <ul>
                 <li>
-                  <nuxt-link to="/masterclass">Masterclass</nuxt-link>
+                  <nuxt-link to="/mentoring">Mentoring</nuxt-link>
                 </li>
                 <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
@@ -37,7 +37,7 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
-          <a class="item" href="/masterclass">Masterclass</a>
+          <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/consulting">Consulting</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/"> Blog</a>

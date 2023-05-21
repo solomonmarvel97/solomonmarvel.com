@@ -8,7 +8,7 @@
       </div>
 
       <div>
-        <div class="mb-3 socials">
+        <div class="mb-2 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">
             <img src="@/assets/icons/social/linkedin.svg"/>
             Linkedin
@@ -23,7 +23,7 @@
           </a>
         </div>
         <h1 class="mb-3">Marvelous <br> Solomon.</h1>
-        <p class="mb-6">Technical Consultant | Senior Solutions Architect | AI/NLP Engineer</p>
+        <p class="mb-6">Software Engineer | Solutions Architect | Software / AI / NLP Engineer</p>
 
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
@@ -50,16 +50,6 @@
   height: 100vh;
 }
 
-
-.hero .books {
-  height: 250px;
-  width: 500px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-
 .cta a {
   font-size: 20px;
   color: var(--primary);
@@ -74,8 +64,8 @@
 }
 
 .spin {
-  height: calc(18rem);
-  width: calc(18rem);
+  height: calc(14rem);
+  width: calc(14rem);
   position: absolute;
   top: 10px;
   right: 10px;
@@ -133,7 +123,7 @@ p {
 .socials {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .socials img {
@@ -145,9 +135,9 @@ p {
 .socials a {
   font-size: 16px;
   display: flex;
-  gap: 8px;
+  gap: 5px;
   place-items: center;
-  padding: 8px 10px;
+  padding: 5px 8px;
   border-radius: var(--border-radius);
 }
 

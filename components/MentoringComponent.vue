@@ -1,14 +1,12 @@
 <template>
-    <div class="masterclass glow glass">
+    <div class="mentoring glow glass">
         <img class="mb-1" loading="lazy" :src="image"/>
         <div class="details">
-        <p class="tag mb-2">Duration</p>
-        <p class="dateTime mb-1">{{dateTime}}</p>
         <p class="title mb-1">{{title}}</p>
         <p class="description mb-3">
             {{description}}
         </p>
-        <a :href="link" target="_blank" class="button-primary">Join Masterclass</a>
+        <a :href="link" target="_blank" class="button-primary">Join Mentoring Group</a>
     </div>
     </div>
 </template>
@@ -26,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-.masterclass {
+.mentoring {
     display: grid;
     gap: 10px;
     min-width: 300px;
@@ -34,7 +32,7 @@ export default {
     position: relative;
 }
 
-.masterclass .tag {
+.mentoring .tag {
     background-color: white;
     display: inline-block;
     color: black;
@@ -42,37 +40,36 @@ export default {
     padding: 3px 10px;
     border-radius: var(--border-radius);
 }
-.masterclass img {
-    height: 250px;
+.mentoring img {
+    height: 200px;
     width: 100%;
     object-fit: cover;
     border: none;
     border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
 }
 
-.masterclass .details {
+.mentoring .details {
     padding: 0 25px 25px 25px
 }
 
-.masterclass span {
+.mentoring span {
     font-size: 12px;
     color: rgb(237, 237, 237);
 }
 
-.masterclass .dateTime {
+.mentoring .dateTime {
     font-size: 14px;
     color: rgb(122, 255, 226);
 }
 
-.masterclass .title {
+.mentoring .title {
     color:#ffffffda;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 28px
+    font-size: 18px;
+    line-height: 1.3
 }
-.masterclass .description {
+.mentoring .description {
     color:#ffffffb0;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5
 }
 

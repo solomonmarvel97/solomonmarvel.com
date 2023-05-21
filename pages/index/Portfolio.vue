@@ -2,8 +2,8 @@
     <div class="portfolio">
     <section>
     <div class="mt-8 mb-8">
-      <div class="center">
-        <h1 class="mb-5">Portfolio & Investments</h1>
+      <div>
+        <h1 class="mb-5">Portfolio / Investments</h1>
       </div>
       
       <div class="portfolio-grid">

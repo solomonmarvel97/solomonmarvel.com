@@ -1,21 +1,17 @@
 <template>
     <div class="products" id="products">
-        <div class="mt-5">
-            <h1 class="center">Free Gifts</h1>
-        </div>
-        <div class="icon-set">
-            <img class="icon" src="@/assets/icons/arrow-left.svg" />
-            <img class="icon" src="@/assets/icons/arrow-right.svg" />
-        </div>
-        <div class="container">
+        <section class="mt-5">
+            <h1>Free Learning Guides / Resources</h1>
+        </section>
 
+        <div class="container">
             <a class="item" v-for="i, index in resources" :href="i.link" key="index" target="_blank">
                 <img class="mb-1"
                     :src="i.image"
                     alt="" />
             </a>
-
         </div>
+
     </div>
 </template>
 
@@ -68,9 +64,9 @@ export default {
 
 .products .container {
     display: flex;
-    gap: 50px;
-    row-gap: 50px;
-    column-gap: 50px;
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
     justify-content: flex-start;
     overflow: hidden;
     overflow-x: scroll;
@@ -79,9 +75,8 @@ export default {
 }
 
 .products .container .item {
-    min-width: 300px;
+    min-width: 250px;
     height: 100%;
-    border-radius: 10px;
 }
 
 .products .container .item img {

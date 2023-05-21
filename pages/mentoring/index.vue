@@ -2,15 +2,15 @@
     <div class="mt-5">
         <section>
             <div class="mb-5">
-                    <h1 class="center">Premium Masterclass</h1>
+                    <h2 class="center">Free & Open Mentoring Session</h2>
             </div>
 
             <div>
-                <div class="service-grid mb-5" v-for="(i, index) in masterclasses" :key="index">
-                    <MasterclassComponent :image="i.image" :dateTime="i.dateTime" :title="i.title"
+                <div class="service-grid mb-5" v-for="(i, index) in mentoring" :key="index">
+                    <MentoringComponent :image="i.image" :dateTime="i.dateTime" :title="i.title"
                         :description="i.description" :link="i.link" />
                     <div class="service-grid-child">
-                        <MasterclassDescription v-for="(a, index) in i.details" :key="index" :Title="a.title"
+                        <MentoringDescription v-for="(a, index) in i.details" :key="index" :Title="a.title"
                             :Description="a.description" />
                     </div>
                 </div>
@@ -20,23 +20,23 @@
 </template>
 
 <script>
-import MasterclassComponent from '../../components/Masterclass/MasterclassComponent.vue';
-import MasterclassDescription from '../../components/Masterclass/MasterclassDescription.vue';
-import {masterclasses} from '@/data/masterclasses.js'
+import MentoringComponent from '@/components/MentoringComponent.vue';
+import MentoringDescription from '@/components/MentoringDescription.vue';
+import {mentoring} from '@/data/mentoring.js'
 export default {
     layout: 'web',
     data() {
         return {
-            masterclasses
+            mentoring
         }
     },
-    components: { MasterclassComponent, MasterclassDescription }
+    components: { MentoringComponent, MentoringDescription }
 }
 </script>
 
 <style scoped>
 .service-grid {
-    gap: 20px;
+    gap: 30px;
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-template-columns: 40% 60%;
@@ -56,11 +56,10 @@ export default {
 }
 
 .service-grid-child {
-    gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    place-items: center;
-    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 @media (max-width: 1000px) {
