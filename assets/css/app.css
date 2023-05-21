@@ -104,8 +104,7 @@ a {
 
 body {
   width: 100%;
-  background: black;
-  background-image: linear-gradient(to right, #121212 0%, black 100%);
+  background: rgb(14, 14, 14);
   margin-bottom: 50px;
 }
 

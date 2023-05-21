@@ -1,9 +1,9 @@
 <template>
     <div class="services mt-5">
         <section>
-            <h1 class="mb-4">Wanna know what i do?</h1>
+            <h1 class="mb-4">My Services</h1>
             <div class="service-grid">
-                <Services v-for="(i, index) in services" :key="index" :title="i.title"/>
+                <Services v-for="(i, index) in services" :key="index" :title="i.title" />
             </div>
         </section>
     </div>
@@ -14,8 +14,20 @@ import Services from '../../components/Services.vue';
 
 const services = [
     {
+        title: 'Product Development',
+    },
+    {
         title: 'Systems Design',
-    },    
+    },
+    {
+        title: 'Generative AI Development',
+    },
+    {
+        title: 'AI & ML Development',
+    },
+    {
+        title: 'Prompt Engineering',
+    },
     {
         title: 'Agile Consulting',
     },
@@ -23,19 +35,13 @@ const services = [
         title: 'Software Architecting',
     },
     {
-        title: 'Cloud Engineering',
+        title: 'Cloud Service Consulting',
     },
     {
-        title: 'AWS Services',
-    },    
-    {
-        title: 'API Design',
+        title: 'API Development & Design',
     },
     {
-        title: 'Code Migration',
-    },
-    {
-        title: 'Cloud Consulting',
+        title: 'Legacy Code Migration',
     },
     {
         title: 'Workflow Design',
@@ -54,17 +60,18 @@ export default {
 </script>
 
 <style scoped>
-.services { 
+.services {
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: auto;
+    padding: 4em 0;
     border-bottom: .5px solid var(--primary);
 }
+
 .service-grid {
-    gap: 20px;
+    gap: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding-bottom: 2em;
 }
 </style>

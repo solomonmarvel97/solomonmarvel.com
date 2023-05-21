@@ -20,16 +20,16 @@ export default {
     border: 1px solid rgba(255, 255, 255, 0.222);
     border-radius: var(--input-border-radius) !important;
     position: relative;
-    padding: 30px 30px
+    padding: 20px 20px
 }
 
 .service .title {
     color:#ffffffda;
-    font-size: 18px;
+    font-size: 16px;
 }
 .service .button {
     background-color: rgba(255, 255, 255, 0.049);
-    padding: 10px 20px;
+    padding: 5px 10px;
     display: inline-block;
     border-radius: var(--border-radius);
     place-items: center;
@@ -37,7 +37,7 @@ export default {
 
 @media (max-width: 1000px) {
     .service {
-        padding: 25px 10px
+        padding: 10px 10px
     }
 }
 

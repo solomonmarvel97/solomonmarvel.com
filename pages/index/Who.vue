@@ -9,8 +9,8 @@
 
 <style scoped>
   .who {
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+    padding: 4em 0;
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     background-attachment: fixed;
     display: grid;
