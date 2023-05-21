@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Marvelous Akporowho",
+    title: "Marvelous Solomon",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -12,7 +12,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Experienced Software Engineer / Solutions Architect @ Boltcliq & Company.",
+          "Software Engineer | AI/NLP Engineer | Solutions Architect | Mentor",
       },
       { name: "format-detection", content: "telephone=no" },
       { name: "theme-color", content: "#53ff70" },
@@ -85,23 +85,11 @@ export default {
       },
     ],
     "@nuxtjs/axios",
-    "@nuxtjs/pwa",
     "@nuxtjs/toast",
   ],
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: "https://api.solomonmarvel.com",
-  },
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      name: "Marvelous Akporowho",
-      lang: "en",
-      useWebmanifestExtension: false,
-    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

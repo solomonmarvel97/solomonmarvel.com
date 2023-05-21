@@ -1,7 +1,7 @@
 <template>
   <section class="mt-8 mb-5">
     <div class="center">
-      <h1 class="mb-5">Work Testimonials</h1>
+      <h2 class="mb-5">Some feedbacks</h2>
     </div>
     <div class="testimonials-grid">
       <div class="testimonials-item glow" v-for="(item, index) in testimonials" :key="index">
