@@ -25,7 +25,7 @@ export default {
 
 .service .title {
     color:#ffffffda;
-    font-size: 16px;
+    font-size: 14px;
 }
 .service .button {
     background-color: rgba(255, 255, 255, 0.049);
