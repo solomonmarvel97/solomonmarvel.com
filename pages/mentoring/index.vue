@@ -38,7 +38,6 @@ export default {
 .service-grid {
     gap: 30px;
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-template-columns: 40% 60%;
     place-items: center;
     align-items: flex-start;
@@ -50,7 +49,6 @@ export default {
     .service-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: flex-start;
     }
 }
@@ -66,7 +64,6 @@ export default {
     .service-grid-child {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: flex-start;
     }
 }

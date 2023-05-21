@@ -1,6 +1,6 @@
 <template>
     <div class="service glass">
-        <p class="title"> ✓  {{Title}}</p>
+        <p class="title"> ✓ {{ Title }}</p>
     </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
 .service {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 10px;
     padding: 10px 15px;
     border-radius: var(--input-border-radius) !important;
@@ -24,18 +24,17 @@ export default {
 }
 
 .service .title {
-    color:#ffffffda;
+    color: #ffffffda;
     font-size: 14px;
     line-height: 1.4;
 }
 
 @media (max-width: 1000px) {
 
-.service .title {
-    color:#ffffffda;
-    font-size: 14px;
-    line-height: 1.4
+    .service .title {
+        color: #ffffffda;
+        font-size: 14px;
+        line-height: 1.4
+    }
 }
-}
-
 </style>

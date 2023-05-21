@@ -15,13 +15,13 @@ exports.mentoring = [
                 title: 'Support and encouragement'
             },
             {
-                title: 'Opportunities to learn new skills and technologies'
+                title: 'Learn new skills and technologies'
             },
             {
                 title: 'Learn modern toolings'
             },
             {
-                title: 'Follow best practices'
+                title: 'Learn best practices'
             },
             {
                 title: 'Receive learning resouces/guides'
@@ -33,16 +33,22 @@ exports.mentoring = [
                 title: 'Become an industry professional',
             },
             {
-                title: 'Master software engineering & system design'
+                title: 'Learn software engineering'
+            },
+            {
+                title: 'Learn system design'
+            },
+            {
+                title: 'Learn software architecture'
             },
             {
                 title: 'SE book reviews'
             },
             {
-                title: 'Email newsletter on trends & topics in software engineering'
+                title: 'Software engineering newsletter trends'
             },
             {
-                title: 'Get to learn about cloud computing, platforms & services'
+                title: 'Learn cloud computing, platforms & services'
             },
         ]
     },
