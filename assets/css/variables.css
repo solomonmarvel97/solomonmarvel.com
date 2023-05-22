@@ -1,8 +1,8 @@
 :root {
-    --primary: #53ff70;
-    --secondary: #53ffd7;
-    --primary-tint: #34da50;
-    --secondary-tint: #53ffd7;
+    --primary: #dfdfdf;
+    --secondary: #9a9a9a;
+    --primary-tint: #ffffff;
+    --secondary-tint: #d5d5d5;
     --success: #aef78e;
     --warning: #f0a202;
     --error: #f55536;

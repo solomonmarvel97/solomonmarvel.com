@@ -1,7 +1,7 @@
 <template>
     <div class="products" id="products">
         <section class="mt-5">
-            <h1>Free Learning Guides / Resources</h1>
+            <h1>Open Learning Resources</h1>
         </section>
 
         <div class="container">
@@ -37,7 +37,7 @@ export default {
                     link: '#'
                 },
                 {
-                    image: require('@/assets/images/resources/unix_dir.png'),
+                    image: require('@/assets/images/resources/linux.png'),
                     link: '#'
                 },
             ]
@@ -96,7 +96,6 @@ export default {
     font-size: 20px;
 }
 
-.products .container .item .description {}
 
 .products .container .item .price {
     color: #151515;

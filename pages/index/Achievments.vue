@@ -43,7 +43,7 @@
 .grid {
   display: grid;
   gap: 10px;
-  margin: 50px 0px;
+  /* margin: 50px 0px; */
 }
 
 .container-grid {

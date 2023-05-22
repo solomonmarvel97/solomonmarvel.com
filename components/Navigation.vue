@@ -9,7 +9,10 @@
           <div>
             <div class="menu">
               <ul>
-                <li>
+                <li class="item">
+                  <a target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">My Writings</a>
+                </li>
+                <li class="item">
                   <nuxt-link to="/mentoring">Mentoring</nuxt-link>
                 </li>
                 <li class="item">
@@ -19,9 +22,8 @@
                   <nuxt-link to="/consulting">Consulting</nuxt-link>
                 </li>
                 <li class="item">
-                  <a target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Blog</a>
+                  <a target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Learn for free</a>
                 </li>
-                  <a class="item button-primary" target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Start Learning</a>
               </ul>
             </div>
           </div>
@@ -37,10 +39,10 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
+          <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">My Writings</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/consulting">Consulting</a>
-          <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/"> Blog</a>
           <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Learn for free</a>
         </div>
       </div>
@@ -122,15 +124,15 @@ export default {
   position: relative;
 }
 
+
 .menu ul > li {
   width: 110px;
   padding: 10px 0px;
-  border-radius: var(--border-radius);
 }
 
 .scroll {
-  background-color: rgba(0, 0, 0, 0.698);
-  transition: all 1s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.91);
+  transition: all 500ms ease-in-out;
 }
 
 .logo {
@@ -141,7 +143,6 @@ export default {
 }
 
 .logo p {
-  font-size: 18px !important;
   font-family: "TWK Everett", "Inter", sans-serif;
 }
 
@@ -159,7 +160,6 @@ export default {
 }
 
 .avatar {
-  border-radius: var(--border-radius);
 }
 
 /* menu bar */
@@ -170,7 +170,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   background-color: var(--input-color);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .menu {
@@ -182,11 +181,29 @@ export default {
 
 .menu .item {
   flex-basis: 120px;
-  display: flex;
+  display: grid;
   justify-content: center;
+  row-gap: 5px;
   place-items: center;
-  border-radius: var(--border-radius);
-  font-size: 14px;
+  font-size: 14px !important;
+  transition: all 200ms ease-in;
+}
+
+/* .menu ul li::after {
+  transition: all 1s ease-in;
+  display: none;
+  flex-direction: row;
+  content: '';
+  width: 100%;
+  height: .1px;
+  border-radius: 50%;
+  background-color: white;
+} */
+
+.menu ul li:hover {
+  /* padding: 2px 2px; */
+  background-color: rgb(24, 24, 24);
+  border-radius: 50px;
 }
 
 .new::after {

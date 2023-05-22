@@ -1,5 +1,5 @@
 <template>
-    <div class="service glass">
+    <div class="service">
         <p class="title">{{title}}</p>
     </div>
 </template>
@@ -17,14 +17,18 @@ export default {
 <style scoped>
 .service {
     display: flex;
-    border: 1px solid rgba(255, 255, 255, 0.222);
     border-radius: var(--input-border-radius) !important;
     position: relative;
-    padding: 20px 20px
+    padding: 20px 20px;
+    background-color: rgb(28, 28, 28);
 }
 
+.service:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+
 .service .title {
-    color:#ffffffda;
     font-size: 14px;
 }
 .service .button {

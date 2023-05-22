@@ -65,11 +65,11 @@ export default {
     place-items: center;
     height: auto;
     padding: 4em 0;
-    border-bottom: .5px solid var(--primary);
+    border-bottom: .1px dashed var(--secondary);
 }
 
 .service-grid {
-    gap: 15px;
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;

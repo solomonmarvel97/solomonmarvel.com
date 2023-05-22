@@ -10,15 +10,15 @@
       <div>
         <div class="mb-2 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">
-            <img src="@/assets/icons/social/linkedin.svg"/>
+            <img src="@/assets/icons/social/linkedin.svg" />
             Linkedin
           </a>
           <a target="_blank" href="https://twitter.com/solomonmarvel97">
-            <img src="@/assets/icons/social/twitter.svg"/>
+            <img src="@/assets/icons/social/twitter.svg" />
             Twitter
           </a>
           <a target="_blank" href="https://github.com/solomonmarvel97">
-            <img src="@/assets/icons/social/github.svg"/>
+            <img src="@/assets/icons/social/github.svg" />
             Github
           </a>
         </div>
@@ -27,7 +27,12 @@
 
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
-            Book a session
+            Consulting
+            <img src="@/assets/icons/link.svg" alt="" />
+          </a>
+
+          <a href="https://calendly.com/boltcliq/15-minutes-free-consultation?ref=boltcliq.com" target="_blank">
+            Connect
             <img src="@/assets/icons/link.svg" alt="" />
           </a>
         </div>
@@ -39,8 +44,6 @@
 
 <style scoped>
 .hero {
-  display: grid;
-  place-items: center;
   z-index: 100;
   justify-content: space-between;
   flex-direction: row-reverse;
@@ -48,19 +51,28 @@
   gap: 20px;
   position: relative;
   height: 100vh;
+  padding-top: 3em;
 }
 
 .cta a {
   font-size: 20px;
   color: var(--primary);
   display: flex;
-  gap: 10px;
-  place-items: center
+  gap: 5px;
+  place-items: center;
+  border-radius: var(--border-radius);
+  padding: 15px;
+  background-color: #141414;
 }
 
+.cta a:hover {
+  background-color: #272727;
+}
+
+
 .cta img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 }
 
 .spin {
@@ -69,14 +81,13 @@
   position: absolute;
   top: 10px;
   right: 10px;
-
 }
 
 .avatar {
   border-radius: 50%;
   object-position: center;
   padding: 30px;
-  border: .1px solid rgba(217, 217, 217, 0.4);
+  /* border: .1px dashed rgb(79, 79, 79); */
   height: 100%;
   width: 100%;
 }
@@ -163,9 +174,8 @@ p {
     position: relative;
     width: 300px;
     height: 300px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 3em
+    margin-bottom: 3em;
+    overflow: hidden
   }
 
 
@@ -210,18 +220,17 @@ p {
     height: auto;
   }
 
-  .side-image {
-    width: 300px;
-    z-index: -1;
-  }
-
   .hero p {
     width: 100%;
   }
 
   .hero .avatar {
-    height: 100%;
     width: 100%;
+    height: auto;
+  }
+  
+  .spin {
+    right: 0px;
   }
 }
 
@@ -235,29 +244,4 @@ p {
 .bringtofront {
   color: white;
 }
-
-
-.glow:before {
-  content: "";
-  background: linear-gradient(45deg,
-      #ff0000,
-      #ff7300,
-      #fffb00,
-      #48ff00,
-      #00ffd5,
-      #002bff,
-      #7a00ff,
-      #ff00c8,
-      #ff0000);
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  background-size: 50%;
-  z-index: -1;
-  filter: blur(100px);
-  width: calc(50% + 0px);
-  height: calc(50% + 0px);
-  animation: glowing 0s linear infinite;
-  opacity: 1;
-  border-radius: var(--border-radius);
-}</style>
+</style>

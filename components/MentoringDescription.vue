@@ -20,7 +20,7 @@ export default {
     gap: 10px;
     padding: 10px 15px;
     border-radius: var(--input-border-radius) !important;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .service .title {

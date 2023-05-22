@@ -7,7 +7,7 @@
       </div>
       
       <div class="portfolio-grid">
-        <div class="portfolio-item glass" v-for="(item, index) in portfolio" :key="index">
+        <div class="portfolio-item glass glow" v-for="(item, index) in portfolio" :key="index">
           <a target="blank" :href="item.link">
             <div class="">
               <img loading="lazy" :src="item.image" />
@@ -41,7 +41,7 @@
   
   <style scoped>
   .portfolio {
-    border-bottom: .5px solid var(--primary);
+    border-bottom: .1px dashed var(--secondary);
     padding-bottom: 2em;
   }
   .icon {

@@ -42,7 +42,7 @@ export default {
     place-items: center;
     align-items: flex-start;
     padding-bottom: 3em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.095);
+    border-bottom: .1px dashed var(--secondary);
 }
 
 @media (max-width: 1000px) {

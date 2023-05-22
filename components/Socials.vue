@@ -20,7 +20,7 @@
 .socials {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
   row-gap: 5px;
   place-items: center;
   align-items: flex-start;
