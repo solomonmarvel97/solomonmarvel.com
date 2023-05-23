@@ -4,33 +4,35 @@
             <h1 class="mb-2">Consulting Plans</h1>
             <p>Hello 👋🏾, let's create a solution to that problem</p>
             <div class="consulting-grid mt-5">
-                <div class="glass">
-                    <img loading="lazy" class="mb-2" src="https://images.unsplash.com/photo-1612831661941-254341b885e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80"/>
-                    <div class="details">
-                        <h2 class="mb-1">30 minutes session</h2>
-                        <h1 class="mb-1">$50</h1>
-                        
-                        <div class="item mb-2" v-for="(i, index) in plan1" :key="index">
-                            <img loading="lazy" src="@/assets/icons/check.svg"/>
-                            <p>{{i.item}}</p>
+                <a target="_blank" href="https://buy.stripe.com/8wM03C0aC91t2Sk28b">
+                    <div class="glass">
+                        <img loading="lazy"
+                            src="https://images.unsplash.com/photo-1612831661941-254341b885e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80" />
+                        <div class="details">
+                            <h2 class="mb-1">30 minutes session</h2>
+                            <h1 class="mb-2">$50</h1>
+                            <div class="item mb-2" v-for="(i, index) in plan1" :key="index">
+                                <img loading="lazy" src="@/assets/icons/check.svg" />
+                                <p>{{ i.item }}</p>
+                            </div>
                         </div>
-
-                        <a class="mt-4 button-primary" target="_blank" href="https://buy.stripe.com/8wM03C0aC91t2Sk28b">Book Session</a>
                     </div>
-            </div>
-            <div class="glass">
-                <img loading="lazy" class="mb-2" src="https://images.unsplash.com/photo-1621570072081-b780ce69bff0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"/>
-                <div class="details">
-                    <h2 class="mb-1">1 hour session</h2>
-                    <h1 class="mb-1">$100</h1>
-                    <div class="item mb-2" v-for="(i, index) in plan2" :key="index">
-                            <img loading="lazy" src="@/assets/icons/check.svg"/>
-                            <p>{{i.item}}</p>
+                </a>
+                <a target="_blank" href="https://buy.stripe.com/28o9Ec3mOdhJ78AcMQ">
+                    <div class="glass">
+                        <img loading="lazy"
+                            src="https://images.unsplash.com/photo-1621570072081-b780ce69bff0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" />
+                        <div class="details">
+                            <h2 class="mb-1">1 hour session</h2>
+                            <h1 class="mb-2">$100</h1>
+                            <div class="item mb-2" v-for="(i, index) in plan2" :key="index">
+                                <img loading="lazy" src="@/assets/icons/check.svg" />
+                                <p>{{ i.item }}</p>
+                            </div>
                         </div>
-                    <a class="mt-4 button-primary" target="_blank" href="https://buy.stripe.com/28o9Ec3mOdhJ78AcMQ">Book Session</a>
-                </div>
+                    </div>
+                </a>
             </div>
-        </div>
         </section>
     </div>
 </template>
@@ -49,7 +51,7 @@ const plan1 = [
 ]
 
 const plan2 = [
-{
+    {
         item: "IT Strategies"
     },
     {
@@ -80,30 +82,33 @@ export default {
 </script>
 
 <style scoped>
-.consulting {
-    display: grid;
-}
-
 .consulting .consulting-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    gap: 50px;
+    position: relative;
+    height: 100%;
 }
 
-.consulting .consulting-grid div {
-    flex-basis: 500px;
-    place-items: center;
+.consulting .consulting-grid>div {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--input-border-radius) !important;
+}
+
+.consulting .consulting-grid> a {
+    width: 100%;
+    height: 100%;
     border-radius: var(--input-border-radius) !important;
 }
 
 .consulting .consulting-grid .details {
-    padding: 40px;
+    padding: 20px;
 }
 
 .consulting .consulting-grid img {
-    height: 250px;
+    height: 200px;
     object-fit: cover;
     border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
 }
@@ -120,5 +125,4 @@ export default {
     height: 15px;
     object-fit: cover;
 }
-
 </style>
