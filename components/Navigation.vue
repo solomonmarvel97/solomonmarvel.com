@@ -10,7 +10,7 @@
             <div class="menu">
               <ul>
                 <li class="item">
-                  <a target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">My Writings</a>
+                  <a target="_blank" href="https://boltcliq.com/author/marv/">My Writings</a>
                 </li>
                 <li class="item">
                   <nuxt-link to="/mentoring">Mentoring</nuxt-link>
@@ -39,7 +39,7 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
-          <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">My Writings</a>
+          <a class="item" target="_blank" href="https://boltcliq.com/author/marv/">My Writings</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/consulting">Consulting</a>
