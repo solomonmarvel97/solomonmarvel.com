@@ -10,16 +10,16 @@
             <div class="menu">
               <ul>
                 <li class="item">
-                  <a target="_blank" href="https://boltcliq.com/author/marv/">My Writings</a>
+                  <a target="_blank" href="https://boltcliq.com/author/marv/">Publications</a>
+                </li>
+                <li class="item">
+                  <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
                 </li>
                 <li class="item">
                   <nuxt-link to="/mentoring">Mentoring</nuxt-link>
                 </li>
                 <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
-                </li>
-                <li class="item ">
-                  <nuxt-link to="/consulting">Consulting</nuxt-link>
                 </li>
                 <li class="item">
                   <a target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Learn for free</a>
@@ -39,7 +39,8 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
-          <a class="item" target="_blank" href="https://boltcliq.com/author/marv/">My Writings</a>
+          <a class="item" target="_blank" href="https://boltcliq.com/author/marv/">Publications</a>
+          <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/consulting">Consulting</a>
@@ -125,7 +126,7 @@ export default {
 }
 
 
-.menu ul > li {
+.menu ul>li {
   width: 110px;
   padding: 10px 0px;
 }
@@ -159,8 +160,7 @@ export default {
   align-items: center;
 }
 
-.avatar {
-}
+.avatar {}
 
 /* menu bar */
 .menu-wrapper {
