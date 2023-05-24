@@ -172,8 +172,8 @@ p {
 
   .hero .spin {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 3em;
     overflow: hidden
   }
@@ -218,6 +218,7 @@ p {
 @media (max-width: 1000px) {
   .hero {
     height: auto;
+    display: block;
   }
 
   .hero p {
