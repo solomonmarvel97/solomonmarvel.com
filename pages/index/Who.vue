@@ -2,7 +2,7 @@
   <div class="who">
     <section>
       <p class="mb-3 text-black">who am i?</p>
-      <h1 class="text-black">I am a software engineer with more than a decade of engineering experience. Currently pursuing a MBA in Advanced AI & The Future of Automation @Nexford University, London.</h1>
+      <h1 class="text-black">I am a software engineer with more than a decade of engineering experience. Currently pursuing an MBA in Advanced AI & The Future of Automation @Nexford University, London.</h1>
   </section>
   </div>
 </template>
