@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <div class="path1"></div> -->
     <section class="mt-2 hero">
       <div class="spin">
         <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
@@ -50,8 +49,8 @@
   place-items: center;
   gap: 20px;
   position: relative;
-  height: 100vh;
-  padding-top: 3em;
+  height: 100%;
+  padding: 5em 0;
 }
 
 .cta a {
@@ -76,11 +75,11 @@
 }
 
 .spin {
-  height: calc(14rem);
-  width: calc(14rem);
+  height: 16em;
+  width: 16em;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0px;
+  right: 0px;
 }
 
 .avatar {
@@ -167,6 +166,7 @@ p {
     display: grid;
     position: relative;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	place-items: center;
     height: 100vh;
   }
 
