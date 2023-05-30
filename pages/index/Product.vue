@@ -22,23 +22,23 @@ export default {
             resources: [
                 {
                     image: require('@/assets/images/resources/python.png'),
-                    link: 'https://python-for-starters.upages.xyz/'
+                    link: 'https://pythonforstarters.solomonmarvel.com'
                 },
                 {
                     image: require('@/assets/images/resources/bash.png'),
-                    link: '#'
+                    link: 'https://bashlaunchbox.solomonmarvel.com'
                 },
                 {
                     image: require('@/assets/images/resources/git.png'),
-                    link: '#'
+                    link: 'https://gitdeveloperguide.solomonmarvel.com'
                 },
                 {
                     image: require('@/assets/images/resources/javascript.png'),
-                    link: '#'
+                    link: 'https://javascriptlaunchbox.solomonmarvel.com'
                 },
                 {
                     image: require('@/assets/images/resources/linux.png'),
-                    link: '#'
+                    link: 'https://linuxbasicguide.solomonmarvel.com'
                 },
             ]
         }
