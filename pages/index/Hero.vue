@@ -21,7 +21,7 @@
             Github
           </a>
         </div>
-        <h1 class=""mb-3">Marvelous <br> Solomon</h1>
+        <h1 class="mb-3">Marvelous <br> Solomon</h1>
         <p class="mb-6">Solutions Architect (Cloud & Data) | Software/AI/ML/NLP Engineer</p>
 
         <div class="button-flex mb-3 cta">
