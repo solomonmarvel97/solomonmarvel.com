@@ -21,8 +21,8 @@
             Github
           </a>
         </div>
-        <h1 class="mb-3">Marvelous <br> Solomon</h1>
-        <p class="mb-6">Software Engineer | Solutions Architect | Software / AI / ML / NLP Engineer</p>
+        <h1 class=""mb-3">Marvelous <br> Solomon</h1>
+        <p class="mb-6">Cloud Solutions Architect | Software/AI/ML/NLP Engineer</p>
 
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
