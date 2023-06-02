@@ -20,6 +20,10 @@
             <img src="@/assets/icons/social/github.svg" />
             Github
           </a>
+          <a target="_blank" href="https://openprofile.dev/profile/superdeveloper">
+            <img src="@/assets/icons/social/lf.png" />
+            Linux Foundation
+          </a>
         </div>
         <h1 class="mb-3">Marvelous <br> Solomon</h1>
         <p class="mb-6">Solutions Architect (Cloud & Data) | Software/AI/ML/NLP Engineer</p>
