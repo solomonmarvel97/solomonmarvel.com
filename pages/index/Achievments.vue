@@ -33,6 +33,23 @@
             <h1>Machine learning, Serverless Computing & Distributed Systems</h1>
           </div>
       </div>
+
+      <div class="container white text-black">
+          <div class="grid">
+            <p class="mb-2">2023 Certifications</p>
+            <div class="flex">
+              <a target="_blank" href="https://www.cloudskillsboost.google/public_profiles/cb6ac2ff-18f6-49a4-b2f5-85ffa18756a8/badges/3824954">Introduction to Generative AI</a>
+              <a target="_blank" href="https://www.deeplearning.ai/short-courses/">ChatGPT Prompt Engineering For Developers</a>
+              <a target="_blank" href="https://www.deeplearning.ai/short-courses/">Building Systems with the ChatGPT API</a>
+              <a target="_blank" href="https://www.deeplearning.ai/short-courses/">LangChain for LLM Application Development</a>
+              <a target="_blank" href="https://www.deeplearning.ai/short-courses/">How Diffusion Models Work</a>
+              <a target="_blank" href="https://www.linkedin.com/learning/introducing-semantic-kernel-building-ai-based-apps/introducing-semantic-kernel">Introducing Semantic Kernel: Building AI-Based Apps</a>
+              <a target="_blank" href="https://www.linkedin.com/learning/postman-essential-training-21969591">Postman Essential Training</a>
+              
+            </div>
+          </div>
+      </div>
+      
       
     </section>
   </div>
@@ -75,6 +92,17 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.container .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.container .flex a {
+  text-decoration: underline;
 }
 
 
