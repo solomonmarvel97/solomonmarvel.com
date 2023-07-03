@@ -25,8 +25,8 @@
             Linux Foundation
           </a>
         </div>
-        <h1 class="mb-3">Marvelous <br> Solomon</h1>
-        <p class="mb-6">Solutions Architect (Cloud & Data) | Software/AI/ML/NLP Engineer</p>
+        <h1 class="mb-2">Marvelous <br> Solomon</h1>
+        <p class="mb-6">Founder @Swift Commerce, Founder @Top Universe, Principal Software Engineer @Bunkr Essentials, Solutions Architect @boltcliq, AI Enthusiast</p>
 
         <div class="button-flex mb-3 cta">
           <a href="/consulting">
@@ -132,6 +132,7 @@ h1 {
 p {
   font-size: 20px;
   line-height: 1.3;
+  width: 600px;
 }
 
 .socials {
@@ -197,7 +198,7 @@ p {
   }
 
   .hero p {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -233,7 +234,7 @@ p {
     width: 100%;
     height: auto;
   }
-  
+
   .spin {
     right: 0px;
   }
