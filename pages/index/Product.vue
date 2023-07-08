@@ -1,5 +1,5 @@
 <template>
-    <div class="products" id="products">
+    <section class="products" id="products">
         <section class="mt-5">
             <h1>Open Learning Resources</h1>
         </section>
@@ -12,7 +12,7 @@
             </a>
         </div>
 
-    </div>
+    </section>
 </template>
 
 <script>
