@@ -33,7 +33,7 @@ h1 span {
 @media (max-width: 768px) {
   h1 {
     font-size: 30px;
-  } 
+  }
 }
 
 p, a, li {
@@ -319,4 +319,12 @@ hr {
 @keyframes marquee {
   0% { left: 0; }
   100% { left: -100%; }
+}
+
+
+@media(min-width: 1400px) {
+    section {
+        width: 1300px;
+        margin: 0 auto
+    }
 }
