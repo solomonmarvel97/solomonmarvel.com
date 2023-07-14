@@ -70,7 +70,7 @@ export default {
 }
 
 .products .container .item {
-    min-width: 250px;
+    min-width: 300px;
     height: 100%;
 }
 

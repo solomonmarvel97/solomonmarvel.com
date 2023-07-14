@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 500;
   font-family: "Inter", sans-serif;
 }
 
@@ -70,8 +70,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 0px; /* roundness of the scroll thumb */
   background: rgb(20, 20, 20); /* width of the entire scrollbar */
 }
-
-
 
 .theme-picker {
   display: grid;
@@ -313,7 +311,7 @@ hr {
 
 
 section {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -326,7 +324,7 @@ section {
 
 @media(min-width: 1400px) {
     section {
-        width: 1200px;
+        width: 1100px;
         margin: 0 auto
     }
 }

@@ -21,8 +21,8 @@
                 <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
                 </li>
-                <li class="item">
-                  <a target="_blank" href="https://topuniverse.org/coaching/cohort" rel="noopener">Learn for free</a>
+                <li class="item button-primary">
+                  <a href="/courses/git" rel="noopener">Courses</a>
                 </li>
               </ul>
             </div>
@@ -44,7 +44,7 @@
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/consulting">Consulting</a>
-          <a class="item" target="_blank" href="https://topuniverse.org/coaching/cohort">Learn for free</a>
+          <a class="item" href="/courses/git">Courses</a>
         </div>
       </div>
     </div>
@@ -132,8 +132,8 @@ export default {
 }
 
 .scroll {
-  background-color: rgba(0, 0, 0, 0.91);
-  transition: all 500ms ease-in-out;
+  background-color: rgb(14, 14, 14);
+  transition: all 50ms ease-in-out;
 }
 
 .logo {
@@ -185,7 +185,6 @@ export default {
   justify-content: center;
   row-gap: 5px;
   place-items: center;
-  font-size: 14px !important;
   transition: all 200ms ease-in;
 }
 

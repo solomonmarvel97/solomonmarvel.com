@@ -5,7 +5,7 @@
       <div>
         <h1 class="mb-5">Portfolio & Investments</h1>
       </div>
-      
+
       <div class="portfolio-grid">
         <div class="portfolio-item glass glow" v-for="(item, index) in portfolio" :key="index">
           <a target="blank" :href="item.link">
@@ -25,10 +25,10 @@
   </section>
   </div>
   </template>
-  
+
   <script>
   import { portfolio } from "@/data/portfolio.js";
-  
+
   export default {
     layout: 'web',
     data() {
@@ -38,7 +38,7 @@
     },
   };
   </script>
-  
+
   <style scoped>
   .portfolio {
     border-bottom: .1px dashed var(--secondary);
@@ -47,43 +47,43 @@
   .icon {
     font-size: 25px;
   }
-  
+
   .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     gap: 30px;
     width: 100%;
   }
-  
+
   .portfolio-item {
     position: relative;
     align-items: center;
-    height: 300;
+    height: 200;
     border-radius: var(--input-border-radius) !important;
   }
 
   .portfolio-item .details {
     padding: 30px;
   }
-  
+
   .portfolio-item img {
     border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
     object-fit: cover;
-    height: 200px;
+    height: 150px;
   }
-  
+
   @media (max-width: 768px) {
     .portfolio-item {
       flex-basis: 150px;
       border-radius: var(--border-radius);
     }
   }
-  
+
   a {
     font-size: 12px;
     color: rgb(172, 172, 172);
   }
-  
+
   .icons {
     width: 50px;
     height: 50px;
@@ -93,4 +93,3 @@
     padding: 10px;
   }
   </style>
-  

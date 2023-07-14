@@ -2,6 +2,7 @@
   <div>
     <section class="mt-2 hero">
       <div>
+
         <div class="mb-2 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">
             <img src="@/assets/icons/social/linkedin.svg" />
@@ -20,10 +21,12 @@
             Linux Foundation
           </a>
         </div>
-        <h1 class="mb-2">Marvelous <br> Solomon</h1>
-        <p class="mb-6">Founder @Swift Commerce, Founder @Top Universe, Principal Software Engineer @Bunkr Essentials, Solutions Architect @boltcliq, AI Enthusiast</p>
 
-        <div class="button-flex mb-3 cta">
+        <h1 class="mb-2">Marvelous <br> Solomon</h1>
+
+        <p class="mb-6">Founder, Principal Software Engineer, Solutions Architect & Community Builder</p>
+
+        <div class="button-flex cta">
           <a href="/consulting">
             Consulting
             <img src="@/assets/icons/link.svg" alt="" />
@@ -90,7 +93,7 @@
   object-position: center;
   padding: 50px;
   position: relative;
-  top: -5px
+
 }
 
 .avatar-wrapper {
@@ -127,9 +130,9 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
-  width: 600px;
+  width: 500px;
 }
 
 .socials {
