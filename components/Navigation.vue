@@ -218,7 +218,7 @@ export default {
 
 .menu-wrapper-mobile {
   display: none;
-  background-color: white;
+  background-color: #1e1e1e;
 }
 
 .mobile-header {
@@ -246,7 +246,7 @@ export default {
   height: 20px;
   z-index: 9999;
   background: none;
-  color: black;
+  color: white;
   border: none;
 }
 
@@ -318,7 +318,7 @@ export default {
     height: 50px;
     gap: 10px;
     border-radius: var(--border-radius);
-    color: black;
+    color: white;
     font-weight: 300 !important;
     font-family: "TWK Everett", "Inter", sans-serif;
     font-size: 35px !important;

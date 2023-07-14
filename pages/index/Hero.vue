@@ -1,11 +1,6 @@
 <template>
   <div>
     <section class="mt-2 hero">
-      <div class="spin">
-        <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
-        <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
-      </div>
-
       <div>
         <div class="mb-2 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">
@@ -41,6 +36,11 @@
         </div>
       </div>
 
+      <div class="spin">
+        <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
+        <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
+      </div>
+
     </section>
   </div>
 </template>
@@ -49,10 +49,9 @@
 .hero {
   z-index: 100;
   justify-content: space-between;
-  flex-direction: row-reverse;
+  display: flex;
   place-items: center;
   gap: 20px;
-  position: relative;
   height: 100%;
   padding: 5em 0;
 }
@@ -79,20 +78,19 @@
 }
 
 .spin {
-  height: 16em;
-  width: 16em;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
+
 
 .avatar {
   border-radius: 50%;
   object-position: center;
-  padding: 30px;
-  /* border: .1px dashed rgb(79, 79, 79); */
-  height: 100%;
-  width: 100%;
+  padding: 50px;
+  position: relative;
+  top: -5px
 }
 
 .avatar-wrapper {
@@ -101,7 +99,6 @@
   -moz-animation: spin 25s linear infinite;
   animation: spin 25s linear infinite;
   object-fit: cover;
-  padding: 10px;
 }
 
 @-moz-keyframes spin {
@@ -125,13 +122,13 @@
 
 h1 {
   color: white;
-  line-height: .9;
-  font-size: calc(7rem);
+  line-height: .8;
+  font-size: calc(6rem);
 }
 
 p {
-  font-size: 20px;
-  line-height: 1.3;
+  font-size: 18px;
+  line-height: 1.6;
   width: 600px;
 }
 
@@ -165,43 +162,6 @@ p {
   height: 12px;
 }
 
-@media (max-width: 1000px) {
-  .hero {
-    padding-top: 2em;
-    display: grid;
-    position: relative;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	place-items: center;
-    height: 100vh;
-  }
-
-  .hero .spin {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 3em;
-    overflow: hidden
-  }
-
-
-
-  h1 {
-    width: 100%;
-    line-height: 1.2;
-    font-size: 50px;
-  }
-
-  h3 {
-    width: 100%;
-    line-height: 1.2;
-    font-size: 20px;
-  }
-
-  .hero p {
-    width: 100%;
-  }
-}
-
 
 .hero .cta_blog {
   height: 65px;
@@ -221,14 +181,29 @@ p {
 
 
 @media (max-width: 1000px) {
-  .hero {
-    height: auto;
-    display: block;
+
+.hero {
+    padding-top: 2em;
+    flex-direction: column-reverse !important;
+	place-items: center;
+  }
+
+  h1 {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 50px;
+  }
+
+  h3 {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 20px;
   }
 
   .hero p {
     width: 100%;
   }
+
 
   .hero .avatar {
     width: 100%;

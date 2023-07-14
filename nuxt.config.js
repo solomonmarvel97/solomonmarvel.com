@@ -50,6 +50,10 @@ export default {
         hid: "github calendar",
         src: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js",
       },
+      {
+        hid: "luma-checkout",
+        src: "https://embed.lu.ma/checkout-button.js",
+      },
     ],
   },
 

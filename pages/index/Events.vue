@@ -1,11 +1,49 @@
 <template>
-    <section class="products mt-5" id="products">
+    <section class="products" id="products">
+        <div class="mt-5 mb-3">
+            <h1>Resources</h1>
+        </div>
+
         <div class="container">
-            <a class="item" v-for="i, index in resources" :href="i.link" key="index" target="_blank">
-                <img class="mb-1"
-                    :src="i.image"
-                    alt="" />
-            </a>
+            <div class="">
+            <iframe
+            src="https://lu.ma/embed-checkout/evt-lVnwY3GhLpvseUt"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: .1px solid #1F1E1E; border-radius: 12px;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            ></iframe>
+            </div>
+
+            <div class="">
+            <iframe
+            src="https://lu.ma/embed-checkout/evt-Dpr7357IVDqpIeL"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: .1px solid #1F1E1E; border-radius: 12px;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            ></iframe>
+            </div>
+
+            <div class="item">
+            <iframe
+            src="https://lu.ma/embed-checkout/evt-uwnWOsg22g3VLE8"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: .1px solid #1F1E1E; border-radius: 12px;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            ></iframe>
+            </div>
+
         </div>
 
     </section>
@@ -51,11 +89,9 @@ export default {
 }
 
 .products .header {
-    width: 750px;
 }
 
 .products .header>* {
-    text-align: center;
 }
 
 .products .container {
@@ -66,7 +102,6 @@ export default {
     justify-content: flex-start;
     overflow: hidden;
     overflow-x: scroll;
-    margin: 0 auto;
 }
 
 .products .container .item {
@@ -74,32 +109,4 @@ export default {
     height: 100%;
 }
 
-.products .container .item img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.products .container .item .tag {
-    font-size: 14px;
-}
-
-.products .container .item .title {
-    color: #151515;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-
-.products .container .item .price {
-    color: #151515;
-    font-weight: 500;
-}
-
-@media (max-width: 1000px) {
-    .products .header {
-        width: 100%;
-    }
-}
 </style>
