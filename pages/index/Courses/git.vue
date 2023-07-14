@@ -152,7 +152,7 @@ head: {
       meta: [
         { property: "og:title", content: "Git & Github Mastery" },
         { property: "og:description", content: "Join our comprehensive git & gitHub expert class" },
-        { hid: 'og:image', property: 'og:image', content: "https://github.blog/wp-content/uploads/2023/02/code-search-header.png?fit=1600%2C736" },
+        { hid: 'og:image', property: 'og:image', content: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmtPhsZP0OZ0JpKeKxvSsmsVYZCb-1KgkRmb5lY5N_sExIF1lHqmDqgJKI5HtscN8zfg&usqp=CAU" },
       ],
     },
 }
