@@ -148,7 +148,7 @@
 <script>
 export default {
 head: {
-      title: "Swift Commerce",
+      title: "Git & Github Mastery",
       meta: [
         { property: "og:title", content: "Git & Github Mastery" },
         { property: "og:description", content: "Join our comprehensive git & gitHub expert class" },
