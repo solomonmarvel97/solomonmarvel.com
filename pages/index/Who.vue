@@ -11,7 +11,7 @@
   .who {
     height: 100%;
     padding: 4em 0;
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    background-color: black;
     background-attachment: fixed;
     display: grid;
     place-items: center;
@@ -22,5 +22,10 @@
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 2px;
+    color: white;
+  }
+
+  h1 {
+  color: white;
   }
 </style>

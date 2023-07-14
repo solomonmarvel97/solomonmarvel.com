@@ -94,7 +94,7 @@ export default {
 
 <style scoped>
 .navigation {
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;

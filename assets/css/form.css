@@ -33,7 +33,7 @@ form p {
   padding: 14px;
   border-radius: var(--border-radius);
   color: black;
-  background-color: #4443F0 !important;
+  background: #641BDB;
   cursor: pointer;
   font-size: 16px;
   display: flex;

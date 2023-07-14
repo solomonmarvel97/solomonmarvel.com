@@ -181,7 +181,7 @@ head: {
   place-items: center;
   gap: 20px;
   height: 100%;
-  padding-top: 3em;
+  padding-top: 6em;
 }
 
 
@@ -280,7 +280,7 @@ p {
 @media (max-width: 1000px) {
 
 .hero {
-    padding-top: 2em;
+    padding-top: 6em;
     flex-direction: column-reverse !important;
 	place-items: center;
   }

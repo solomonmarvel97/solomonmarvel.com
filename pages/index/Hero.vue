@@ -3,7 +3,11 @@
     <section class="mt-2 hero">
       <div>
 
-        <div class="mb-2 socials">
+
+        <p class="mb-1">Founder, Principal Software Engineer & Solutions Architect</p>
+        <h1 class="mb-3">Marvelous Solomon</h1>
+
+        <div class="mb-4 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">
             <img src="@/assets/icons/social/linkedin.svg" />
             Linkedin
@@ -21,10 +25,6 @@
             Linux Foundation
           </a>
         </div>
-
-        <h1 class="mb-2">Marvelous Solomon</h1>
-
-        <p class="mb-6">Founder, Principal Software Engineer, Solutions Architect & Community Builder</p>
 
         <div class="button-flex cta">
           <a href="/consulting">
@@ -57,6 +57,12 @@
   gap: 20px;
   height: 100%;
   padding: 5em 0;
+  padding-top: 10em
+}
+
+.hero > div {
+    display: grid;
+    place-items: center
 }
 
 .cta a {
@@ -81,16 +87,19 @@
 }
 
 .spin {
-  position: relative;
+  position: absolute;
   overflow: hidden;
-
+  height: 150px;
+  width: 150px;
+  right: 150px;
+  top: 100px;
 }
 
 
 .avatar {
   border-radius: 50%;
   object-position: center;
-  padding: 40px;
+  padding: 15px;
   position: relative;
 }
 
@@ -123,19 +132,42 @@
 
 h1 {
   color: white;
-  line-height: .9;
-  font-size: 52px;
+  line-height: .8;
+  font-weight: 900;
+  letter-spacing: -5px;
+  font-size: 150px;
+
+text-align:center;
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 p {
   font-size: 16px;
   line-height: 1.6;
-  width: 500px;
+  text-align: center;
 }
 
 .socials {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 5px;
 }
 
@@ -184,15 +216,15 @@ p {
 @media (max-width: 1000px) {
 
 .hero {
-    padding-top: 2em;
+    padding-top: 6em;
     flex-direction: column-reverse !important;
 	place-items: center;
   }
 
   h1 {
     width: 100%;
-    line-height: 1.2;
-    font-size: 50px;
+    font-size: 54px;
+    letter-spacing: -2px
   }
 
   h3 {
@@ -205,14 +237,21 @@ p {
     width: 100%;
   }
 
-
   .hero .avatar {
     width: 100%;
     height: auto;
   }
 
   .spin {
-    right: 0px;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+
+  .avatar {
+    padding: 25px;
   }
 }
 
