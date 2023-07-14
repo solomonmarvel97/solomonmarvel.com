@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-5">
+    <div class="hero">
         <section>
             <div class="mb-5">
                     <h2 class="center">Free & Open Mentoring Session</h2>
@@ -35,6 +35,10 @@ export default {
 </script>
 
 <style scoped>
+.hero {
+    padding-top: 8em;
+}
+
 .service-grid {
     gap: 30px;
     display: grid;

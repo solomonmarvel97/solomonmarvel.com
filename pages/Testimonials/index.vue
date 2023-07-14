@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-8 mb-5">
+  <section class="mt-8 mb-5 testimonials">
     <div class="center">
       <h2 class="mb-5">What clients & friends say.</h2>
     </div>
@@ -27,6 +27,11 @@ export default {
 </script>
 
 <style>
+
+.testimonials {
+    padding-top: 4em;
+}
+
 .testimonials-grid {
   gap: 15px;
   display: flex;
