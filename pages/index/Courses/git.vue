@@ -1,12 +1,6 @@
 <template>
   <div>
 
-  <Head>
-      <Title>Git & Github Mastery</Title>
-      <Meta name="description" content="Join our comprehensive git & gitHub expert class" />
-      <Meta name="ogimage" content="@/assets/images/courses/github/6.webp" />
-    </Head>
-
     <section>
 
     <!-- header -->
@@ -14,7 +8,7 @@
       <div>
         <h1 class="mb-2">Git & Github Mastery</h1>
 
-        <p class="mb-6">Join our comprehensive git & gitHub expert class to gain a deep understanding
+        <p class="mb-4">Join our comprehensive git & gitHub expert class to gain a deep understanding
         of version control, collaboration, and seamless project management.</p>
 
         <div class="button-flex cta">
@@ -150,6 +144,21 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+head: {
+      title: "Swift Commerce",
+      meta: [
+        { property: "og:title", content: ">Git & Github Mastery" },
+        { property: "og:description", content: "Join our comprehensive git & gitHub expert class" },
+        { hid: 'og:image', property: 'og:image', content: "@/assets/images/courses/github/6.webp" },
+      ],
+    },
+}
+
+</script>
+
 
 <style scoped>
 
