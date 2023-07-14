@@ -22,7 +22,7 @@
           </a>
         </div>
 
-        <h1 class="mb-2">Marvelous <br> Solomon</h1>
+        <h1 class="mb-2">Marvelous Solomon</h1>
 
         <p class="mb-6">Founder, Principal Software Engineer, Solutions Architect & Community Builder</p>
 
@@ -83,17 +83,15 @@
 .spin {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+
 }
 
 
 .avatar {
   border-radius: 50%;
   object-position: center;
-  padding: 50px;
+  padding: 40px;
   position: relative;
-
 }
 
 .avatar-wrapper {
@@ -125,8 +123,8 @@
 
 h1 {
   color: white;
-  line-height: .8;
-  font-size: calc(6rem);
+  line-height: .9;
+  font-size: 52px;
 }
 
 p {
