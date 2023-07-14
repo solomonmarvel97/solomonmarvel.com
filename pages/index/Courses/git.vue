@@ -13,7 +13,7 @@
 
         <div class="button-flex cta">
           <a href="#">
-            Join The Training
+            15th July, 2023
             <img src="@/assets/icons/link.svg" alt="" />
           </a>
         </div>
@@ -135,7 +135,7 @@
 
         <div class="cta center">
           <a href="#" class="button-primary">
-            Join The Training
+            15th July, 2023
           </a>
         </div>
 
