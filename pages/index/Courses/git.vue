@@ -150,9 +150,9 @@ export default {
 head: {
       title: "Swift Commerce",
       meta: [
-        { property: "og:title", content: ">Git & Github Mastery" },
+        { property: "og:title", content: "Git & Github Mastery" },
         { property: "og:description", content: "Join our comprehensive git & gitHub expert class" },
-        { hid: 'og:image', property: 'og:image', content: "@/assets/images/courses/github/6.webp" },
+        { hid: 'og:image', property: 'og:image', content: "https://github.blog/wp-content/uploads/2023/02/code-search-header.png?fit=1600%2C736" },
       ],
     },
 }
