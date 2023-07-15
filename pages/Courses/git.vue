@@ -24,49 +24,71 @@
 
 
     <!-- grid -->
-    <div class="grey mt-5">
+    <div class="mt-5">
         <div class="grid">
-            <div>
+            <div class="container">
+                <img loading="lazy" class="mb-1" src="@/assets/images/courses/github/icons/1.svg" />
                 <h4 class="mb-1">Git Fundamentals</h4>
-                <p class="mb-2">
+                <p>
                     Learn the basics of Git version control, from setting up your local environment and initializing repositories to executing essential commands like add, commit, and branch creation.
                 </p>
             </div>
-            <div>
+            <div class="container">
+            <img loading="lazy" class="mb-1" src="@/assets/images/courses/github/icons/2.svg" />
                 <h4 class="mb-1">Advanced Git Techniques</h4>
-                <p class="mb-2">
+                <p>
                     Dive deeper into Git with advanced topics such as resolving merge conflicts, utilizing rebasing, managing tags and releases, working with submodules, and implementing Git hooks for automation.
                 </p>
             </div>
 
-            <div>
+            <div class="container">
+            <img loading="lazy" class="mb-1" src="@/assets/images/courses/github/icons/3.svg" />
                 <h4 class="mb-1">GitHub Essentials</h4>
-                <p class="mb-2">
-                    Discover the power of GitHub as you explore repository management, collaborative workflows using pull requests, issue tracking, project management with GitHub Projects, and customizing repository settings.
+                <p>
+                    Discover the power of GitHub as you explore repository management, collaborative workflows using pull requests, issue tracking and project management with GitHub Projects.
                 </p>
             </div>
 
-            <div>
+            <div class="container">
+            <img loading="lazy" class="mb-1" src="@/assets/images/courses/github/icons/4.svg" />
                 <h4 class="mb-1">Advanced GitHub Strategies</h4>
-                <p class="mb-2">
-                    Take your GitHub skills to the next level by learning about automation with GitHub Actions and API integration, contributing to open source projects, conducting effective code reviews, and building your personal brand.
+                <p>
+                    Take your GitHub skills to the next level by learning about automation with GitHub Actions and API integration, contributing to open source projects, conducting effective code reviews.
                 </p>
             </div>
 
-            <div>
+            <div class="container">
+            <img loading="lazy" class="mb-1" src="@/assets/images/courses/github/icons/5.svg" />
                 <h4 class="mb-1">GitHub Project Management</h4>
-                <p class="mb-2">
-                    Master the art of project management on GitHub, utilizing features like milestones, project boards, labels, and project automation to streamline team collaboration and enhance productivity.
+                <p>
+                    Master the art of project management on GitHub, utilizing features like milestones, project boards, labels, and project automation to streamline team collaboration.
                 </p>
             </div>
 
-            <div>
+            <div class="container">
+            <img loading="lazy" class="mb-1" src="@/assets/images/courses/github/icons/6.svg" />
                 <h4 class="mb-1">Optimization Tips</h4>
-                <p class="mb-2">
-                    Explore techniques for creating engaging and effective learning experiences, including concise and focused sessions, hands-on exercises, interactive elements, real-world examples, and supplementary resources.
+                <p>
+                    Explore techniques for creating engaging and effective learning experiences, including hands-on exercises, interactive elements and real-world examples.
                 </p>
             </div>
         </div>
+    </div>
+
+    <!-- flexer -->
+    <div class="flexer mt-5">
+      <div>
+        <h1 class="mb-1">Learn Git for Free?</h1>
+        <p class="mb-2">Mastering Git & GitHub enables developers to streamline workflow, enhance collaboration, maintain code integrity, and effectively manage projects</p>
+
+        <div class="button-flex cta">
+          <a href="https://gitdeveloperguide.solomonmarvel.com/">
+            Read The Material
+            <img src="@/assets/icons/link.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <img loading="lazy" class="avatar mobile-hidden" src="@/assets/images/courses/github/git.png" />
     </div>
 
 
@@ -74,12 +96,12 @@
     <div class="flexer mt-5">
       <img loading="lazy" class="avatar mobile-hidden" src="@/assets/images/courses/github/1.webp" />
       <div>
-        <h1 class="mb-1">Learn Git & Github for Free?</h1>
+        <h1 class="mb-1">Learn Github for Free?</h1>
         <p class="mb-2">Mastering Git & GitHub enables developers to streamline workflow, enhance collaboration, maintain code integrity, and effectively manage projects</p>
 
         <div class="button-flex cta">
-          <a href="https://gitdeveloperguide.solomonmarvel.com/">
-            Browse Free Material
+          <a href="#">
+            Read The Material
             <img src="@/assets/icons/link.svg" alt="" />
           </a>
         </div>
@@ -89,13 +111,7 @@
     <!-- flexer -->
     <div class="flexer mt-2">
         <div>
-            <h1 class="mb-3">A better software professional</h1>
-
-            <div class="mb-2 container">
-                <p>
-                    Enhanced Collaboration: Git and GitHub facilitate efficient teamwork and code sharing, improving collaboration among software engineers.
-                </p>
-            </div>
+            <h1 class="mb-3">Better software practitioner</h1>
 
             <div class="mb-2 container">
                 <p>
@@ -104,7 +120,15 @@
             </div>
       </div>
 
-        <img loading="lazy" class="avatar" src="@/assets/images/courses/github/5.webp" />
+        <div>
+            <h1 class="mb-3">Better team Collaborator</h1>
+
+            <div class="mb-2 container">
+                <p>
+                    Enhanced Collaboration: Git and GitHub facilitate efficient teamwork and code sharing, improving collaboration among software engineers.
+                </p>
+            </div>
+      </div>
     </div>
 
 
@@ -147,6 +171,7 @@
 
 <script>
 export default {
+layout: 'web',
 head: {
       title: "Git & Github Mastery",
       meta: [
@@ -170,7 +195,7 @@ head: {
 
 .container {
     background-color: #151515;
-    padding: 1.5em;
+    padding: 1.3em;
     border-radius: 16px
 }
 
@@ -210,7 +235,7 @@ head: {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 40px
+    gap: 25px
 }
 
 .grid p {
@@ -240,9 +265,10 @@ head: {
   background-color: #272727;
 }
 
-.avatar {
-    width: 100% !important;
-    height: 100% !important;
+div .avatar {
+    max-width: 400px !important;
+    max-height: 400px !important;
+    object-fit: cover;
   }
 
 
