@@ -41,7 +41,6 @@
 
   <style scoped>
   .portfolio {
-    border-bottom: .1px dashed var(--secondary);
     padding-bottom: 2em;
   }
   .icon {

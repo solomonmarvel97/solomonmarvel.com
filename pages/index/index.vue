@@ -7,7 +7,6 @@
     <Events />
     <Product />
     <Achievments />
-    <Badge />
   </div>
 </template>
 
@@ -18,7 +17,6 @@ import Services from './Services.vue'
 import Portfolio from './Portfolio.vue'
 import Product from "./Product.vue"
 import Achievments from "./Achievments.vue";
-import Badge from "~/components/Badge.vue";
 import Events from "./Events.vue";
 
 export default {
@@ -30,8 +28,7 @@ export default {
     Portfolio,
     Events,
     Product,
-    Achievments,
-    Badge
+    Achievments
   },
 };
 </script>

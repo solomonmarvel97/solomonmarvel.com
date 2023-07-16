@@ -10,7 +10,7 @@
             <div class="menu">
               <ul>
                 <li class="item">
-                  <a target="_blank" href="https://boltcliq.com/author/marv/">Publications</a>
+                  <a target="_blank" href="https://boltcliq.substack.com/">Publications</a>
                 </li>
                 <li class="item">
                   <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
@@ -21,7 +21,7 @@
                 <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
                 </li>
-                <li class="item button-primary">
+                <li class="item">
                   <a href="/courses/git" rel="noopener">Courses</a>
                 </li>
               </ul>
@@ -39,7 +39,7 @@
       <div class="menu-wrapper-mobile hidden" id="mobile-menu">
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
-          <a class="item" target="_blank" href="https://boltcliq.com/author/marv/">Publications</a>
+          <a class="item" target="_blank" href="https://boltcliq.substack.com/">Publications</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
@@ -132,8 +132,7 @@ export default {
 }
 
 .scroll {
-  background-color: rgb(14, 14, 14);
-  transition: all 50ms ease-in-out;
+  background-color: black;
 }
 
 .logo {

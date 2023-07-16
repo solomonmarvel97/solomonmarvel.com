@@ -1,5 +1,8 @@
 <template>
     <section class="products mt-5" id="products">
+    <div class="mt-5 mb-3">
+            <h1>Free learning guides</h1>
+        </div>
         <div class="container">
             <a class="item" v-for="i, index in resources" :href="i.link" key="index" target="_blank">
                 <img class="mb-1"
@@ -59,26 +62,17 @@ export default {
 }
 
 .products .container {
-    display: flex;
+    display: grid;
     gap: 20px;
     row-gap: 20px;
     column-gap: 20px;
-    justify-content: flex-start;
-    overflow: hidden;
-    overflow-x: scroll;
-    margin: 0 auto;
-}
-
-.products .container .item {
-    min-width: 300px;
-    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .products .container .item img {
     object-fit: contain;
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .products .container .item .tag {

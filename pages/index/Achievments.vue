@@ -1,40 +1,40 @@
 <template>
   <div class="page">
     <section class="container-grid">
-      <div class="container white text-black">
+      <div class="container">
           <div class="grid">
             <p>Experience</p>
             <h1>Software Engineer (8 years), Solutions Architect (4+ years)</h1>
           </div>
       </div>
-      <div class="container white text-black">
+      <div class="container">
           <div class="grid">
             <p>Core Stack</p>
             <h1>AWS, Python, Typescript, Cloudflare, NodeJS, Rust, C++, React, VueJS</h1>
           </div>
       </div>
-      <div class="container white text-black">
+      <div class="container">
           <div class="grid">
             <p>Proficiency</p>
             <h1>AWS Cloud, Cloudflare, API Design, Systems Design, Software Architecture, Distributed Systems</h1>
           </div>
       </div>
 
-      <div class="container white text-black">
+      <div class="container">
           <div class="grid">
             <p>Achievements</p>
             <h1>Co-founder/CEO @topuniverse, Founder & Solutions Architect @boltcliq, Building @swiftgo</h1>
           </div>
       </div>
 
-      <div class="container white text-black">
+      <div class="container">
           <div class="grid">
             <p>Recent Interests</p>
             <h1>Machine learning, Serverless Computing & Distributed Systems</h1>
           </div>
       </div>
 
-      <div class="container white text-black">
+      <div class="container">
           <div class="grid">
             <p class="mb-2">2023 Certifications</p>
             <div class="flex">
@@ -45,12 +45,12 @@
               <a target="_blank" href="https://www.deeplearning.ai/short-courses/">How Diffusion Models Work</a>
               <a target="_blank" href="https://www.linkedin.com/learning/introducing-semantic-kernel-building-ai-based-apps/introducing-semantic-kernel">Introducing Semantic Kernel: Building AI-Based Apps</a>
               <a target="_blank" href="https://www.linkedin.com/learning/postman-essential-training-21969591">Postman Essential Training</a>
-              
+
             </div>
           </div>
       </div>
-      
-      
+
+
     </section>
   </div>
 </template>
@@ -77,19 +77,20 @@
   width: 100%;
   border-radius: var(--input-border-radius) !important;
   padding: 50px;
-  background: white;
+  background: #1e1e1e;
   position: sticky;
   top: 100px;
   left: 0px;
-  transition: all 500ms ease;
+  transition: all 300ms ease;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .container:hover {
   scale: 1.07;
-  transition: all 500ms ease;
+  transition: all 300ms ease;
+  background: #101010;
 }
 
 .container p {
-  color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -116,7 +117,6 @@
 .container h1 {
   font-size: 60px;
   text-align: center;
-  color: black 
 }
 
 @media (max-width: 1000px) {
@@ -131,7 +131,6 @@
 
 .container p {
   text-align: center;
-  color: black 
 }
 
 

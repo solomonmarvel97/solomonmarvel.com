@@ -1,51 +1,5 @@
 <template>
     <section class="products" id="products">
-        <div class="mt-5 mb-3">
-            <h1>Resources</h1>
-        </div>
-
-        <div class="container">
-            <div class="">
-            <iframe
-            src="https://lu.ma/embed-checkout/evt-lVnwY3GhLpvseUt"
-            width="600"
-            height="450"
-            frameborder="0"
-            style="border: .1px solid #1F1E1E; border-radius: 12px;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-            ></iframe>
-            </div>
-
-            <div class="">
-            <iframe
-            src="https://lu.ma/embed-checkout/evt-Dpr7357IVDqpIeL"
-            width="600"
-            height="450"
-            frameborder="0"
-            style="border: .1px solid #1F1E1E; border-radius: 12px;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-            ></iframe>
-            </div>
-
-            <div class="item">
-            <iframe
-            src="https://lu.ma/embed-checkout/evt-uwnWOsg22g3VLE8"
-            width="600"
-            height="450"
-            frameborder="0"
-            style="border: .1px solid #1F1E1E; border-radius: 12px;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-            ></iframe>
-            </div>
-
-        </div>
-
     </section>
 </template>
 

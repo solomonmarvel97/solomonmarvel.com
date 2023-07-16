@@ -39,17 +39,10 @@ export default {
         src: "https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js",
       },
       {
-        hid: "linkedin badge",
-        src: "https://platform.linkedin.com/badges/js/profile.js",
-      },
-      {
         hid: "github calendar",
         src: "https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js",
       },
-      {
-        hid: "github calendar",
-        src: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js",
-      },
+
       {
         hid: "luma-checkout",
         src: "https://embed.lu.ma/checkout-button.js",
