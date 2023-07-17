@@ -5,7 +5,7 @@
     <!-- header -->
     <div class="hero">
 
-    <div class="spin">
+    <div class="spin git">
         <div class="price-back"></div>
 
       </div>
@@ -208,6 +208,10 @@ head: {
     background-color: #151515;
     padding: 1.3em;
     border-radius: 16px;
+}
+
+.container:hover {
+    background-color: #1e1e1e;
 }
 
 .hero {
