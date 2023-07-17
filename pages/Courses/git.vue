@@ -2,24 +2,32 @@
   <div>
 
     <section>
-
     <!-- header -->
     <div class="hero">
+
+    <div class="spin">
+        <div class="price-back"></div>
+
+      </div>
+
+
       <div>
         <h1 class="mb-2">Git & Github Mastery</h1>
 
-        <p class="mb-4">Join our comprehensive git & gitHub expert class to gain a deep understanding
+        <p class="mb-4">Join our on the 24th & 25th of July, 2023 in a comprehensive git & github expert live class to gain a deep understanding
         of version control, collaboration, and seamless project management.</p>
 
+
+
         <div class="button-flex cta">
-          <a href="#">
-            15th July, 2023
+          <a target="_blank" href="https://paystack.com/pay/9gifnrbt15">
+            Signup for Training
             <img src="@/assets/icons/link.svg" alt="" />
           </a>
         </div>
 
       </div>
-        <img loading="lazy" class="avatar" src="@/assets/images/courses/github/6.webp" />
+        <img loading="lazy" class="" src="@/assets/images/courses/github/6.webp" />
     </div>
 
 
@@ -138,13 +146,13 @@
         <div class="flexer mt-2">
             <div class="container">
                 <img loading="lazy" class="instructor" src="@/assets/images/courses/teachers/marv.png" />
-                <p class="title mt-1">Marvelous Solomon</p>
-                <p class="">Principal Software Engineer</p>
+                <p class="title mt-1 center">Marvelous Solomon</p>
+                <p class="center">Principal Software Engineer</p>
             </div>
             <div class="container">
                 <img loading="lazy" class="instructor" src="@/assets/images/courses/teachers/bob.png" />
-                <p class="title mt-1">Michael Esedo</p>
-                <p class="">Senior Software Engineer</p>
+                <p class="title mt-1 center">Michael Esedo</p>
+                <p class="center">Senior Software Engineer</p>
             </div>
         </div>
     </div>
@@ -156,10 +164,13 @@
         <div class="center">
             <h1 class="mb-3 mt-2">Git with Confidence</h1>
         </div>
+        <div class="mb-2">
+            <p class="center">Class Date: 24th & 25th of July, 2023</p>
+        </div>
 
-        <div class="cta center">
-          <a href="#" class="button-primary">
-            15th July, 2023
+        <div class="center">
+          <a target="_blank" href="https://paystack.com/pay/9gifnrbt15" class="button-primary">
+            Signup for Training
           </a>
         </div>
 
@@ -196,7 +207,7 @@ head: {
 .container {
     background-color: #151515;
     padding: 1.3em;
-    border-radius: 16px
+    border-radius: 16px;
 }
 
 .hero {
@@ -326,10 +337,6 @@ p {
 
   .hero p {
     width: 100%;
-  }
-
-  .spin {
-    right: 0px;
   }
 }
 

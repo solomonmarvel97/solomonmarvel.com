@@ -86,50 +86,6 @@
   width: 25px;
 }
 
-.spin {
-  position: absolute;
-  overflow: hidden;
-  height: 150px;
-  width: 150px;
-  right: 150px;
-  top: 100px;
-}
-
-
-.avatar {
-  border-radius: 50%;
-  object-position: center;
-  padding: 15px;
-  position: relative;
-}
-
-.avatar-wrapper {
-  position: absolute;
-  -webkit-animation: spin 25s linear infinite;
-  -moz-animation: spin 25s linear infinite;
-  animation: spin 25s linear infinite;
-  object-fit: cover;
-}
-
-@-moz-keyframes spin {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
 h1 {
   color: white;
   line-height: .8;
