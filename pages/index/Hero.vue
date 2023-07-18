@@ -44,6 +44,7 @@
         <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
       </div>
 
+
     </section>
   </div>
 </template>
@@ -94,8 +95,10 @@ h1 {
   font-size: 150px;
 
 text-align:center;
-background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+
 
     -webkit-background-clip: text;
     background-clip: text;
