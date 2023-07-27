@@ -16,6 +16,9 @@
                   <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
                 </li>
                 <li class="item">
+                  <nuxt-link to="/consulting">Consulting</nuxt-link>
+                </li>
+                <li class="item">
                   <nuxt-link to="/mentoring">Mentoring</nuxt-link>
                 </li>
                 <li class="item">
@@ -41,6 +44,7 @@
         <div class="menu">
           <a class="item" target="_blank" href="https://boltcliq.substack.com/">Publications</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
+          <a class="item" href="/consulting">Consulting</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/consulting">Consulting</a>
