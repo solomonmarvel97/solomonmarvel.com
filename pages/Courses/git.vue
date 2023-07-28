@@ -7,14 +7,13 @@
 
     <div class="spin git">
         <div class="price-back"></div>
-
-      </div>
+    </div>
 
 
       <div>
         <h1 class="mb-2">Git & Github Mastery</h1>
 
-        <p class="mb-4">Join our on the 24th & 25th of July, 2023 in a comprehensive git & github expert live class to gain a deep understanding
+        <p class="mb-4">Join our on the 1st of August, 2023 in a comprehensive git & github expert live class to gain a deep understanding
         of version control, collaboration, and seamless project management.</p>
 
 
@@ -165,7 +164,7 @@
             <h1 class="mb-3 mt-2">Git with Confidence</h1>
         </div>
         <div class="mb-2">
-            <p class="center">Class Date: 24th & 25th of July, 2023</p>
+            <p class="center">Class Date: 1st of August, 2023</p>
         </div>
 
         <div class="center">
