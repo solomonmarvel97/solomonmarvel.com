@@ -95,8 +95,9 @@ h1 {
   font-size: 150px;
 
 text-align:center;
-background-color: #FBDA61;
-background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 
 
 
