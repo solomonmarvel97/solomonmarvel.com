@@ -1,1 +1,0 @@
-import{a as t,o as s,b as _,e as o,t as c}from"./entry.d0a9a42d.js";const n={props:{image:String,title:String,description:String}},a={class:"service"},i={class:"title"};function r(d,p,e,l,f,g){return s(),_("div",a,[o("p",i,c(e.title),1)])}const u=t(n,[["render",r],["__scopeId","data-v-fe3873dd"]]);export{u as _};
