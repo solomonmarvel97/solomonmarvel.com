@@ -1,5 +1,4 @@
 #! /bin/bash
-npm run generate &&
 
 git add . &&
 
