@@ -4,14 +4,12 @@
             <h1 class="mb-3">Services</h1>
         </div>
         <div class="service-grid">
-            <Services v-for="(i, index) in services" :key="index"  :image="i.image" :title="i.title"/>
+            <ServicesComponent v-for="(i, index) in services" :key="index"  :image="i.image" :title="i.title"/>
         </div>
     </section>
 </template>
 
 <script>
-import Services from '../../components/Services.vue';
-
 const services = [
     {
         image: require(`@/assets/icons/services/agile.svg`),
