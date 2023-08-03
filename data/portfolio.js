@@ -1,4 +1,4 @@
-exports.portfolio = [
+const portfolio = [
   {
     position: `Founding Partner`,
     platform: `Top Universe`,
@@ -42,3 +42,7 @@ exports.portfolio = [
     image: `https://swiftgo.co/ogimage.png`
   },
 ];
+
+export {
+  portfolio
+}

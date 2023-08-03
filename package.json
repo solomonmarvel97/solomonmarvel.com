@@ -1,33 +1,26 @@
 {
-  "name": "solomonmarvel",
-  "version": "1.0.0",
   "private": true,
   "description": "Solutions Architect & Software Development Engineer",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.12.13",
-    "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/moment": "^1.6.1",
+    "@jitsu/sdk-js": "^3.1.3",
+    "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/toast": "^3.3.1",
-    "axios": "^0.27.2",
-    "core-js": "^3.19.3",
+    "axios": "^1.2.2",
     "moment": "^2.29.4",
-    "nuxt": "^2.15.8",
-    "nuxt-apache-config": "^0.1.4",
+    "vue3-toastify": "^0.0.4",
     "uuid": "^9.0.0",
-    "vue": "^2.6.14",
-    "vue-paystack": "^2.0.4",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14"
+    "vue-paystack": "^2.0.4"
   },
   "devDependencies": {
-    "@nuxt/types": "~2.15.0",
-    "webpack": "^4.46.0"
+    "nuxt": "3.0.0"
   }
 }

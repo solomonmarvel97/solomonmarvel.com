@@ -16,10 +16,10 @@
                   <a class="item" target="_blank" href="https://blog.topuniverse.org/author/solomonmarvel97/">Articles</a>
                 </li>
                 <li class="item">
-                  <nuxt-link to="/consulting">Consulting</nuxt-link>
+                  <a href="/consulting">Consulting</a>
                 </li>
                 <li class="item">
-                  <nuxt-link to="/mentoring">Mentoring</nuxt-link>
+                  <a href="/mentoring">Mentoring</a>
                 </li>
                 <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>

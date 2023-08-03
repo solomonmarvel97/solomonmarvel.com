@@ -1,9 +1,9 @@
-// import image1 from '@/assets/images/mentoring/1.png'
+import mentoringImage from "@/assets/images/mentoring/1.png";
 
-exports.mentoring = [
+const mentoring = [
   {
     id: '851d64af-8393-49c3-a258-6935a0fcf556',
-    image: require('@/assets/images/mentoring/1.png'),
+    image: mentoringImage,
     title: 'Software Engineering & Cloud Mentoring Group',
     description: `If you are a software engineer or cloud engineer who is dedicated and motivated, eager to learn, open to feedback and you're in need of a mentor, I encourage you to reach out to me. I would be happy to discuss your goals and see if we are a good fit for each other`,
     link: "https://t.me/+_vyGNhGhhSA2ZDU0",
@@ -53,3 +53,7 @@ exports.mentoring = [
     ]
   },
 ]
+
+export {
+  mentoring
+}
