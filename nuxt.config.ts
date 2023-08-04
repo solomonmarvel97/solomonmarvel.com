@@ -36,6 +36,10 @@ export default defineNuxtConfig({
           src: "https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js",
         },
         {
+          hid: "twitter",
+          src: "https://platform.twitter.com/widgets.js",
+        },
+        {
           hid: "ajax",
           src: "https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js",
         },

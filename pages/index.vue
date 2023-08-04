@@ -1,6 +1,7 @@
 <template>
   <div>
     <Hero />
+    <Twitter/>
     <Who />
     <Services />
     <Portfolio/>
@@ -12,6 +13,7 @@
 
 <script>
 import Hero from "./Home/Hero.vue";
+import Twitter from "./Home/Twitter.vue";
 import Who from "./Home/Who.vue";
 import Services from './Home/Services.vue'
 import Portfolio from './Home/Portfolio.vue'
@@ -23,6 +25,7 @@ export default {
   layout: 'default',
   components: {
     Hero,
+    Twitter,
     Who,
     Services,
     Portfolio,

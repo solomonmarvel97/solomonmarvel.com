@@ -43,9 +43,8 @@
         <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
         <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
       </div>
-
-
     </section>
+
   </div>
 </template>
 
@@ -58,7 +57,7 @@
   gap: 20px;
   height: 100%;
   padding: 5em 0;
-  padding-top: 10em
+  padding-top: 8em
 }
 
 .hero > div {
