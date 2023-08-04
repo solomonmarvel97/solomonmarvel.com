@@ -47,7 +47,6 @@
           <a class="item" href="/consulting">Consulting</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
-          <a class="item" href="/consulting">Consulting</a>
           <a class="item" href="/courses/git">Courses</a>
         </div>
       </div>
