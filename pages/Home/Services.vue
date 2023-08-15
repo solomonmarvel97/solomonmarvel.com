@@ -57,6 +57,7 @@ export default {
 </script>
 
 <style scoped>
+
 .services {
     display: grid;
     place-items: center;

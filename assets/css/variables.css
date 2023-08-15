@@ -10,7 +10,7 @@
     --disabled: #e1efe6;
     --black: #171717;
     --gray: #e6e6e6;
-    --border-radius: 8px;
-    --input-border-radius: 8px;
+    --border-radius: 30px;
+    --input-border-radius: 4px;
     --white: #fff;
 }

@@ -68,7 +68,7 @@
   .portfolio-item img {
     border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
     object-fit: cover;
-    height: 150px;
+    height: 200px;
   }
 
   @media (max-width: 768px) {

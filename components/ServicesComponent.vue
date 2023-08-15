@@ -15,9 +15,10 @@ export default {
 </script>
 
 <style scoped>
+
 .service {
     display: flex;
-    border-radius: var(--input-border-radius) !important;
+    border-radius: var(--border-radius) !important;
     position: relative;
     padding: 20px 20px;
     background-color: rgb(28, 28, 28);

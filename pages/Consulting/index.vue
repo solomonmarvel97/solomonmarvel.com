@@ -126,10 +126,10 @@ export default {
     height: 100%;
 }
 
-.consulting .consulting-grid>div {
+.consulting .consulting-grid > div {
     width: 100%;
     height: 100%;
-    border-radius: var(--input-border-radius) !important;
+    border-radius: var(--border-radius) !important;
 }
 
 .consulting .consulting-grid> a {
@@ -143,11 +143,6 @@ export default {
     position: relative;
 }
 
-.consulting .consulting-grid img {
-    height: 200px;
-    object-fit: cover;
-    border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
-}
 
 .details .item {
     display: flex;

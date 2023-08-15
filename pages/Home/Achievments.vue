@@ -1,40 +1,40 @@
 <template>
   <div class="page">
     <section class="container-grid">
-      <div class="container">
+      <div class="container glow">
           <div class="grid">
             <p>Experience</p>
             <h1>Software Engineer (8 years), Solutions Architect (4+ years)</h1>
           </div>
       </div>
-      <div class="container">
+      <div class="container glow">
           <div class="grid">
             <p>Core Stack</p>
             <h1>AWS, Python, Typescript, Cloudflare, NodeJS, Rust, C++, React, VueJS</h1>
           </div>
       </div>
-      <div class="container">
+      <div class="container glow">
           <div class="grid">
             <p>Proficiency</p>
             <h1>AWS Cloud, Cloudflare, API Design, Systems Design, Software Architecture, Distributed Systems</h1>
           </div>
       </div>
 
-      <div class="container">
+      <div class="container glow">
           <div class="grid">
             <p>Achievements</p>
             <h1>Co-founder/CEO @topuniverse, Founder & Solutions Architect @boltcliq, Building @swiftgo</h1>
           </div>
       </div>
 
-      <div class="container">
+      <div class="container glow">
           <div class="grid">
             <p>Recent Interests</p>
             <h1>Machine learning, Serverless Computing & Distributed Systems</h1>
           </div>
       </div>
 
-      <div class="container">
+      <div class="container glow">
           <div class="grid">
             <p class="mb-2">2023 Certifications</p>
             <div class="flex">

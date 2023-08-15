@@ -214,7 +214,7 @@ body {
   /* border: .5px solid rgba(255, 255, 255, 0.03) !important; */
   border: none !important;
   box-sizing: border-box;
-  border-radius: var(--border-radius) !important;
+  border-radius: var(--input-border-radius) !important;
 }
 
 hr {
