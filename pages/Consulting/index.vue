@@ -10,7 +10,7 @@
                     <div>
                         <div class="details glass glow">
                             <h2 class="mb-1">Career Sessions/Brain storming & IT/Engineering Session (1hr)</h2>
-                            <h1 class="mb-2">$50</h1>
+                            <h1 class="mb-2">$60</h1>
                             <div class="item mb-2" v-for="(i, index) in plan1" :key="index">
                                 <img loading="lazy" src="@/assets/icons/check.svg" />
                                 <p>{{ i.item }}</p>
@@ -22,7 +22,7 @@
                     <div>
                         <div class="details glass glow">
                             <h2 class="mb-1">IT Brainstorming Session For Nigerian Founders & Tech Leads (1hr) </h2>
-                            <h1 class="mb-2">&#8358;30,000</h1>
+                            <h1 class="mb-2">&#8358;50,000</h1>
                             <div class="item mb-2" v-for="(i, index) in plan2" :key="index">
                                 <img loading="lazy" src="@/assets/icons/check.svg" />
                                 <p>{{ i.item }}</p>
