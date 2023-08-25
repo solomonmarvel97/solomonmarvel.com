@@ -45,10 +45,14 @@ export default {
 
 <style scoped>
 .workshop-labs {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
     gap: 30px;
-    place-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workshop-labs div {
+    flex-basis: 300px
 }
 
 .lab {

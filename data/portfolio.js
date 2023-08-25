@@ -5,12 +5,7 @@ const portfolio = [
     link: `https://topuniverse.org`,
     image: `https://topuniverse.org/ogimage.png`
   },
-  {
-    position: `Ex Engineering Partner`,
-    platform: `Hayche Network`,
-    link: `https://hayche.net`,
-    image: `https://hayche.net/ogimage.png`
-  },
+
   {
     position: `Founding Partner`,
     platform: `BetaKopa`,
