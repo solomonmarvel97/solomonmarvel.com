@@ -4,10 +4,7 @@
       <div>
 
 
-        <p class="mb-1">Founder, Principal Software Engineer & Solutions Architect</p>
-        <h1 class="mb-3">Marvelous Solomon</h1>
-
-        <div class="mb-4 socials">
+<div class="mb-4 socials">
           <a target="_blank" href="https://linkedin.com/in/superdeveloper">
             <img src="@/assets/icons/social/linkedin.svg" />
             Linkedin
@@ -25,6 +22,11 @@
             Linux Foundation
           </a>
         </div>
+
+        <h1 class="mb-3">Marvelous Solomon</h1>
+        <p class="mb-1">Two-Time Founder, Principal Software Engineer @swiftgo & Solutions Architect @FCMB</p>
+
+
 
         <div class="button-flex cta">
           <a href="/consulting">
