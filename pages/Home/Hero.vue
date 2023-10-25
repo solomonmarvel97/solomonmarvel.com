@@ -28,7 +28,7 @@
 
 
 
-        <div class="button-flex cta">
+        <div class="button-flex cta mt-4">
           <a href="/consulting">
             Consulting
             <img src="@/assets/icons/link.svg" alt="" />
