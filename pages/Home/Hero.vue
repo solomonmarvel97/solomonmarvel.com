@@ -89,25 +89,12 @@
 }
 
 h1 {
-  color: white;
+  color: #fefefe;
   line-height: .8;
   font-weight: 900;
-  letter-spacing: -5px;
+  letter-spacing: -6px;
   font-size: 150px;
-
-text-align:center;
-background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-
-
-
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    background-size: 500% auto;
-    animation: textShine 5s ease-in-out infinite alternate;
+  text-align:center
 }
 
 @keyframes textShine {
