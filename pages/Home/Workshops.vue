@@ -3,7 +3,7 @@
 
 
         <div class="workshop-labs">
-            <div class="lab glow" v-for="workshop in workshopData">
+            <div class="lab" v-for="workshop in workshopData">
                         <iframe class="mb-1" :src="workshop.source" allowfullscreen allowtransparency allow="autoplay">
                         </iframe>
                         <div class="details">
@@ -49,21 +49,24 @@ export default {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+	height: 100%;
 }
 
 .workshop-labs div {
-    flex-basis: 300px
+    flex-basis: 300px;
+	background-color: #1e1e1e;
+
 }
 
 .lab {
     border-radius: var(--input-border-radius);
     width: 100%;
     position: relative;
-    height: 100%
 }
 
 .details {
-    padding: 0px;
+		padding: 20px;
+		padding-top: 0
 }
 
 .details .title {
