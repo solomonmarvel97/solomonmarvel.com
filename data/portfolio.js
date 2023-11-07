@@ -20,9 +20,9 @@ const portfolio = [
   },
   {
     position: `Founding Partner`,
-    platform: `Kids Code Club`,
-    link: `https://kidsclub.codes`,
-    image: `https://kidsclub.codes/ogimage.png`
+    platform: `Kids Club Zone`,
+    link: `https://kidsclubzone.com`,
+    image: `https://kidsclubzone.com/ogimage.png`
   },
   {
     position: `Founding Partner`,
