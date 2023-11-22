@@ -24,7 +24,8 @@
         </div>
 
         <h1 class="mb-3">Marvelous Solomon</h1>
-        <p class="mb-1">Two-Time Founder, Principal Software Engineer @swiftgo & Solutions Architect @FCMB</p>
+        <p>Two-Time Founder | CEO @Top Universe NGO </p>
+        <p class="mb-1">Principal Software Engineer <em>@swiftgo</em> | Solutions Architect <em>@FCMB</em></p>
 
 
 

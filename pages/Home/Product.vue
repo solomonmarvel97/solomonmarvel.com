@@ -5,7 +5,7 @@
         </div>
         <div class="container">
             <a class="item" v-for="i, index in resources" :href="i.link" key="index" target="_blank">
-                <img class="mb-1"
+                <img class=""
                     :src="i.image"
                     alt="" />
             </a>
@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import fullstack from "@/assets/images/resources/fullstack.png";
 import python from "@/assets/images/resources/python.png";
 import bash from "@/assets/images/resources/bash.png";
 import git from "@/assets/images/resources/git.png";
@@ -26,7 +27,11 @@ export default {
     data () {
         return {
             resources: [
-                {
+            {
+                    image: fullstack,
+                    link: 'https://superdev.gitbook.io/300devdays/'
+                },    
+            {
                     image: python,
                     link: 'https://pythonforstarters.solomonmarvel.com'
                 },
@@ -73,12 +78,15 @@ export default {
     gap: 20px;
     row-gap: 20px;
     column-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
 }
 
 .products .container .item img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
+    width: 300px;
+    height: 400px;
     border-radius: 4px;
 }
 

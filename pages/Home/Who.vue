@@ -3,7 +3,7 @@
     <section>
       <p class="mb-3 text-black">who am i?</p>
       <h1 class="text-black">
-        I am a solutions architect with more than a decade of engineering experience. MBA in Advanced AI & The Future of Automation @Nexford University, London (In View).
+        I am a <em><span>senior solutions architect</span></em> with more than a decade of software engineering experience, a <em>computer science</em> background and currently on the path to obtaining an MBA in <em><span>Advanced AI & The Future of Automation</span></em> @Nexford University, London.
       </h1>
   </section>
   </div>
@@ -30,4 +30,8 @@
   h1 {
   color: white;
   }
+
+span {
+  color: #FFB93F;
+}
 </style>

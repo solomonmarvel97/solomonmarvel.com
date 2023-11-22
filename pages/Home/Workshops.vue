@@ -80,13 +80,13 @@ export default {
 iframe {
   border-radius: var(--input-border-radius);
   width: 100%;
-  height: 200px;
+  height: 180px;
   border: 1px solid #1e1e1e;
 }
 
 @media (max-width: 1000px) {
   iframe {
-        height: 200px;
+        height: 180px;
     }
 }
 
