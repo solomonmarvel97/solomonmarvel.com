@@ -22,7 +22,7 @@ const portfolio = [
     position: `Founding Partner`,
     platform: `Kids Club Zone`,
     link: `https://kidsclubzone.com`,
-    image: `https://kidsclubzone.com/ogimage.png`
+    image: `https://kidsclubzone.com/ogimage.webp`
   },
   {
     position: `Founding Partner`,
