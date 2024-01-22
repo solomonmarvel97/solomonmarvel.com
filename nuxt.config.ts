@@ -36,6 +36,10 @@ export default defineNuxtConfig({
           src: "https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js",
         },
         {
+          hid: "twitch",
+          src: "https://embed.twitch.tv/embed/v1.js",
+        },
+        {
           hid: "twitter",
           src: "https://platform.twitter.com/widgets.js",
         },
@@ -47,7 +51,6 @@ export default defineNuxtConfig({
           hid: "github calendar",
           src: "https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js",
         },
-
         {
           hid: "luma-checkout",
           src: "https://embed.lu.ma/checkout-button.js",
