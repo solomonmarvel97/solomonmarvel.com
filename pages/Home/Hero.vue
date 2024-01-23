@@ -50,7 +50,7 @@
 
         </section>
         <div class="center">
-            <iframe src="https://player.twitch.tv/?channel=solomonmarvel&parent=solomonmarvel.com" frameborder="0"
+            <iframe src="https://player.twitch.tv/?channel=solomonmarvel&parent=https://solomonmarvel.com" frameborder="0"
                 scrolling="no" allowfullscreen="true" allow="autoplay; fullscreen"
                 class="mb-5 custom-twitch-iframe"></iframe>
         </div>
