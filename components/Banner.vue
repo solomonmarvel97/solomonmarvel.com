@@ -42,8 +42,8 @@ export default {
     background-color: rgb(87, 20, 255);
     gap: 20px;
     height: fit-content;
-    padding: 16px;
-    align-items: center;
+    padding: 15px;
+    place-items: flex-start;
     flex-wrap: wrap;
 }
 
