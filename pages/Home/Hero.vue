@@ -24,8 +24,9 @@
                 </div>
 
                 <h1 class="mb-3">Marvelous Solomon</h1>
-                <p>Two-Time Founder | CEO @Top Universe NGO </p>
-                <p class="mb-1">Principal Software Engineer <em>@swiftgo</em> | Senior Solutions Architect <em>@FCMB</em>
+                <p> 
+                    Ex Principal SDE | Building startups @The Boltcliq Company | AI Enthusiast | Generative AI @swift commerce | Senior Solutions Architect @FCMB | Cloud/DevOps Mentor @betakopa | Serial Entrepreneur
+
                 </p>
 
 
@@ -128,7 +129,8 @@ h1 {
     }
 }
 
-p {
+.hero p {
+    width: 60%;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;

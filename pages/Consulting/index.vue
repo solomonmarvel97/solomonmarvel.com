@@ -9,8 +9,8 @@
                 <a target="_blank" href="https://buy.stripe.com/8wM03C0aC91t2Sk28b">
                     <div>
                         <div class="details glass glow">
-                            <h2 class="mb-1">Career Sessions/Brain storming & IT/Engineering Session (1hr)</h2>
-                            <h1 class="mb-2">$60</h1>
+                            <h3 class="mb-1">Career Advice Session</h3>
+                            <h2 class="mb-2">$60/hr</h2>
                             <div class="item mb-2" v-for="(i, index) in plan1" :key="index">
                                 <img loading="lazy" src="@/assets/icons/check.svg" />
                                 <p>{{ i.item }}</p>
@@ -21,8 +21,8 @@
                 <a target="_blank" href="https://paystack.com/pay/uxd35869rz">
                     <div>
                         <div class="details glass glow">
-                            <h2 class="mb-1">IT Brainstorming Session For Nigerian Founders & Tech Leads (1hr) </h2>
-                            <h1 class="mb-2">&#8358;50,000</h1>
+                            <h3 class="mb-1">Product Brainstormng Session</h3>
+                            <h2 class="mb-2">&#8358;60,000/hr</h2>
                             <div class="item mb-2" v-for="(i, index) in plan2" :key="index">
                                 <img loading="lazy" src="@/assets/icons/check.svg" />
                                 <p>{{ i.item }}</p>
@@ -34,8 +34,8 @@
                 <a target="_blank" href="https://buy.stripe.com/28o9Ec3mOdhJ78AcMQ">
                     <div>
                         <div class="details glass glow">
-                            <h2 class="mb-1">IT Strategies, Team Topologies & Modern Infrastructures (2hrs)</h2>
-                            <h1 class="mb-2">$100</h1>
+                            <h3 class="mb-1">IT Strategies, Team Topologies & Infrastructures Design</h3>
+                            <h2 class="mb-2">$100/hr</h2>
                             <div class="item mb-2" v-for="(i, index) in plan3" :key="index">
                                 <img loading="lazy" src="@/assets/icons/check.svg" />
                                 <p>{{ i.item }}</p>
