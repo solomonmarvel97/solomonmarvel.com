@@ -3,33 +3,12 @@
         <section class="mt-2 hero">
             <div>
 
-
-                <div class="mb-4 socials">
-                    <a target="_blank" href="https://linkedin.com/in/superdeveloper">
-                        <img src="@/assets/icons/social/linkedin.svg" />
-                        Linkedin
-                    </a>
-                    <a target="_blank" href="https://twitter.com/solomonmarvel97">
-                        <img src="@/assets/icons/social/twitter.svg" />
-                        Twitter
-                    </a>
-                    <a target="_blank" href="https://github.com/solomonmarvel97">
-                        <img src="@/assets/icons/social/github.svg" />
-                        Github
-                    </a>
-                    <a target="_blank" href="https://openprofile.dev/profile/superdeveloper">
-                        <img src="@/assets/icons/social/lf.png" />
-                        Linux Foundation
-                    </a>
-                </div>
-
                 <h1 class="mb-3">Marvelous Solomon</h1>
-                <p> 
-                    Ex Principal SDE | Building startups @The Boltcliq Company | AI Enthusiast | Generative AI @swift commerce | Senior Solutions Architect @FCMB | Cloud/DevOps Mentor @betakopa | Serial Entrepreneur
+                <p>
+                    Ex Principal SDE | Building startups @The Boltcliq Company | AI Enthusiast | Generative AI @swift
+                    commerce | Senior Solutions Architect @FCMB | Cloud/DevOps Mentor @betakopa | Serial Entrepreneur
 
                 </p>
-
-
 
                 <div class="button-flex cta mt-4">
                     <a href="/consulting">
@@ -37,12 +16,15 @@
                         <img src="@/assets/icons/link.svg" alt="" />
                     </a>
 
-                    <a href="https://calendly.com/boltcliq/15-minutes-free-consultation?ref=boltcliq.com" target="_blank">
+                    <a href="https://calendly.com/boltcliq/build-with-us?ref=blog.boltcliq.com"
+                        target="_blank">
                         Connect
                         <img src="@/assets/icons/link.svg" alt="" />
                     </a>
                 </div>
             </div>
+
+
 
             <div class="spin">
                 <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
@@ -50,6 +32,25 @@
             </div>
 
         </section>
+
+        <div class="mb-4 socials">
+            <a target="_blank" href="https://linkedin.com/in/superdeveloper">
+                <img src="@/assets/icons/social/linkedin.svg" />
+                Linkedin
+            </a>
+            <a target="_blank" href="https://twitter.com/solomonmarvel97">
+                <img src="@/assets/icons/social/twitter.svg" />
+                Twitter
+            </a>
+            <a target="_blank" href="https://github.com/solomonmarvel97">
+                <img src="@/assets/icons/social/github.svg" />
+                Github
+            </a>
+            <a target="_blank" href="https://openprofile.dev/profile/superdeveloper">
+                <img src="@/assets/icons/social/lf.png" />
+                Linux Foundation
+            </a>
+        </div>
         <div class="center">
             <iframe src="https://player.twitch.tv/?channel=solomonmarvel&parent=www.solomonmarvel.com" frameborder="0"
                 scrolling="no" allowfullscreen="true" allow="autoplay; fullscreen"

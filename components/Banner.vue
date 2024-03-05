@@ -1,10 +1,8 @@
 <template>
     <div>
         <div class="banner">
-            <p>{{ message }}
-            </p>
-            <span><a class="btn-primary-outline-small" :href="action_url" target="_blank"> {{ action_text
-                        }}</a></span>
+            <p>{{ message }}</p>
+            <a class="btn-primary-outline-small" :href="action_url" target="_blank"> {{ action_text }}</a>
         </div>
 
         <div class="banner-mobile">
