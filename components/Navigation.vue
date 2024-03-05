@@ -1,4 +1,5 @@
 <template>
+  <Banner message="Do you want to introduce AI into your business processes or products?" action_text="Book A Free Call Now" action_url="#" />
   <div class="navigation" id="nav">
     <div>
       <section>
@@ -97,7 +98,7 @@ export default {
 
 <style scoped>
 .navigation {
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 9999;
