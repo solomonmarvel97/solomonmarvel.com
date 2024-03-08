@@ -4,36 +4,40 @@
             <h1 class="mb-3">Services</h1>
         </div>
         <div class="service-grid">
-            <ServicesComponent v-for="(i, index) in services" :key="index"  :image="i.image" :title="i.title"/>
+            <ServicesComponent v-for="(i, index) in services" :key="index" :image="i.image" :title="i.title" />
         </div>
     </section>
 </template>
 
 <script>
-const services = [
-    {
-        image: require(`@/assets/icons/services/agile.svg`),
-        title: 'Agile Development Consulting',
-    },
-    {
-        image: require(`@/assets/icons/services/software.svg`),
-        title: 'Software Architecture',
-    },
-    {
-        image: require(`@/assets/icons/services/cloud.svg`),
-        title: 'Cloud Engineering & Management',
-    },
-    {
-        image: require(`@/assets/icons/services/workflow.svg`),
-        title: 'Workflow Development',
-    },
+import agile from "@/assets/icons/services/agile.svg"
+import software from "@/assets/icons/services/software.svg"
+import cloud from "@/assets/icons/services/cloud.svg"
+import workflow from "@/assets/icons/services/workflow.svg"
 
-]
 export default {
     layout: 'web',
     data() {
         return {
-            services: services
+            services: [
+                {
+                    image: agile,
+                    title: 'Agile Development Consulting',
+                },
+                {
+                    image: software,
+                    title: 'Software Architecture',
+                },
+                {
+                    image: cloud,
+                    title: 'Cloud Engineering & Management',
+                },
+                {
+                    image: workflow,
+                    title: 'Workflow Development',
+                },
+
+            ]
         }
     },
     methods: {},
@@ -50,7 +54,7 @@ export default {
     padding-bottom: 5em;
 }
 
-.service-grid > div {
+.service-grid>div {
     flex: 1;
 }
 </style>
