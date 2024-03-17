@@ -1,9 +1,9 @@
 <template>
     <div>
-        <section class="mt-2 hero">
+        <section class="hero">
             <div>
 
-                <h1 class="mb-3">Marvelous Solomon</h1>
+                <h1 class="mb-3 gradient-text">Marvelous Solomon</h1>
                 <p>
                     Ex Principal SDE | Building startups @The Boltcliq Company | AI Enthusiast | Generative AI @swift
                     commerce | Senior Solutions Architect @FCMB | Cloud/DevOps Mentor @betakopa | Serial Entrepreneur
@@ -82,7 +82,7 @@ export default {
     gap: 20px;
     height: 100%;
     padding: 5em 0;
-    padding-top: 8em
+    padding-top: 5em
 }
 
 .hero>div {
@@ -115,8 +115,9 @@ h1 {
     color: #fefefe;
     line-height: .8;
     font-weight: 900;
-    letter-spacing: -6px;
-    font-size: 150px;
+    letter-spacing: -2px;
+    font-size: 180px;
+    line-height: .9;
     text-align: center
 }
 
@@ -185,6 +186,40 @@ h1 {
     background-color: #f0f0f0;
 }
 
+.gradient-text {
+  color: transparent;
+  position: relative;
+  display: inline-block;
+  font-size: 180px;
+  line-height: .9;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.gradient-text {
+  content: '';
+  z-index: -1;
+  background: linear-gradient(45deg, #ff5252, #ff8a65, #ffd476, #acff78, #78ffd6, #76acff, #ff5252);
+  background-size: 200% 200%;
+  animation: textFlow 5s ease infinite;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes textFlow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
 
 @media (max-width: 1000px) {
 
@@ -202,7 +237,7 @@ h1 {
     h1 {
         width: 100%;
         font-size: 54px;
-        letter-spacing: -2px
+        letter-spacing: -1px
     }
 
     h3 {
