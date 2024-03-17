@@ -28,13 +28,13 @@ const portfolio = [
     position: `Founding Partner`,
     platform: `Techies Garage`,
     link: `https://techiesgarage.org`,
-    image: `https://techiesgarage.org/ogimage.png`
+    image: `https://garage.boltcliq.com/ogimage.png`
   },
   {
     position: `Founding Partner`,
     platform: `Swiftgo`,
     link: `https://swiftgo.co`,
-    image: `https://swiftgo.co/ogimage.png`
+    image: `https://swift.boltcliq.com/ogimage.png`
   },
 ];
 
