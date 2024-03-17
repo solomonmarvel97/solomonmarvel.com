@@ -29,7 +29,7 @@
 
             <div class="spin">
                 <img class="avatar-wrapper" src="@/assets/images/rotate.svg" />
-                <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.png" />
+                <img loading="lazy" class="avatar" src="@/assets/images/avatar/me.webp" />
             </div>
 
         </section>
