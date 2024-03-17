@@ -236,7 +236,7 @@ h1 {
 
     h1 {
         width: 100%;
-        font-size: 54px;
+        font-size: 48px !important;
         letter-spacing: -1px
     }
 
