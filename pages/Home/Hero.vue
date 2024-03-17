@@ -2,7 +2,9 @@
     <div>
         <section class="hero">
             <div>
-
+                <div class="mb-4">
+                    <p class="multipreneur">MULTIPRENEUR</p>
+                </div>
                 <h1 class="mb-3 gradient-text">Marvelous Solomon</h1>
                 <p>
                     Ex Principal SDE | Building startups @The Boltcliq Company | AI Enthusiast | Generative AI @swift
@@ -16,8 +18,7 @@
                         <img src="@/assets/icons/link.svg" alt="" />
                     </a>
 
-                    <a href="https://calendly.com/boltcliq/build-with-us?ref=blog.boltcliq.com"
-                        target="_blank">
+                    <a href="https://calendly.com/boltcliq/build-with-us?ref=blog.boltcliq.com" target="_blank">
                         Connect
                         <img src="@/assets/icons/link.svg" alt="" />
                     </a>
@@ -187,36 +188,42 @@ h1 {
 }
 
 .gradient-text {
-  color: transparent;
-  position: relative;
-  display: inline-block;
-  font-size: 180px;
-  line-height: .9;
-  font-weight: 900;
-  letter-spacing: -2px;
+    color: transparent;
+    position: relative;
+    display: inline-block;
+    font-size: 180px;
+    line-height: .9;
+    font-weight: 900;
+    letter-spacing: -2px;
 }
 
 .gradient-text {
-  content: '';
-  z-index: -1;
-  background: linear-gradient(45deg, #ff5252, #ff8a65, #ffd476, #acff78, #78ffd6, #76acff, #ff5252);
-  background-size: 200% 200%;
-  animation: textFlow 5s ease infinite;
+    content: '';
+    z-index: -1;
+    background: linear-gradient(45deg, #ff5252, #ff8a65, #ffd476, #acff78, #78ffd6, #76acff, #ff5252);
+    background-size: 200% 200%;
+    animation: textFlow 5s ease infinite;
 
-  -webkit-background-clip: text;
-  background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 @keyframes textFlow {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.multipreneur {
+    letter-spacing: 20px;
 }
 
 
@@ -229,7 +236,7 @@ h1 {
     }
 
     .hero {
-        padding-top: 6em;
+        padding-top: 2em;
         flex-direction: column-reverse !important;
         place-items: center;
     }
@@ -253,6 +260,10 @@ h1 {
     .hero .avatar {
         width: 100%;
         height: auto;
+    }
+
+    .multipreneur {
+        letter-spacing: 5px;
     }
 }
 
