@@ -13,11 +13,6 @@
                 </p>
 
                 <div class="button-flex cta mt-4">
-                    <a href="/consulting">
-                        Consulting
-                        <img src="@/assets/icons/link.svg" alt="" />
-                    </a>
-
                     <a href="https://calendly.com/boltcliq/build-with-us?ref=blog.boltcliq.com" target="_blank">
                         Connect
                         <img src="@/assets/icons/link.svg" alt="" />
