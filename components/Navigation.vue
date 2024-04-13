@@ -17,9 +17,6 @@
                   <a class="item" target="_blank" href="https://blog.topuniverse.org/author/marvelous/">Articles</a>
                 </li>
                 <li class="item">
-                  <a href="/consulting">Consulting</a>
-                </li>
-                <li class="item">
                   <a href="/mentoring">Mentoring</a>
                 </li>
                 <li class="item">
@@ -45,7 +42,6 @@
         <div class="menu">
           <a class="item" target="_blank" href="https://blog.boltcliq.com">Publications</a>
           <a class="item" target="_blank" href="https://blog.topuniverse.org/author/marvelous/">Articles</a>
-          <a class="item" href="/consulting">Consulting</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
           <a class="item" href="/courses/git">Courses</a>
