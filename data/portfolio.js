@@ -34,7 +34,7 @@ const portfolio = [
     position: `Founding Partner`,
     platform: `Swiftgo`,
     link: `https://swiftgo.co`,
-    image: `https://swift.boltcliq.com/ogimage.png`
+    image: `https://swiftgo.boltcliq.com/ogimage.png`
   },
 ];
 
