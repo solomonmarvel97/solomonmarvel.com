@@ -20,8 +20,8 @@ const portfolio = [
   {
     position: `Founding Partner`,
     platform: `Teens Club Global`,
-    link: `https://teenclubglobal.com`,
-    image: `https://teenclubglobal.com/ogimage.webp`
+    link: `https://teensclubglobal.com`,
+    image: `https://teensclubglobal.com/ogimage.webp`
   },
   {
     position: `Founding Partner`,
