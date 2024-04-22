@@ -31,7 +31,7 @@ h1 {
 }
 
 h1 span {
-  font-family: "Young Serif", serif !important;
+  font-family: "Young Serif", sans-serif !important;
   color: var(--primary);
 }
 

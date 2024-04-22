@@ -1,11 +1,10 @@
 const portfolio = [
   {
     position: `Founding Partner`,
-    platform: `Top Universe`,
+    platform: `Top Universe NGO`,
     link: `https://topuniverse.org`,
     image: `https://topuniverse.org/ogimage.png`
   },
-
   {
     position: `Founding Partner`,
     platform: `BetaKopa`,
@@ -17,6 +16,12 @@ const portfolio = [
     platform: `The Boltcliq Company`,
     link: `https://boltcliq.com`,
     image: `https://images.unsplash.com/photo-1655721533500-c73a495dbcb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80`
+  },
+  {
+    position: `Founding Partner`,
+    platform: `Teens Club Global`,
+    link: `https://teenclubglobal.com`,
+    image: `https://teenclubglobal.com/ogimage.webp`
   },
   {
     position: `Founding Partner`,
