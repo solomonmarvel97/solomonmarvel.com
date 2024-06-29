@@ -34,9 +34,9 @@
                 <img src="@/assets/icons/social/linkedin.svg" />
                 Linkedin
             </a>
-            <a target="_blank" href="https://twitter.com/solomonmarvel97">
-                <img src="@/assets/icons/social/twitter.svg" />
-                Twitter
+            <a target="_blank" href="https://x.com/marvmargic">
+                <img src="@/assets/icons/social/x.svg" />
+                X
             </a>
             <a target="_blank" href="https://github.com/solomonmarvel97">
                 <img src="@/assets/icons/social/github.svg" />
