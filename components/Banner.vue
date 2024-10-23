@@ -37,7 +37,7 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(30, 55, 165);
     gap: 20px;
     height: fit-content;
     padding: 15px;
