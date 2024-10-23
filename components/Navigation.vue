@@ -1,5 +1,5 @@
 <template>
-  <Banner message="Do you want to introduce AI into your business processes or products?" action_text="Book A Free Call Now" action_url="https://calendly.com/boltcliq/build-with-us?ref=blog.boltcliq.com" />
+  <Banner message="Do you want to introduce AI into your business processes or products?" action_text="Book A Free Call" action_url="https://cal.com/marvmagic" />
   <div class="navigation" id="nav">
     <div>
       <section>
