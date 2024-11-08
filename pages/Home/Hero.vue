@@ -13,8 +13,8 @@
                 </p>
 
                 <div class="button-flex cta mt-4">
-                    <a href="https://calendly.com/boltcliq/build-with-us?ref=blog.boltcliq.com" target="_blank">
-                        Connect
+                    <a href="https://cal.com/marvmagic" target="_blank">
+                        Schedule a Call
                         <img src="@/assets/icons/link.svg" alt="" />
                     </a>
                 </div>
