@@ -3,7 +3,7 @@ const portfolio = [
     position: `Founding Partner`,
     platform: `Top Universe NGO`,
     link: `https://topuniverse.org`,
-    image: `https://topuniverse.org/og-image.webp`
+    image: `https://topuniverse.org/ogimage.webp`
   },
   {
     position: `Founding Partner`,
