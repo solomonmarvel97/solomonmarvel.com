@@ -14,7 +14,7 @@
                   <a target="_blank" href="https://blog.boltcliq.com/">Publications</a>
                 </li>
                 <li class="item">
-                  <a class="item" target="_blank" href="https://blog.topuniverse.org/author/marvelous/">Articles</a>
+                  <a class="item" target="_blank" href="https://superdeveloper.substack.com/">Articles</a>
                 </li>
                 <li class="item">
                   <a href="/mentoring">Mentoring</a>
@@ -38,7 +38,7 @@
         <button class="close_toggle" @click="toggle">x</button>
         <div class="menu">
           <a class="item" target="_blank" href="https://blog.boltcliq.com">Publications</a>
-          <a class="item" target="_blank" href="https://blog.topuniverse.org/author/marvelous/">Articles</a>
+          <a class="item" target="_blank" href="https://superdeveloper.substack.com/">Articles</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
         </div>
@@ -155,7 +155,6 @@ export default {
   align-items: center;
 }
 
-.avatar {}
 
 /* menu bar */
 .menu-wrapper {
