@@ -1,13 +1,13 @@
 <template>
     <div class="mentoring glow glass">
-        <img class="mb-1" loading="lazy" :src="image"/>
+        <img class="mb-1" loading="lazy" :src="image" alt="Mentoring Program Image"/>
         <div class="details">
-        <p class="title mb-1">{{title}}</p>
-        <p class="description mb-3">
-            {{description}}
-        </p>
-        <a :href="link" target="_blank" class="button-primary">Join Mentoring Group</a>
-    </div>
+            <p class="title mb-1">{{ title }}</p>
+            <p class="description mb-3">
+                {{ description }}
+            </p>
+            <a :href="link" target="_blank" class="button-primary">Join Mentoring Group</a>
+        </div>
     </div>
 </template>
 
@@ -15,7 +15,6 @@
 export default {
     props: {
         image: String,
-        dateTime: String,
         title: String,
         description: String,
         link: String,
@@ -28,18 +27,18 @@ export default {
     display: grid;
     gap: 10px;
     min-width: 300px;
-    border-radius: var(--input-border-radius) !important;
+    border-radius: var(--input-border-radius);
     position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.mentoring .tag {
-    background-color: white;
-    display: inline-block;
-    color: black;
-    font-size: 10px;
-    padding: 3px 10px;
-    border-radius: var(--border-radius);
+.mentoring:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 .mentoring img {
     height: 200px;
     width: 100%;
@@ -49,28 +48,32 @@ export default {
 }
 
 .mentoring .details {
-    padding: 0 25px 25px 25px
-}
-
-.mentoring span {
-    font-size: 12px;
-    color: rgb(237, 237, 237);
-}
-
-.mentoring .dateTime {
-    font-size: 14px;
-    color: rgb(122, 255, 226);
+    padding: 0 25px 25px 25px;
 }
 
 .mentoring .title {
-    color:#ffffffda;
+    color: #ffffffda;
     font-size: 18px;
-    line-height: 1.3
-}
-.mentoring .description {
-    color:#ffffffb0;
-    font-size: 14px;
-    line-height: 1.5
+    line-height: 1.3;
 }
 
+.mentoring .description {
+    color: #ffffffb0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.button-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--input-border-radius);
+    transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: var(--primary-dark);
+}
 </style>

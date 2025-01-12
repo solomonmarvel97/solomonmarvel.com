@@ -22,9 +22,6 @@
                 <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
                 </li>
-                <li class="item">
-                  <a href="/courses/git" rel="noopener">Courses</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -44,7 +41,6 @@
           <a class="item" target="_blank" href="https://blog.topuniverse.org/author/marvelous/">Articles</a>
           <a class="item" href="/mentoring">Mentoring</a>
           <a class="item" href="/testimonials">Testimonials</a>
-          <a class="item" href="/courses/git">Courses</a>
         </div>
       </div>
     </div>

@@ -11,6 +11,14 @@
   font-family: 'Manrope', sans-serif !important;
 }
 
+:root {
+  --background: #1a1a1a;
+  --primary: #2b37db;
+  --primary-dark: #141d94;
+  --secondary: #cccccc;
+  --input-border-radius: 10px;
+}
+
 html {
   scroll-behavior: smooth;
 }
